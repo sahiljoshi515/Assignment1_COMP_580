@@ -1,0 +1,166 @@
+{
+  "doc_id": "lunarleaper_2609_11453",
+  "source_document": "corpus/data/lunarleaper_2609_11453.txt",
+  "schema_version": "1.0",
+  "generated_from": "corpus/questions/lunarleaper_2609_11453.jsonl",
+  "count": 20,
+  "questions": [
+    {
+      "number": 1,
+      "qid": "lunarleaper-T1-001",
+      "question": "What slope range does the paper give for a pit funnel, constrained by the angle of repose of dry regolith?",
+      "answer_type": "phrase",
+      "unit": "degrees",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 2,
+      "qid": "lunarleaper-T1-002",
+      "question": "How thick are the discrete wall layers seen in LRO NAC images of the Mare Tranquillitatis Pit?",
+      "answer_type": "phrase",
+      "unit": "metres",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 3,
+      "qid": "lunarleaper-T1-003",
+      "question": "In the statement of science objective O2, how many pits does the paper say have been located in the mare regions?",
+      "answer_type": "number",
+      "unit": "pits",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 4,
+      "qid": "lunarleaper-T1-004",
+      "question": "What operational performance did the Apollo 17 Traverse Gravimeter Experiment actually achieve on the lunar surface?",
+      "answer_type": "number",
+      "unit": "mGal",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 5,
+      "qid": "lunarleaper-T1-005",
+      "question": "Around what frequency are the thermal moonquakes that dominate the ambient lunar seismic noise?",
+      "answer_type": "number",
+      "unit": "Hz",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 6,
+      "qid": "lunarleaper-T1-006",
+      "question": "Over what frequency band does RIMFAX operate?",
+      "answer_type": "phrase",
+      "unit": "MHz",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 7,
+      "qid": "lunarleaper-T1-007",
+      "question": "What angular sharpness must the pit-wall photographic instrument achieve to pick out 5 cm details from the far rim?",
+      "answer_type": "number",
+      "unit": "mrad",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 8,
+      "qid": "lunarleaper-T1-008",
+      "question": "Over how long is a paleo-regolith layer of about 5 cm assumed to have formed, given Marius Hills regolith formation rates?",
+      "answer_type": "number",
+      "unit": "million years",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 9,
+      "qid": "lunarleaper-T1-009",
+      "question": "What peak acceleration did bench testing show the tunable etalon survives?",
+      "answer_type": "number",
+      "unit": "g",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 10,
+      "qid": "lunarleaper-T1-010",
+      "question": "How many electric motors does the walking machine use to point its instruments where it wants them?",
+      "answer_type": "number",
+      "unit": "actuators",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 11,
+      "qid": "lunarleaper-T1-011",
+      "question": "Terrestrial analogues identify one failure mode, acting at stress levels below overall continuum failure, as a primary way pits form in lava tubes. What is that mode called?",
+      "answer_type": "phrase",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 12,
+      "qid": "lunarleaper-T2-001",
+      "question": "The gravity forward model considers two candidate lava tubes; the wider one is given a width matching the approximate width of the rille on which the Marius Hills Pit sits. What vertical height does that wider modelled tube have?",
+      "answer_type": "number",
+      "unit": "metres",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 13,
+      "qid": "lunarleaper-T2-002",
+      "question": "At the first vantage point beside the pit the robot takes a compositional depth profile as well as images. What is the total mass of that profiling instrument's sensor head?",
+      "answer_type": "number",
+      "unit": "g",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 14,
+      "qid": "lunarleaper-T2-003",
+      "question": "Two of the robot's survey instruments record along the standard route at spacings that differ by a factor of one hundred. The more closely spaced of the two is adapted from a device flown on a Mars rover -- what is that device's acronym?",
+      "answer_type": "entity",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 15,
+      "qid": "lunarleaper-T2-004",
+      "question": "Of the two antenna heights above the regolith used in the forward simulations, which one gives the higher energy reaching the cave?",
+      "answer_type": "number",
+      "unit": "cm",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 16,
+      "qid": "lunarleaper-T2-005",
+      "question": "Table 1 lists an electrical conductivity for each simulated material. What conductivity does it give for the material whose wave velocity the Kirchhoff migration assumed?",
+      "answer_type": "number",
+      "unit": "mS/m",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 17,
+      "qid": "lunarleaper-T2-006",
+      "question": "LunarLeaper tightens one instrument's sampling to every 5 m while crossing the rille. In which lava tube system was a recent Earth-analogue survey with that same geophysical method carried out?",
+      "answer_type": "entity",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 18,
+      "qid": "lunarleaper-T3-001",
+      "question": "What is the combined weight of the miniaturised infrared instrument's optical head and its driving electronics?",
+      "answer_type": "number",
+      "unit": "g",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 19,
+      "qid": "lunarleaper-T3-002",
+      "question": "By how many percentage points does the plagioclase fraction fall between the base-layer mixture and the top-layer mixture?",
+      "answer_type": "number",
+      "unit": "percentage points",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 20,
+      "qid": "lunarleaper-T3-003",
+      "question": "In the migrated GPR section, by how many metres is the bottom of the cave mislocated?",
+      "answer_type": "number",
+      "unit": "metres",
+      "max_answer_tokens": 8
+    }
+  ]
+}

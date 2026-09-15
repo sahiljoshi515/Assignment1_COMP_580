@@ -1,0 +1,1043 @@
+# Antikythera dossier (antikythera_dossier_v1)
+# The Antikythera mechanism, its wreck, its decipherer, and the calendrical cycles it computes.
+# Source: English Wikipedia, rendered from action=parse and pinned by oldid.
+# Builder: corpus/fetch_wikipedia.py
+# This file is byte-identical on every rebuild from the oldids below.
+# Build time and checksum are therefore recorded in the manifest entry,
+# not here -- a timestamp in the artefact would change the hash each run
+# and destroy the very reproducibility the pinning exists to provide.
+# Text licence: CC BY-SA 4.0. Attribution is the revision history at each
+# permalink below; this file is a derivative extract, not the article.
+# Extraction: plain text only. Dropped -- infoboxes, navboxes, hatnotes,
+# citation superscripts, edit links, and the See also / Notes / References /
+# Further reading / External links sections. Kept -- prose, section headings
+# (wiki '==' syntax), list items, content tables (cells joined by ' | '),
+# figure captions, and rendered formulae via their TeX alt text.
+# Pages, in order:
+#  1. Antikythera mechanism -- oldid 1373352610 -- https://en.wikipedia.org/w/index.php?oldid=1373352610
+#  2. Antikythera wreck -- oldid 1362587595 -- https://en.wikipedia.org/w/index.php?oldid=1362587595
+#  3. Derek J. de Solla Price -- oldid 1348961414 -- https://en.wikipedia.org/w/index.php?oldid=1348961414
+#  4. Metonic cycle -- oldid 1334408017 -- https://en.wikipedia.org/w/index.php?oldid=1334408017
+#  5. Saros (astronomy) -- oldid 1368659047 -- https://en.wikipedia.org/w/index.php?oldid=1368659047
+#  6. Callippic cycle -- oldid 1329203308 -- https://en.wikipedia.org/w/index.php?oldid=1329203308
+#  7. Olympiad -- oldid 1371958101 -- https://en.wikipedia.org/w/index.php?oldid=1371958101
+
+==============================================================================
+PAGE 1 of 7: Antikythera mechanism
+SOURCE: https://en.wikipedia.org/w/index.php?oldid=1373352610
+PAGEID: 89732   OLDID: 1373352610   REVISION: 2026-09-05T14:33:20Z
+==============================================================================
+
+The Antikythera mechanism (/ˌæntɪkɪˈθɪərə/ AN-tik-ih-THEER-ə, US also /ˌæntaɪkɪˈ-/ AN-ty-kih-) is an ancient Greek hand-powered orrery (model of the Solar System) built in the 2nd century BC and discovered in 1901. It is the oldest known example of an analogue computer. It could be used to predict astronomical positions and eclipses decades in advance. It could also be used to track the four-year cycle of athletic games similar to an olympiad, the cycle of the ancient Olympic Games.
+
+The artefact was among wreckage retrieved from a shipwreck off the coast of the Greek island Antikythera in 1901. In 1902, during a visit to the National Archaeological Museum in Athens, it was noticed by Greek politician Spyridon Stais as containing a gear, prompting the first study of the fragment by his cousin, Valerios Stais, the museum director. The device, housed in the remains of a wooden-framed case of (uncertain) overall size 34 cm × 18 cm × 9 cm (13.4 in × 7.1 in × 3.5 in), was found as one lump, later separated into three main fragments which are now divided into 82 separate fragments after conservation efforts. Four of these fragments contain gears, while inscriptions are found on many others. The largest gear is about 13 cm (5 in) in diameter and originally had 223 teeth. All these fragments of the mechanism are kept at the National Archaeological Museum, along with reconstructions and replicas, to demonstrate how it may have looked and worked.
+
+In 2005, a team from Cardiff University led by Mike Edmunds used computer X-ray tomography and high resolution scanning to image inside fragments of the crust-encased mechanism and read faint inscriptions that once covered the outer casing. These scans suggest that the mechanism had 35 meshing bronze gears, 30 of which are still visible, enabling it to follow the movements of the Moon and the Sun through the zodiac, to predict eclipses and to model the irregular orbit of the Moon, where the Moon's speed is higher in its perigee than in its apogee. This motion was studied in the 2nd century BC by astronomer Hipparchus of Rhodes, and he may have been consulted in the machine's construction. There is speculation that a portion of the mechanism is missing and it calculated the positions of the five classical planets. The inscriptions were further deciphered in 2016, revealing numbers connected with the synodic cycles of Venus and Saturn.
+
+The instrument is believed to have been designed and constructed by Hellenistic scientists and been variously dated to about 87 BC, between 150 and 100 BC, or 205 BC. It must have been constructed before the shipwreck, which has been dated by multiple lines of evidence to approximately 70–60 BC. In 2022, researchers proposed its initial calibration date, not construction date, could have been 23 December 178 BC. Other experts propose 204 BC as a more likely calibration date. Machines with similar complexity did not appear again until the 14th century in western Europe.
+
+== History ==
+
+=== Discovery ===
+
+Derek J. de Solla Price (1922–1983) with a model of the Antikythera mechanism
+
+Captain Dimitrios Kontos (Δημήτριος Κοντός) and a crew of sponge divers from Symi island discovered the Antikythera wreck in early 1900, and recovered artefacts during the first expedition with the Hellenic Royal Navy, in 1900–1901. This wreck of a Roman cargo ship was found at a depth of 45 metres (148 ft) off Point Glyphadia on the Greek island of Antikythera. The team retrieved numerous large objects, including bronze and marble statues, pottery, unique glassware, jewellery, coins, and the mechanism. The mechanism was retrieved from the wreckage in 1901, probably July. It is unknown how the mechanism came to be on the cargo ship.
+
+All of the items retrieved from the wreckage were transferred to the National Museum of Archaeology in Athens for storage and analysis. The mechanism appeared to be a lump of corroded bronze and wood. The bronze had turned into atacamite which cracked and shrank when it was brought up from the shipwreck, changing the dimensions of the pieces. It went unnoticed for two years, while museum staff worked on piecing together more obvious treasures, such as the statues. Upon removal from seawater, the mechanism was not treated, resulting in deformational changes.
+
+On 17 May 1902, archaeologist Valerios Stais, together with his cousin, the Greek politician Spyridon Stais, found one of the pieces of rock had a gear wheel embedded in it. He initially believed that it was an astronomical clock, but most scholars considered the device to be prochronistic, too complex to have been constructed during the same period as the other pieces that had been discovered.
+
+The German philologist Albert Rehm became interested in the device and was the first to propose that it was an astronomical calculator.
+
+Investigations into the object lapsed until British science historian and Yale University professor Derek J. de Solla Price became interested in 1951. In 1971, Price and Greek nuclear physicist Charalampos Karakalos made X-ray and gamma-ray images of the 82 fragments. Price published a paper on their findings in 1974.
+
+Two other searches for items at the Antikythera wreck site in 2012 and 2015 yielded art objects and a second ship which may be connected with the treasure ship on which the mechanism was found. Also found was a bronze disc, embellished with the image of a bull. The disc has four "ears" which have holes in them, and it was thought it may have been part of the Antikythera mechanism, as a cog wheel. There appears to be little evidence that it was part of the mechanism; it is more likely the disc was a bronze decoration on a piece of furniture.
+
+=== Origin ===
+
+The Antikythera mechanism is generally referred to as the first known analogue computer. The quality and complexity of the mechanism's manufacture suggests it must have had undiscovered predecessors during the Hellenistic period. Its construction relied on theories of astronomy and mathematics developed by Greek astronomers during the second century BC, and it is estimated to have been built in the late second century BC or the early first century BC.
+
+In 2008, research by the Antikythera Mechanism Research Project suggested the concept for the mechanism may have originated in the colonies of Corinth, since they identified the calendar on the Metonic Spiral as coming from Corinth, or one of its colonies in northwest Greece or Sicily. Syracuse was a colony of Corinth and the home of Archimedes, and the Antikythera Mechanism Research Project argued in 2008 that it might imply a connection with the school of Archimedes. It was demonstrated in 2017 that the calendar on the Metonic Spiral is of the Corinthian type, but cannot be that of Syracuse. Another theory suggests that coins found by Jacques Cousteau at the wreck site in the 1970s date to the time of the device's construction, and posits that its origin may have been from the ancient Greek city of Pergamon, home of the Library of Pergamum. With its many scrolls of art and science, it was second in importance only to the Library of Alexandria during the Hellenistic period.
+
+The ship carrying the device contained vases in the Rhodian style, leading to a hypothesis that it was constructed at an academy founded by Stoic philosopher Posidonius on that Greek island. Rhodes was a busy trading port and centre of astronomy and mechanical engineering, home to astronomer Hipparchus, who was active from about 140–120 BC. The mechanism uses Hipparchus' theory for the motion of the Moon, which suggests he may have designed or at least worked on it. It has been argued the astronomical events on the Parapegma of the mechanism work best for latitudes in the range of 33.3–37.0 degrees north; the island of Rhodes is located between the latitudes of 35.85 and 36.50 degrees north.
+
+In 2014, a study argued for a new dating of approximately 200 BC, based on identifying the start-up date on the Saros Dial, as the astronomical lunar month that began shortly after the new moon of 28 April 205 BC. According to this theory the Babylonian arithmetic style of prediction fits much better with the device's predictive models than the traditional Greek trigonometric style. A study by Iversen in 2017 reasons that the prototype for the device was from Rhodes, but that this particular model was modified for a client from Epirus in northwestern Greece; Iversen argues it was probably constructed no earlier than a generation before the shipwreck, a date supported by Jones in 2017.
+
+Further dives were undertaken in 2014 and 2015, in the hope of discovering more of the mechanism. A five-year programme of investigations began in 2014 and ended in October 2019, with a new five-year session starting in May 2020.
+
+In 2022, researchers proposed the mechanism's initial calibration date, not construction date, could have been 23 December 178 BC. Other experts propose 204 BC as a more likely calibration date. Machines with similar complexity did not appear again for around 1,500 years, with early examples being the fourteenth century astronomical clocks of Richard of Wallingford and Giovanni de' Dondi.
+
+== Design ==
+
+The original mechanism apparently came out of the Mediterranean as a single encrusted piece. Soon afterwards it fractured into three major pieces. Other small pieces have broken off in the interim from cleaning and handling, and others were found on the sea floor by the Cousteau expedition. Other fragments may still be in storage, undiscovered since their initial recovery; Fragment F was discovered in that way in 2005. Of the 82 known fragments, seven are mechanically significant and contain the majority of the mechanism and inscriptions. Another 16 smaller parts contain fractional and incomplete inscriptions.
+
+Major fragments
+
+Fragment | Size [mm] | Weight [g] | Gears | Inscriptions | Notes
+
+Fragment A | 180 × 150 | 369.1 | 27 | Yes | The main fragment contains the majority of the known mechanism. Clearly visible on the front is the large b1 gear, and under closer inspection further gears behind it (parts of the l, m, c, and d trains are visible as gears to the naked eye). The crank mechanism socket and the side-mounted gear that meshes with b1 is on Fragment A. The back of the fragment contains the rearmost e and k gears for synthesis of the moon anomaly, noticeable also is the pin and slot mechanism of the k train. It is noticed from detailed scans of the fragment that all gears are very closely packed and have sustained damage and displacement due to their years in the sea. The fragment is approximately 30 mm thick at its thickest point. Fragment A also contains divisions of the upper left quarter of the Saros spiral and 14 inscriptions from said spiral. The fragment also contains inscriptions for the exeligmos dial and visible on the back surface the remnants of the dial face. Finally, this fragment contains some back door inscriptions.
+
+Fragment B | 125 × 60 | 99.4 | 1 | Yes | Contains approximately the bottom right third of the Metonic spiral and inscriptions of both the spiral and back door of the mechanism. The Metonic scale would have consisted of 235 cells of which 49 have been deciphered from fragment B either in whole or partially. The rest so far are assumed from knowledge of the Metonic cycle. This fragment also contains a single gear (o1) used in the Olympic train.
+
+Fragment C | 120 × 110 | 63.8 | 1 | Yes | Contains parts of the upper right of the front dial face showing calendar and zodiac inscriptions. This fragment also contains the Moon indicator dial assembly including the Moon phase sphere in its housing and a single bevel gear (ma1) used in the Moon phase indication system.
+
+Fragment D | 45 × 35 | 15.0 | 1 | Contains at least one unknown gear; according to Michael T. Wright it contains possibly two, and according to Xenophon Moussas it contains one gear (numbered 45 "ME") inside a hollow gear giving the position of Jupiter reproducing it with epicyclic motion. Their purpose and position has not been ascertained to any accuracy or consensus, but lends to the debate for the possible planet displays on the face of the mechanism.
+
+Fragment E | 60 × 35 | 22.1 | Yes | Found in 1976 and contains six inscriptions from the upper right of the Saros spiral.
+
+Fragment F | 90 × 80 | 86.2 | Yes | Found in 2005 and contains 16 inscriptions from the lower right of the Saros spiral. It also contains remnants of the mechanism's wooden housing.
+
+Fragment G | 125 × 110 | 31.7 | Yes | A combination of fragments taken from fragment C while cleaning.
+
+Many of the smaller fragments that have been found contain nothing of apparent value, but a few have inscriptions on them. Fragment 19 contains significant back door inscriptions including one reading "... 76 years ..." which refers to the Callippic cycle. Other inscriptions seem to describe the function of the back dials. In addition to this important minor fragment, 15 further minor fragments have remnants of inscriptions on them.
+
+== Mechanics ==
+
+Animation of the Antikythera mechanism
+
+Information on the specific data obtained from the fragments is detailed in the supplement to the 2006 Nature article from Freeth et al.
+
+=== Operation ===
+
+On the front face of the mechanism, there is a fixed ring dial representing the ecliptic, the twelve zodiacal signs marked off with equal 30-degree sectors. This matched with the Babylonian custom of assigning one twelfth of the ecliptic to each zodiac sign equally, even though the constellation boundaries were variable. Outside that dial is another ring which is rotatable, marked off with the months and days of the Sothic Egyptian calendar, twelve months of 30 days plus five intercalary days. The months are marked with the Egyptian names for the months transcribed into the Greek alphabet. The first task is to rotate the Egyptian calendar ring to match the current zodiac points. The Egyptian calendar ignored leap days, so it advanced through a full zodiac sign in about 120 years.
+
+The mechanism was operated by turning a small hand crank (now lost) which was linked via a crown gear to the largest gear, the four-spoked gear visible on the front of fragment A, gear b1. This moved the date pointer on the front dial, which would be set to the correct Egyptian calendar day. The year is not selectable, so it is necessary to know the year currently set, or by looking up the cycles indicated by the various calendar cycle indicators on the back in the Babylonian ephemeris tables for the day of the year currently set, since most of the calendar cycles are not synchronous with the year. The crank moves the date pointer about 78 days per full rotation, so hitting a particular day on the dial would be easily possible if the mechanism were in good working condition. The action of turning the hand crank would also cause all interlocked gears within the mechanism to rotate, resulting in the simultaneous calculation of the position of the Sun and Moon, the moon phase, eclipse, and calendar cycles, and perhaps the locations of planets.
+
+The operator also had to be aware of the position of the spiral dial pointers on the two large dials on the back. The pointer had a "follower" that tracked the spiral incisions in the metal as the dials incorporated four and five full rotations of the pointers. When a pointer reached the terminal month location at either end of the spiral, the pointer's follower had to be manually moved to the other end of the spiral before proceeding further.
+
+=== Faces ===
+
+Computer-generated front panel of the Freeth model
+
+==== Front face ====
+
+The front dial has two concentric circular scales. The inner scale marks the Greek signs of the zodiac, with division in degrees. The outer scale, which is a movable ring that sits flush with the surface and runs in a channel, is marked off with what appear to be days and has a series of corresponding holes beneath the ring in the channel.
+
+Since the discovery of the mechanism more than a century ago, this outer ring has been presumed to represent a 365-day Egyptian solar calendar, but research (Budiselic, et al., 2020) challenged this presumption and provided direct statistical evidence there are 354 intervals, suggesting a lunar calendar. Since this initial discovery, two research teams, using different methods, independently calculated the interval count. Woan and Bayley calculate 354–355 intervals using two different methods, confirming with higher accuracy the Budiselic et al. findings and noting that "365 holes is not plausible". Malin and Dickens' best estimate is 352.3±1.5 and concluded that the number of holes (N) "has to be integral and the SE (standard error) of 1.5 indicates that there is less than a 5% probability that N is not one of the six values in the range 350 to 355. The chances of N being as high as 365 are less than 1 in 10,000. While other contenders cannot be ruled out, of the two values that have been proposed for N on astronomical grounds, that of Budiselic et al. (354) is by far the more likely."
+
+If one supports the 365 day presumption, it is recognized the mechanism predates the Julian calendar reform, but the Sothic and Callippic cycles had already pointed to a ⁠365+1/4⁠ day solar year, as seen in Ptolemy III's attempted calendar reform of 238 BC. The dials are not believed to reflect his proposed leap day (Epag. 6), but the outer calendar dial may be moved against the inner dial to compensate for the effect of the extra quarter-day in the solar year by turning the scale backward one day every four years.
+
+If one is in favour of the 354 day evidence, the most likely interpretation is that the ring is a manifestation of a 354-day lunar calendar. Given the era of the mechanism's presumed construction and the presence of Egyptian month names, it is possibly the first example of the Egyptian civil-based lunar calendar proposed by Richard Anthony Parker in 1950. The lunar calendar's purpose was to serve as a day-to-day indicator of successive lunations, and would also have assisted with the interpretation of the lunar phase pointer, and the Metonic and Saros dials. Undiscovered gearing, synchronous with the rest of the Metonic gearing of the mechanism, is implied to drive a pointer around this scale. Movement and registration of the ring relative to the underlying holes served to facilitate both a 1-in-76-year Callippic cycle correction, as well as convenient lunisolar intercalation.
+
+The dial also marks the position of the Sun on the ecliptic, corresponding to the current date in the year. The orbits of the Moon and the five planets known to the Greeks are close enough to the ecliptic to make it a convenient reference for defining their positions as well.
+
+The following three Egyptian months are inscribed in Greek letters on the surviving pieces of the outer ring:
+
+ΠΑΧΩΝ (Pashons)
+
+ΠΑΥΝΙ (Payni)
+
+ΕΠΙΦΙ (Epiphi)
+
+The other months have been reconstructed; some reconstructions of the mechanism omit the five days of the Egyptian intercalary month. The Zodiac dial contains Greek inscriptions of the members of the zodiac, which is believed to be adapted to the tropical month version rather than the sidereal:
+
+Front panel of a 2007 re-creation
+
+ΚΡΙΟΣ (Krios [Ram], Aries)
+
+ΤΑΥΡΟΣ (Tauros [Bull], Taurus)
+
+ΔΙΔΥΜΟΙ (Didymoi [Twins], Gemini)
+
+ΚΑΡΚΙΝΟΣ (Karkinos [Crab], Cancer)
+
+ΛΕΩΝ (Leon [Lion], Leo)
+
+ΠΑΡΘΕΝΟΣ (Parthenos [Maiden], Virgo)
+
+ΧΗΛΑΙ (Chelai [Scorpio's Claw or Zygos], Libra)
+
+ΣΚΟΡΠΙΟΣ (Skorpios [Scorpion], Scorpio)
+
+ΤΟΞΟΤΗΣ (Toxotes [Archer], Sagittarius)
+
+ΑΙΓΟΚΕΡΩΣ (Aigokeros [Goat-horned], Capricorn)
+
+ΥΔΡΟΧΟΟΣ (Hydrokhoos [Water carrier], Aquarius)
+
+ΙΧΘΥΕΣ (Ichthyes [Fish], Pisces)
+
+Also on the zodiac dial are single characters at specific points (see reconstruction at ref). They are keyed to a parapegma, a precursor of the modern day almanac inscribed on the front face above and beneath the dials. They mark the locations of longitudes on the ecliptic for specific stars. The parapegma above the dials reads (square brackets indicate inferred text):
+
+Α | ΑΙΓΟΚΕΡΩΣ ΑΡΧΕΤΑΙ ΑΝΑΤΕΛΛΕΙΝ [...] Α | Capricorn begins to rise | Ι | ΚΡΙΟΣ ΑΡΧΕΤΑΙ ΕΠΙΤΕΛΛΕΙΝ [...] Α | Aries begins to rise
+
+ΤΡΟΠΑΙ ΧΕΙΜΕΡΙΝΑΙ [...] Α | Winter solstice | ΙΣΗΜΕΡΙΑ ΕΑΡΙΝΗ [...] Α | Vernal equinox
+
+Β | [...] ΕΙ ΕΣΠΕΡΙ | ... evening | Κ | [...] ΕΣΠΕΡΙΑ [...] ΙΑ | ... evening
+
+Γ | [...] ΙΕΣΠΕΡΙ | ... evening | Λ | ΥΑΔΕΣ ΔΥΝΟΥΣΙΝ ΕΣΠΕΡΙΑΙ [...] ΚΑ | The Hyades set in the evening
+
+Δ | [...] ΥΔΡΟΧΟΟΣ ΑΡΧΕΤΑΙ ΕΠΙΤΕΛΛΕΙΝΑ | Aquarius begins to rise | Μ | ΤΑΥΡΟΣ ΑΡΧΕΤΑΙ Ε{Π}ΙΤΕΛΛΕΙΝΑ | Taurus begins to rise
+
+Ε | [...] ΕΣΠΕΡΙΟΣ [...] Ι{Ο} | ... evening | Ν | ΛΥΡΑ ΕΠΙΤΕΛΛΕΙ ΕΣΠΕΡΙΛ [...] Δ | Lyra rises in the evening
+
+Ζ | [...] ΡΙΑΙ [...] Κ | ... {evening} | Ξ | ΠΛΕΙΑΣ ΕΠΙΤΕΛΛΕΙ ΕΩΙΑ [...] Ι | The Pleiades rise in the morning
+
+Η | ΙΧΘΥΕΣ ΑΡΧΟΝΤΑΙ ΕΠΙΤΕΛΛΕΙΝ [...] Α | Pisces begins to rise | Ο | ΥΑΣ ΕΠΙΤΕΛΛΕΙ ΕΩΙΑ [...] Δ | The Hyades rise in the morning
+
+Θ | [...] {Ι}Α | Π | ΔΙΔΥΜΟΙ ΑΡΧΟΝΤΑ ΕΠΙΤΕΛΛΕΙΝ [...] Α | Gemini begins to rise
+
+Ρ | ΑΕΤΟΣ ΕΠΙΤΕΛΛΕΙ ΕΣΠΕΡΙΟΣ | Altair rises in the evening
+
+Σ | ΑΡΚΤΟΥΡΟΣ ΔΥΝΕΙ Ε{Ω}{Ι}ΟΣ | Arcturus sets in the morning
+
+The parapegma beneath the dials reads:
+
+Α | ΧΗΛΑΙ ΑΡΧΟΝΤΑ ΕΠΙΤΕΛΛΕΙΝ [...] Α | Libra begins to rise | Μ | ΚΑΡΚΙΝΟΣ ΑΡΧΕΤΑΙ [...] Α | Cancer begins {to rise}
+
+{Ι}ΣΗΜΕΡΙΑ ΦΘΙΝΟΠΩΡΙΝΗ [...] Α | Autumnal equinox | ΤΡΟΠΑΙ ΘΕΡΙΝΑΙ [...] Α | Summer solstice
+
+Β | [...] ΑΝΑΤΕΛΛΟΥΣΙΝ ΕΣΠΕΡΙΟΙΙΑ | ... rise in the evening | Ν | ΩΡΙΩΝ ΑΝΤΕΛΛΕΙ ΕΩΙΟΣ | Orion precedes the morning
+
+Γ | [...] ΑΝΑΤΕΛΛΕΙ ΕΣΠΕΡΙΑΙΔ | ... rise in the evening | Ξ | {Κ}ΥΩΝ ΑΝΤΕΛΛΕΙ ΕΩΙΟΣ | Canis Major precedes the morning
+
+Δ | [...] ΤΕΛΛΕΙΙ{Ο} | ... rise | Ο | ΑΕΤΟΣ ΔΥΝΕΙ ΕΩΙΟΣ | Altair sets in the morning
+
+Ε | ΣΚΟΡΠΙΟΣ ΑΡΧΕΤΑΙ ΑΝΑΤΕΛΛΕΙΝΑ | Scorpio begins to rise | Π | ΛΕΩΝ ΑΡΧΕΤΑΙ ΕΠΙΤΕΛΛΕΙΝ [...] Α | Leo begins to rise
+
+Ζ | [...] | Ρ | [...]
+
+Η | [...] | Σ | [...]
+
+Θ | [...] | Τ | [...]
+
+Ι | ΤΟΞΟΤΗΣ ΑΡΧΕΤΑΙ ΕΠΙΤΕΛΛΕΙΝ [...] Α | Sagittarius begins to rise | Υ | [...]
+
+Κ | [...] | Φ | [...]
+
+Λ | [...] | Χ | [...]
+
+At least two pointers indicated positions of bodies upon the ecliptic. A lunar pointer indicated the position of the Moon, and a mean Sun pointer was shown, perhaps doubling as the current date pointer. The Moon position was not a simple mean Moon indicator which would indicate movement uniformly around a circular orbit; rather, it approximated the acceleration and deceleration of the Moon's elliptical orbit, through the earliest extant use of epicyclic gearing.
+
+It also tracked the precession of the Moon's elliptical orbit around the ecliptic in an 8.88 year cycle. The mean Sun position is, by definition, the current date. It is speculated that since significant effort was taken to ensure the position of the Moon was correct, there was likely to have also been a "true sun" pointer in addition to the mean Sun pointer, to track the elliptical anomaly of the Sun (the orbit of Earth around the Sun), but there is no evidence of it among the fragments found. Similarly, neither is there the evidence of planetary orbit pointers for the five planets known to the Greeks among the fragments. But see Proposed gear schemes below.
+
+Mechanical engineer Michael Wright demonstrated there was a mechanism to supply the lunar phase in addition to the position. The indicator was a small ball embedded in the lunar pointer, half-white and half-black, which rotated to show the phase (new, first quarter, half, third quarter, full, and back). The data to support this function is available given the Sun and Moon positions as angular rotations; essentially, it is the angle between the two, translated into the rotation of the ball. It requires a differential gear, a gearing arrangement that sums or differences two angular inputs.
+
+==== Rear face ====
+
+Computer-generated back panel
+
+In 2008, scientists reported new findings in Nature showing the mechanism not only tracked the Metonic calendar and predicted solar eclipses, but also calculated the timing of panhellenic athletic games, such as the ancient Olympic Games. Inscriptions on the instrument closely match the names of the months that are used on calendars from Epirus in northwestern Greece and with the island of Corfu, which in antiquity was known as Corcyra.
+
+On the back of the mechanism, there are five dials: the two large displays, the Metonic and the Saros, and three smaller indicators, the so-called Olympiad Dial, which has been renamed the Games dial as it did not track Olympiad years (the four-year cycle it tracks most closely is the Halieiad), the Callippic, and the exeligmos.
+
+The Metonic dial is the main upper dial on the rear of the mechanism. The Metonic cycle, defined in several physical units, is 235 synodic months, which is very close (to within less than 13 one-millionths) to 19 tropical years. It is therefore a convenient interval over which to convert between lunar and solar calendars. The Metonic dial covers 235 months in five rotations of the dial, following a spiral track with a follower on the pointer that keeps track of the layer of the spiral. The pointer points to the synodic month, counted from new moon to new moon, and the cell contains the Corinthian month names.
+
+ΦΟΙΝΙΚΑΙΟΣ (Phoinikaios)
+
+ΚΡΑΝΕΙΟΣ (Kraneios)
+
+ΛΑΝΟΤΡΟΠΙΟΣ (Lanotropios)
+
+ΜΑΧΑΝΕΥΣ (Machaneus, "mechanic", referring to Zeus the inventor)
+
+ΔΩΔΕΚΑΤΕΥΣ (Dodekateus)
+
+ΕΥΚΛΕΙΟΣ (Eukleios)
+
+ΑΡΤΕΜΙΣΙΟΣ (Artemisios)
+
+ΨΥΔΡΕΥΣ (Psydreus)
+
+ΓΑΜΕΙΛΙΟΣ (Gameilios)
+
+ΑΓΡΙΑΝΙΟΣ (Agrianios)
+
+ΠΑΝΑΜΟΣ (Panamos)
+
+ΑΠΕΛΛΑΙΟΣ (Apellaios)
+
+Thus, setting the correct solar time (in days) on the front panel indicates the current lunar month on the back panel, with resolution to within a week or so.
+
+Based on the fact that the calendar month names are consistent with all the evidence of the Epirote calendar and that the Games dial mentions the very minor Naa games of Dodona (in Epirus), it has been argued that the calendar on the mechanism is likely to be the Epirote calendar, and that this calendar was probably adopted from a Corinthian colony in Epirus, possibly Ambracia. It has been argued that the first month of the calendar, Phoinikaios, was ideally the month in which the autumn equinox fell, and that the start-up date of the calendar began shortly after the astronomical new moon of 23 August 205 BC.
+
+The Games dial is the right secondary upper dial; it is the only pointer on the instrument that travels in an anticlockwise direction as time advances. The dial is divided into four sectors, each of which is inscribed with a year indicator and the name of two Panhellenic Games: the "crown" games of Isthmia, Olympia, Nemea, and Pythia; and two lesser games: Naa (held at Dodona) and the Halieia of Rhodes. The inscriptions on each one of the four divisions are:
+
+Olympic dial
+
+Year of the cycle | Inside the dial inscription | Outside the dial inscription
+
+1 | LΑ | ΙΣΘΜΙΑ (Isthmia) ΟΛΥΜΠΙΑ (Olympia)
+
+2 | LΒ | ΝΕΜΕΑ (Nemea) NAA (Naa)
+
+3 | LΓ | ΙΣΘΜΙΑ (Isthmia) ΠΥΘΙΑ (Pythia)
+
+4 | LΔ | ΝΕΜΕΑ (Nemea) ΑΛΙΕΙΑ (Halieia)
+
+The Saros dial is the main lower spiral dial on the rear of the mechanism. The Saros cycle is 18 years and 11+1⁄3 days long (6585.333... days), which is very close to 223 synodic months (6585.3211 days). It is defined as the cycle of repetition of the positions required to cause solar and lunar eclipses, and therefore, it could be used to predict them—not only the month, but the day and time of day. The cycle is approximately 8 hours longer than an integer number of days. Translated into global spin, that means an eclipse occurs not only eight hours later, but one-third of a rotation farther to the west. Glyphs in 51 of the 223 synodic month cells of the dial specify the occurrence of 38 lunar and 27 solar eclipses. Some of the abbreviations in the glyphs read:
+
+Σ = ΣΕΛΗΝΗ ("Selene", Moon)
+
+Η = ΗΛΙΟΣ ("Helios", Sun)
+
+H\M = ΗΜΕΡΑΣ ("Hemeras", of the day)
+
+ω\ρ = ωρα ("hora", hour)
+
+N\Y = ΝΥΚΤΟΣ ("Nuktos", of the night)
+
+The glyphs show whether the designated eclipse is solar or lunar, and give the day of the month and hour. Solar eclipses may not be visible at any given point, and lunar eclipses are visible only if the Moon is above the horizon at the appointed hour. In addition, the inner lines at the cardinal points of the Saros dial indicate the start of a new full moon cycle. Based on the distribution of the times of the eclipses, it has been argued the start-up date of the Saros dial was shortly after the astronomical new moon of 28 April 205 BC.
+
+The Exeligmos dial is the secondary lower dial on the rear of the mechanism. The exeligmos cycle is a 54-year triple Saros cycle that is 19,756 days long. Since the length of the Saros cycle is to a third of a day (namely, 6,585 days plus 8 hours), a full exeligmos cycle returns the counting to an integral number of days, as reflected in the inscriptions. The labels on its three divisions are:
+
+Blank or o ? (representing the number zero, assumed, not yet observed)
+
+H (number 8) means add 8 hours to the time mentioned in the display
+
+Iϛ (number 16) means add 16 hours to the time mentioned in the display
+
+Thus the dial pointer indicates how many hours must be added to the glyph times of the Saros dial in order to calculate the exact eclipse times.
+
+=== Doors ===
+
+ΣΚΓ, indicating the Saros cycle of 223 months, present on fragment 19.
+
+The mechanism has a wooden casing with a front and a back door, both containing inscriptions. The back door appears to be the 'instruction manual'. On fragment 19, it is written "76 years, 19 years" representing the Callippic and Metonic cycles. Also written is "223" for the Saros cycle. On fragment E, it is written "on the spiral subdivisions 235" referring to the Metonic dial.
+
+=== Gearing ===
+
+The mechanism is remarkable for the level of miniaturisation and the complexity of its parts, which is comparable to that of 14th-century astronomical clocks. It has at least 30 gears, although mechanism expert Michael Wright has suggested the Greeks of this period were capable of implementing a system with many more gears.
+
+There is debate as to whether the mechanism had indicators for all five of the planets known to the ancient Greeks. No gearing for such a planetary display survives and all gears are accounted for—with the exception of one 63-toothed gear (r1) otherwise unaccounted for in fragment D.
+
+Fragment D is a small quasi-circular constriction that, according to Xenophon Moussas, has a gear inside a somewhat larger hollow gear. The inner gear moves inside the outer gear reproducing an epicyclical motion that, with a pointer, gives the position of planet Jupiter. The inner gear is numbered 45, "ME" in Greek, and the same number is written on two surfaces of this small cylindrical box.
+
+The purpose of the front face was to position astronomical bodies with respect to the celestial sphere along the ecliptic, in reference to the observer's position on the Earth. That is irrelevant to the question of whether that position was computed using a heliocentric or geocentric view of the Solar System; either computational method should, and does, result in the same position (ignoring ellipticity), within the error factors of the mechanism. The epicyclic Solar System of Ptolemy (c. 100 AD–c. 170 AD)—hundreds of years after the apparent construction date of the mechanism—carried forward with more epicycles, and was more accurate predicting the positions of planets than the view of Copernicus (1473–1543), until Kepler (1571–1630) introduced the possibility that orbits are ellipses.
+
+Evans et al. suggest that to display the mean positions of the five classical planets would require only 17 further gears that could be positioned in front of the large driving gear and indicated using individual circular dials on the face.
+
+Freeth and Jones modelled and published details of a version using gear trains mechanically similar to the lunar anomaly system, allowing for indication of the positions of the planets, as well as synthesis of the Sun anomaly. Their system, they claim, is more authentic than Wright's model, as it uses the known skills of the Greeks and does not add excessive complexity or internal stresses to the machine.
+
+The gear teeth were in the form of equilateral triangles with an average circular pitch of 1.6 mm, an average wheel thickness of 1.4 mm and an average air gap between gears of 1.2 mm. The teeth were probably created from a blank bronze round using hand tools; this is evident because not all of them are even. Due to advances in imaging and X-ray technology, it is now possible to know the precise number of teeth and size of the gears within the located fragments. Thus the basic operation of the device is no longer a mystery and has been replicated accurately. The major unknown remains the question of the presence and nature of any planet indicators.
+
+A table of the gears, their teeth, and the expected and computed rotations of important gears follows. The gear functions come from Freeth et al. (2008) and for the lower half of the table from Freeth et al. (2012). The computed values start with 1 year per revolution for the b1 gear, and the remainder are computed directly from gear teeth ratios. The gears marked with an asterisk (*) are missing, or have predecessors missing, from the known mechanism; these gears have been calculated with reasonable gear teeth counts. (Lengths in days are calculated assuming the year to be 365.2425 days.)
+
+The Antikythera Mechanism: known and proposed gears and accuracy of computation
+
+Gear name | Function of the gear/pointer | Length of time for a full circular revolution | Mechanism formula | Computed interval | Gear direction
+
+x | Year gear | 1 tropical year | 1 (by definition) | 1 year (presumed) | clockwise
+
+b | The Moon's orbit | 1 sidereal month (27.321661 days) | Time(b) = Time(x) * (c1/b2) * (d1/c2) * (e2/d2) * (k1/e5) * (e6/k2) * (b3/e1) | 27.321 days | clockwise
+
+r | Lunar phase display | 1 synodic month (29.530589 days) | Time(r) = 1 / (1 / Time(b2: mean sun or sun3: true sun)) – (1 / Time(b))) | 29.530 days
+
+n* | Metonic pointer | Metonic cycle / 5 turns = 1387.94 days | Time(n) = Time(x) * (l1/b2) * (m1/l2) * (n1/m2) | 1387.9 days | anticlockwise
+
+o* | Games dial pointer | 4 years (5551.8 days) | Time(o) = Time(n) * (o1/n2) | 4.00 years | clockwise
+
+q* | Callippic pointer | 27758.8 days | Time(q) = Time(n) * (p1/n3) * (q1/p2) | 27758 days | anticlockwise
+
+e* | Lunar orbit precession | 8.88 years (3244.37 days) | Time(e) = Time(x) * (l1/b2) * (m1/l2) * (e3/m3) | 8.8826 years | anticlockwise
+
+g* | Saros cycle | Saros time / 4 turns = 1646.33 days | Time(g) = Time(e) * (f1/e4) * (g1/f2) | 1646.3 days | anticlockwise
+
+i* | Exeligmos pointer | 19755.8 days | Time(i) = Time(g) * (h1/g2) * (i1/h2) | 19756 days | anticlockwise
+
+The following are proposed gearing from the 2012 Freeth and Jones reconstruction:
+
+sun3* | True sun pointer | 1 mean year | Time(sun3) = Time(x) * (sun3/sun1) * (sun2/sun3) | 1 mean year | clockwise
+
+mer2* | Mercury pointer | 115.88 days (synodic period) | Time(mer2) = Time(x) * (mer2/mer1) | 115.89 days | clockwise
+
+ven2* | Venus pointer | 583.93 days (synodic period) | Time(ven) = Time(x) * (ven1/sun1) | 584.39 days | clockwise
+
+mars4* | Mars pointer | 779.96 days (synodic period) | Time(mars) = Time(x) * (mars2/mars1) * (mars4/mars3) | 779.84 days | clockwise
+
+jup4* | Jupiter pointer | 398.88 days (synodic period) | Time(jup) = Time(x) * (jup2/jup1) * (jup4/jup3) | 398.88 days | clockwise
+
+sat4* | Saturn pointer | 378.09 days (synodic period) | Time(sat) = Time(x) * (sat2/sat1) * (sat4/sat3) | 378.06 days | clockwise
+
+Table notes:
+
+There are several gear ratios for each planet that result in close matches to the correct values for synodic periods of the planets and the Sun. Those chosen above seem accurate, with reasonable tooth counts, but the specific gears actually used are unknown.
+
+==== Known gear scheme ====
+
+A hypothetical schematic representation of the gearing of the Antikythera Mechanism, including the 2012 published interpretation of existing gearing, gearing added to complete known functions, and proposed gearing to accomplish additional functions, namely true sun pointer and pointers for the five then-known planets, as proposed by Freeth and Jones, 2012. Based also upon similar drawing in the Freeth 2006 Supplement and Wright 2005, Epicycles Part 2. Proposed (as opposed to known from the artefact) gearing crosshatched.
+
+It is very probable there were planetary dials, as the complicated motions and periodicities of all planets are mentioned in the manual of the mechanism. The exact position and mechanisms for the gears of the planets is unknown. There is no coaxial system except for the Moon. Fragment D that is an epicycloidal system, is considered as a planetary gear for Jupiter (Moussas, 2011, 2012, 2014) or a gear for the motion of the Sun (University of Thessaloniki group).
+
+The Sun gear is operated from the hand-operated crank (connected to gear a1, driving the large four-spoked mean Sun gear, b1) and in turn drives the rest of the gear sets. The Sun gear is b1/b2 and b2 has 64 teeth. It directly drives the date/mean sun pointer (there may have been a second, "true sun" pointer that displayed the Sun's elliptical anomaly; it is discussed below in the Freeth reconstruction). In this discussion, reference is to modelled rotational period of various pointers and indicators; they all assume the input rotation of the b1 gear of 360 degrees, corresponding with one tropical year, and are computed solely on the basis of the gear ratios of the gears named.
+
+The Moon train starts with gear b1 and proceeds through c1, c2, d1, d2, e2, e5, k1, k2, e6, e1, and b3 to the Moon pointer on the front face. The gears k1 and k2 form an epicyclic gear system; they are an identical pair of gears that do not mesh, but rather, they operate face-to-face, with a short pin on k1 inserted into a slot in k2. The two gears have different centres of rotation, so the pin must move back and forth in the slot. That increases and decreases the radius at which k2 is driven, also necessarily varying its angular velocity (presuming the velocity of k1 is even) faster in some parts of the rotation than others. Over an entire revolution the average velocities are the same, but the fast-slow variation models the effects of the elliptical orbit of the Moon, in consequence of Kepler's second and third laws. The modelled rotational period of the Moon pointer (averaged over a year) is 27.321 days, compared to the modern length of a lunar sidereal month of 27.321661 days. The pin/slot driving of the k1/k2 gears varies the displacement over a year's time, and the mounting of those two gears on the e3 gear supplies a precessional advancement to the ellipticity modelling with a period of 8.8826 years, compared with the current value of precession period of the moon of 8.85 years.
+
+The system also models the phases of the Moon. The Moon pointer holds a shaft along its length, on which is mounted a small gear named r, which meshes to the Sun pointer at B0 (the connection between B0 and the rest of B is not visible in the original mechanism, so whether b0 is the current date/mean Sun pointer or a hypothetical true Sun pointer is unknown). The gear rides around the dial with the Moon, but is also geared to the Sun—the effect is to perform a differential gear operation, so the gear turns at the synodic month period, measuring in effect, the angle of the difference between the Sun and Moon pointers. The gear drives a small ball that appears through an opening in the Moon pointer's face, painted longitudinally half white and half black, displaying the phases pictorially. It turns with a modelled rotational period of 29.53 days; the modern value for the synodic month is 29.530589 days.
+
+The Metonic train is driven by the drive train b1, b2, l1, l2, m1, m2, and n1, which is connected to the pointer. The modelled rotational period of the pointer is the length of the 6,939.5 days (over the whole five-rotation spiral), while the modern value for the Metonic cycle is 6,939.69 days.
+
+The Olympiad train is driven by b1, b2, l1, l2, m1, m2, n1, n2, and o1, which mounts the pointer. It has a computed modelled rotational period of exactly four years, as expected. It is the only pointer on the mechanism that rotates anticlockwise; all of the others rotate clockwise.
+
+The Callippic train is driven by b1, b2, l1, l2, m1, m2, n1, n3, p1, p2, and q1, which mounts the pointer. It has a computed modelled rotational period of 27,758 days, while the modern value is 27,758.8 days.
+
+The Saros train is driven by b1, b2, l1, l2, m1, m3, e3, e4, f1, f2, and g1, which mounts the pointer. The modelled rotational period of the Saros pointer is 1,646.3 days (in four rotations along the spiral pointer track); the modern value is 1,646.33 days.
+
+The Exeligmos train is driven by b1, b2, l1, l2, m1, m3, e3, e4, f1, f2, g1, g2, h1, h2, and i1, which mounts the pointer. The modelled rotational period of the exeligmos pointer is 19,756 days; the modern value is 19,755.96 days.
+
+It appears gears m3, n1-3, p1-2, and q1 did not survive in the wreckage. The functions of the pointers were deduced from the remains of the dials on the back face, and reasonable, appropriate gearage to fulfill the functions was proposed and is generally accepted.
+
+== Reconstruction efforts ==
+
+=== Proposed gear schemes ===
+
+Because of the large space between the mean Sun gear and the front of the case and the size of and mechanical features on the mean Sun gear, it is very likely that the mechanism contained further gearing that either has been lost in or subsequent to the shipwreck, or was removed before being loaded onto the ship. This lack of evidence and nature of the front part of the mechanism has led to attempts to emulate what the Ancient Greeks would have done and because of the lack of evidence, many solutions have been put forward over the years. But as progress has been made on analyzing the internal structures and deciphering the inscriptions, earlier models have been ruled out and better models developed.
+
+Wright proposal
+
+Evans et al. proposal
+
+2012 Freeth et al. proposal
+
+Derek J. de Solla Price built a simple model in the 1970s.
+
+In 2002 Michael Wright designed and built the first workable model with the known mechanism and his emulation of a potential planetarium system. He suggested that along with the lunar anomaly, adjustments would have been made for the deeper, more basic solar anomaly (known as the "first anomaly"). He included pointers for this "true sun", Mercury, Venus, Mars, Jupiter, and Saturn, in addition to the known "mean sun" (current time) and lunar pointers.
+
+Evans, Carman, and Thorndike published a solution in 2010 with significant differences from Wright's. Their proposal centred on what they observed as irregular spacing of the inscriptions on the front dial face, which to them seemed to indicate an off-centre sun indicator arrangement; this would simplify the mechanism by removing the need to simulate the solar anomaly. They suggested that rather than accurate planetary indication (rendered impossible by the offset inscriptions) there would be simple dials for each individual planet, showing information such as key events in the cycle of planet, initial and final appearances in the night sky, and apparent direction changes. This system would lead to a much simplified gear system, with much reduced forces and complexity, as compared to Wright's model.
+
+Their proposal used simple meshed gear trains and accounted for the previously unexplained 63 toothed gear in fragment D. They proposed two face plate layouts, one with evenly spaced dials, and another with a gap in the top of the face, to account for criticism that they did not use the apparent fixtures on the b1 gear. They proposed that rather than bearings and pillars for gears and axles, they simply held weather and seasonal icons to be displayed through a window. In a paper published in 2012, Carman, Thorndike, and Evans also proposed a system of epicyclic gearing with pin and slot followers.
+
+Freeth and Jones published a proposal in 2012. They proposed a compact and feasible solution to the question of planetary indication. They also propose indicating the solar anomaly (that is, the sun's apparent position in the zodiac dial) on a separate pointer from the date pointer, which indicates the mean position of the Sun, as well as the date on the month dial. If the two dials are synchronised correctly, their front panel display is essentially the same as Wright's. Unlike Wright's model however, this model has not been built physically, and is only a 3-D computer model.
+
+Internal gearing relationships of the Antikythera Mechanism, based on the Freeth and Jones proposal
+
+The system to synthesise the solar anomaly is very similar to that used in Wright's proposal: three gears, one fixed in the centre of the b1 gear and attached to the Sun spindle, the second fixed on one of the spokes (in their proposal the one on the bottom left) acting as an idle gear, and the final positioned next to that one; the final gear is fitted with an offset pin and, over said pin, an arm with a slot that in turn, is attached to the sun spindle, inducing anomaly as the mean Sun wheel turns.
+
+The inferior planet mechanism includes the Sun (treated as a planet in this context), Mercury, and Venus. For each of the three systems, there is an epicyclic gear whose axis is mounted on b1, thus the basic frequency is the Earth year (as it is, in truth, for epicyclic motion in the Sun and all the planets—excepting only the Moon). Each meshes with a gear grounded to the mechanism frame. Each has a pin mounted, potentially on an extension of one side of the gear that enlarges the gear, but doesn't interfere with the teeth; in some cases, the needed distance between the gear's centre and the pin is farther than the radius of the gear itself. A bar with a slot along its length extends from the pin toward the appropriate coaxial tube, at whose other end is the object pointer, out in front of the front dials. The bars could have been full gears, although there is no need for the waste of metal, since the only working part is the slot. Also, using the bars avoids interference between the three mechanisms, each of which are set on one of the four spokes of b1. Thus there is one new grounded gear (one was identified in the wreckage, and the second is shared by two of the planets), one gear used to reverse the direction of the sun anomaly, three epicyclic gears and three bars/coaxial tubes/pointers, which would qualify as another gear each: five gears and three slotted bars in all.
+
+The superior planet systems—Mars, Jupiter, and Saturn—all follow the same general principle of the lunar anomaly mechanism. Similar to the inferior systems, each has a gear whose centre pivot is on an extension of b1, and which meshes with a grounded gear. It presents a pin and a centre pivot for the epicyclic gear which has a slot for the pin, and which meshes with a gear fixed to a coaxial tube and thence to the pointer. Each of the three mechanisms can fit within a quadrant of the b1 extension, and they are thus all on a single plane parallel with the front dial plate. Each one uses a ground gear, a driving gear, a driven gear, and a gear/coaxial tube/pointer, thus, twelve gears additional in all.
+
+In total, there are eight coaxial spindles of various nested sizes to transfer the rotations in the mechanism to the eight pointers. So in all, there are 30 original gears, seven gears added to complete calendar functionality, 17 gears and three slotted bars to support the six new pointers, for a grand total of 54 gears, three bars, and eight pointers in Freeth and Jones' design.
+
+On the visual representation Freeth provides, the pointers on the front zodiac dial have small, round identifying stones. He refers to a quote from an ancient papyrus:
+
+...a voice comes to you speaking. Let the stars be set upon the board in accordance with [their] nature except for the Sun and Moon. And let the Sun be golden, the Moon silver, Kronos [Saturn] of obsidian, Ares [Mars] of reddish onyx, Aphrodite [Venus] lapis lazuli veined with gold, Hermes [Mercury] turquoise; let Zeus [Jupiter] be of (whitish?) stone, crystalline (?)...
+
+However, more recent discoveries and research have shown that the above models are not correct. In 2016, the numbers 462 and 442 were found in computed tomography scans of the inscriptions dealing with Venus and Saturn, respectively. These relate to the synodic cycles of these planets, and indicated that the mechanism was more accurate than previously thought. In 2018, based on the CT scans, the Antikythera Mechanism Research Project proposed changes in gearing and produced mechanical parts based on this.
+
+In March 2021, the Antikythera Research Team at University College London, led by Freeth, published a new proposed reconstruction of the entire Antikythera Mechanism. They were able to find gears that could be shared among the gear-trains for the different planets, by using rational approximations for the synodic cycles which have small prime factors, with the factors 7 and 17 being used for more than one planet. They conclude that none of the previous models "are at all compatible with all the currently known data", but their model is compatible with it. Freeth has directed a video explaining the discovery of the synodic cycle periods and the conclusions about how the mechanism worked.
+
+In 2025, one research team concluded that manufacture error in the original mechanism's gears is too great for the mechanism to have ever worked; they emphasized that the scans they used could be incorrect about the extent of imperfections.
+
+=== Accuracy ===
+
+Investigations by Freeth and Jones reveal their simulated mechanism is inaccurate. The Mars pointer is up to 38° wrong in some instances (these inaccuracies occur at the nodal points of Mars' retrograde motion, and the error recedes at other locations in the orbit). This is not due to inaccuracies in gearing ratios in the mechanism, but inadequacies in the Greek theory of planetary movements. The accuracy could not have been improved until c. 160 AD when Ptolemy published his Almagest (particularly by adding the concept of the equant to his theory), then much later by the introduction of Kepler's laws of planetary motion in 1609 and 1619.
+
+In short, the Antikythera Mechanism was a machine designed to predict celestial phenomena according to the sophisticated astronomical theories current in its day, the sole witness to a lost history of brilliant engineering, a conception of pure genius, one of the great wonders of the ancient world—but it didn't really work very well!
+
+In addition to theoretical accuracy, there is the issue of mechanical accuracy. Freeth and Jones note that the inevitable "looseness" in the mechanism due to the hand-built gears, with their triangular teeth and the frictions between gears, and in bearing surfaces, probably would have swamped the finer solar and lunar correction mechanisms built into it:
+
+Though the engineering was remarkable for its era, recent research indicates that its design conception exceeded the engineering precision of its manufacture by a wide margin—with considerable cumulative inaccuracies in the gear trains, which would have cancelled out many of the subtle anomalies built into its design.
+
+While the device may have struggled with inaccuracies, due to the triangular teeth being hand-made, the calculations used and technology implemented to create the elliptical paths of the planets and retrograde motion of the Moon and Mars, by using a clockwork-type gear train with the addition of a pin-and-slot epicyclic mechanism, predated that of the first known clocks found in antiquity in medieval Europe, by more than 1000 years. Archimedes' development of the approximate value of pi and his theory of centres of gravity, along with the steps he made towards developing the calculus, suggest the Greeks had enough mathematical knowledge beyond that of Babylonian algebra, to model the elliptical nature of planetary motion.
+
+Of special delight to physicists, the Moon mechanism uses a special train of bronze gears, two of them linked with a slightly offset axis, to indicate the position and phase of the moon. As is known today from Kepler's laws of planetary motion, the moon travels at different speeds as it orbits the Earth, and this speed differential is modelled by the Antikythera Mechanism, even though the Ancient Greeks were not aware of the actual elliptical shape of the orbit.
+
+== Similar devices in ancient literature ==
+
+The level of refinement of the mechanism indicates that the device was not unique, and possibly required expertise built over several generations. However, such artefacts were commonly melted down for the value of the bronze and rarely survive to the present day.
+
+=== Roman world ===
+
+Cicero's De re publica (54–51 BC), a first century BC philosophical dialogue, mentions two machines that some modern authors consider as some kind of planetarium or orrery, predicting the movements of the Sun, the Moon, and the five planets known at that time. They were both built by Archimedes and brought to Rome by the Roman general Marcus Claudius Marcellus after the death of Archimedes at the siege of Syracuse in 212 BC. Marcellus had great respect for Archimedes and one of these machines was the only item he kept from the siege (the second was placed in the Temple of Virtue). The device was kept as a family heirloom, and Cicero has Philus (one of the participants in a conversation that Cicero imagined had taken place in a villa belonging to Scipio Aemilianus in the year 129 BC) saying that Gaius Sulpicius Gallus (consul with Marcellus's nephew in 166 BC, and credited by Pliny the Elder as the first Roman to have written a book explaining solar and lunar eclipses) gave both a "learned explanation" and a working demonstration of the device.
+
+I had often heard this celestial globe or sphere mentioned on account of the great fame of Archimedes. Its appearance, however, did not seem to me particularly striking. There is another, more elegant in form, and more generally known, moulded by the same Archimedes, and deposited by the same Marcellus, in the Temple of Virtue at Rome. But as soon as Gallus had begun to explain, by his sublime science, the composition of this machine, I felt that the Sicilian geometrician must have possessed a genius superior to any thing we usually conceive to belong to our nature. Gallus assured us, that the solid and compact globe, was a very ancient invention, and that the first model of it had been presented by Thales of Miletus. That afterwards Eudoxus of Cnidus, a disciple of Plato, had traced on its surface the stars that appear in the sky, and that many years subsequent, borrowing from Eudoxus this beautiful design and representation, Aratus had illustrated them in his verses, not by any science of astronomy, but the ornament of poetic description. He added, that the figure of the sphere, which displayed the motions of the Sun and Moon, and the five planets, or wandering stars, could not be represented by the primitive solid globe. And that in this, the invention of Archimedes was admirable, because he had calculated how a single revolution should maintain unequal and diversified progressions in dissimilar motions. When Gallus moved this globe, it showed the relationship of the Moon with the Sun, and there were exactly the same number of turns on the bronze device as the number of days in the real globe of the sky. Thus it showed the same eclipse of the Sun as in the globe [of the sky], as well as showing the Moon entering the area of the Earth's shadow when the Sun is in line ... [missing text] [i.e. It showed both solar and lunar eclipses.]
+
+Replica of a Roman odometer. After each Roman mile, a ball drops from a gear wheel into a box with an audible signal. The total balls counted indicate the miles traveled.
+
+Pappus of Alexandria (290 – c. 350 AD) stated that Archimedes had written a now lost manuscript on the construction of these devices titled On Sphere-Making. The surviving texts from ancient times describe many of his creations, some even containing simple drawings. One such device is his odometer, the exact model later used by the Romans to place their mile markers (described by Vitruvius, Heron of Alexandria and in the time of Emperor Commodus). The drawings in the text appeared functional, but attempts to build them as pictured had failed. When the gears pictured, which had square teeth, were replaced with gears of the type in the Antikythera mechanism, which were angled, the device was perfectly functional.
+
+If Cicero's account is correct, then this technology existed as early as the third century BC. Archimedes' device is also mentioned by later Roman era writers such as Lactantius (Divinarum Institutionum Libri VII), Claudian (In sphaeram Archimedes), and Proclus (Commentary on the first book of Euclid's Elements of Geometry) in the fourth and fifth centuries.
+
+Cicero also said that another such device was built "recently" by his friend Posidonius, "... each one of the revolutions of which brings about the same movement in the Sun and Moon and five wandering stars [planets] as is brought about each day and night in the heavens ..."
+
+It is unlikely that any one of these machines was the particular Antikythera mechanism found in the shipwreck since both the devices fabricated by Archimedes and mentioned by Cicero were located in Rome at least 30 years later than the estimated date of the shipwreck, and the third device was almost certainly in the hands of Posidonius by that date. The scientists who have reconstructed the Antikythera mechanism also agree that it was too sophisticated to have been a unique device.
+
+Other relatively complex metal devices are known from Roman Greece. For example, a bronze combination lock from the Augustan or Hadrianic period was unearthed in the Kerameikos. The device operated on a primitive form of mechanical logic: the central bolt was physically blocked from retracting until the notches of two independent rotary dials were correctly aligned. The device also included a simple concealed bypass mechanism.
+
+=== Eastern Mediterranean and others ===
+
+Su Song's Clock Tower
+
+This evidence that the Antikythera mechanism was not unique adds support to the idea that there was an ancient Greek tradition of complex mechanical technology that was later, at least in part, transmitted to the Byzantine and Islamic worlds, where mechanical devices which were complex, albeit simpler than the Antikythera mechanism, were built during the Middle Ages. Fragments of a geared calendar attached to a sundial, from the fifth or sixth century Byzantine Empire, have been found; the calendar may have been used to assist in telling time. In the Islamic world, Banū Mūsā's Kitab al-Hiyal, or Book of Ingenious Devices, was commissioned by the Caliph of Baghdad in the early 9th century AD. This text described over a hundred mechanical devices, some of which may date back to ancient Greek texts preserved in monasteries. A geared calendar similar to the Byzantine device was described by the scientist al-Biruni around 1000, and a surviving 13th-century astrolabe also contains a similar clockwork device. It is possible that this medieval technology may have been transmitted to Europe and contributed to the development of mechanical clocks there.
+
+In the 11th century, Chinese polymath Su Song constructed a mechanical clock tower that told (among other measurements) the position of some stars and planets, which were shown on a mechanically rotated armillary sphere.
+
+== Popular culture and museum replicas ==
+
+Lego Antikythera mechanism
+
+A hypothetical reconstruction of the mechanism of Antikythera at the Kotsanas Museum of Ancient Greek Technology, in Athens, Greece.
+
+Several exhibitions have been staged worldwide, leading to the main "Antikythera shipwreck" exhibition at the National Archaeological Museum in Athens. As of 2012, the Antikythera mechanism was displayed as part of a temporary exhibition about the Antikythera shipwreck, accompanied by reconstructions made by Ioannis Theofanidis, Derek de Solla Price, Michael Wright, the Thessaloniki University and Dionysios Kriaris. Other reconstructions are on display at the American Computer Museum in Bozeman, Montana, at the Children's Museum of Manhattan in New York, at Astronomisch-Physikalisches Kabinett in Kassel, Germany, at the Archimedes Museum in Olympia, Greece, at the Kotsanas Museum of Ancient Greek Technology in Athens, at the Musée des Arts et Métiers in Paris and at the Western Australian Museum.
+
+The National Geographic documentary series Naked Science dedicated an episode to the Antikythera Mechanism entitled "Star Clock BC" that aired on 20 January 2011. A documentary, The World's First Computer, was produced in 2012 by the Antikythera mechanism researcher and film-maker Tony Freeth. In 2012, BBC Four aired The Two-Thousand-Year-Old Computer; it was also aired on 3 April 2013 in the United States on NOVA, the PBS science series, under the name Ancient Computer. It documents the discovery and 2005 investigation of the mechanism by the Antikythera Mechanism Research Project.
+
+A functioning Lego reconstruction of the Antikythera mechanism was built in 2010 by hobbyist Andy Carol, and featured in a short film produced by Small Mammal in 2011.
+
+On 17 May 2017, Google marked the 115th anniversary of the discovery with a Google Doodle.
+
+The YouTube channel Clickspring documents the creation of an Antikythera mechanism replica using the tools, techniques of machining and metallurgy, and materials that would have been available in ancient Greece, along with investigations into the possible technologies of the era.
+
+The film Indiana Jones and the Dial of Destiny (2023) features a plot around a fictionalized version of the mechanism (also referred to as Archimedes' Dial, the titular Dial of Destiny). In the film, the device was built by Archimedes as a temporal mapping system, and sought by a former Nazi scientist as a way to detect time portals in order to travel back in time and help Germany win World War II. A major plot point revolves around the fact that the device did not take continental drift into account as the theory was unknown in Archimedes' time.
+
+On 8 February 2024, a 10X scale replica of the mechanism was built, installed, and inaugurated at the University of Sonora in Hermosillo, Sonora, Mexico. With the name of Monumental Antikythera Mechanism for Hermosillo (MAMH), Dr. Alfonso performed the inauguration. Also attending were Durazo Montaño, Governor of Sonora and Dr. Maria Rita Plancarte Martinez, chancellor of the Universidad de Sonora, the ambassador of Greece, Nikolaos Koutrokois, and a delegation from the Embassy.
+
+In 2024, Finnish band Nightwish's album Yesterwynde included the track Antikythera Mechanism. The band also partnered with Finnish watch manufacturer POOK Watches to release a limited edition watch, with elements referencing the Antikythera Mechanism.
+
+
+==============================================================================
+PAGE 2 of 7: Antikythera wreck
+SOURCE: https://en.wikipedia.org/w/index.php?oldid=1362587595
+PAGEID: 5385175   OLDID: 1362587595   REVISION: 2026-07-04T23:35:29Z
+==============================================================================
+
+Antikythera wreck
+
+The Antikythera wreck lies off the Greek island of Antikythera on the edge of the Aegean Sea, northwest of Crete
+
+The Antikythera wreck (Greek: ναυάγιο των Αντικυθήρων, romanized: navágio ton Antikythíron) is a Roman-era shipwreck dating from the second quarter of the first century BC.
+
+It was discovered by sponge divers off Point Glyphadia on the Greek island of Antikythera in 1900.
+
+The wreck yielded numerous statues, coins, and other artifacts dating back to the fourth century BC, as well as the severely corroded remnants of a device many regard as the world's oldest known analog computer, the Antikythera mechanism. These ancient artifacts, works of art, and elements of the ship are now on display at the National Archaeological Museum of Athens.
+
+== Discovery ==
+
+The Antikythera mechanism (Fragment A – front)
+
+Around Easter 1900, Captain Dimitrios Kondos and his crew of sponge divers from Symi sailed through the Aegean en route to fishing grounds off North Africa. They stopped at the Greek island of Antikythera to wait for favorable winds. During the layover, they began diving off the island's coast wearing the standard diving dress of the time – waterproofed canvas suits and copper helmets.
+
+Diver Elias Stadiatis descended to 45 meters (148 ft) depth, then quickly signaled to be pulled to the surface. He described a heap of rotting corpses and horses strewn among the rocks on the seafloor. Thinking the diver was drunk from the nitrogen in his breathing air at that depth, Kondos donned diving gear and descended to the site. He soon returned to the surface with the arm of a bronze statue. Shortly thereafter, the men departed as planned to fish for sponges, but at the end of the season they returned to Antikythera and retrieved several artifacts from the wreck. Kondos reported the finds to authorities in Athens, and Hellenic Navy vessels were quickly sent to support the salvage effort from November 1900 through 1901.
+
+== Artifact recovery ==
+
+The Antikythera Youth or Ephebe
+
+Together with the Greek Education Ministry and the Royal Hellenic Navy, the sponge divers salvaged numerous artifacts. By the middle of 1901, divers had recovered bronze statues, one named "The Philosopher", the Youth of Antikythera (Ephebe) of c. 340 BC, and thirty-six marble sculptures including Hercules, Odysseus, Diomedes, Hermes, Apollo, three marble statues of horses (a fourth was dropped during recovery and was lost on the sea floor), a bronze lyre, and several pieces of glasswork. Recovered ship's equipment included lead scupper pipes and hull sheeting, and a set of sounding leads weighing 6 and 14 kg (13 and 31 lb). These are the only sounding weights ever discovered on an ancient shipwreck in the Aegean, although comparable examples have been recovered along the Levantine coast. Many other small and common artifacts also were found, and the entire assemblage was taken to the National Archaeological Museum in Athens. The death of diver Giorgos Kritikos and the paralysis of two others due to decompression sickness put an end to work at the site during the summer of 1901.
+
+On 17 May 1902, archaeologist Valerios Stais made the most celebrated find while studying the artefacts at the National Archaeological Museum. He noticed that a severely corroded piece of bronze had a gear wheel embedded in it and legible inscriptions in Greek. The object would come to be known as the Antikythera mechanism. Originally thought to be one of the first forms of a mechanised clock or an astrolabe, it is at times referred to as the world’s oldest known analog computer.
+
+The wreck remained untouched until 1953, when French naval officer and explorer Jacques Cousteau briefly visited to relocate the site. Cousteau returned with a full team in the summer and autumn of 1976 at the invitation of the Greek government. Under the direction of archaeologist Lazaros Kolonas, the team recovered nearly 300 artifacts, including four hull planks, ceramic jars, bronze and silver coins, which helped dating the wreck more accurately, pieces of bronze and marble sculptures, bronze statuettes, several pieces of gold jewelry, and even human remains of the crew and passengers.
+
+A five-year comprehensive survey program which began in 2021 recovered additional artifacts, including the head of a marble statue, possibly the missing head of a statue of Hercules recovered from the same site in 1902.
+
+== Dating ==
+
+Although the retrieval of artifacts from the shipwreck was highly successful and accomplished within two years, dating the site proved difficult and took much longer. Based on related works with known provenances, the bronze statues could be dated back to the fourth century BC. It was suggested that the marble statues, however, were Hellenistic-era copies of earlier works.
+
+The bronze head of a philosopher recovered from the Antikythera shipwreck in 1901, part of a life-sized statue of the man.
+
+Some scholars speculated that the ship was carrying part of the loot of the Roman General Sulla from Athens in 86 BC, and might have been on its way to Italy. A reference by the Greek writer, Lucian, to one of Sulla's ships sinking in the Antikythera region gave rise to this theory. Supporting an early first-century BC date were domestic utensils and objects from the ship, similar to those known from other first-century BC contexts. The amphorae recovered from the wreck indicated a date of 80–70 BC, the Hellenistic pottery a date of 75–50 BC, and the Roman ceramics were similar to known mid-first century types. Any possible association with Sulla was eliminated, however, when the coins discovered in the 1970s during work by Jacques Cousteau and associates were found to have been minted between 76 and 67 BC. Nevertheless, it is possible that the sunken cargo ship was en route to Rome or elsewhere in Italy with looted treasures to support a triumphal parade. Alternatively, perhaps the cargo was assembled on commission from a wealthy Roman patron.
+
+Remains of hull planks showed that the ship was made of elm, a wood often used by the Romans in their ships. Eventually, in 1964, a sample of the hull planking was carbon dated, and delivered a calibrated calendar date of 220 BC ± 43 years. The disparity in the calibrated radiocarbon date and the expected date based on the ceramics and coins was explained by presuming that the sample plank originated from an old tree, cut much earlier than the ship's sinking event.
+
+Further evidence for an early first-century BC sinking date came in 1974, when Yale University Professor Derek de Solla Price published his interpretation of the Antikythera mechanism. He argued that the object was a calendar computer. From gear settings and inscriptions on the mechanism's faces, he concluded that the mechanism was made about 87 BC and lost only a few years afterward.
+
+== 21st-century expeditions ==
+
+Heracles of Antikythera.
+
+In 2012, marine archeologist Brendan P. Foley (formerly of the Woods Hole Oceanographic Institution in the United States and since 2017 at Lund University, Sweden) received permission from the Greek government to conduct new dives around the entire island of Antikythera. With project co-director Dr. Theotokis Theodoulou, the divers began a preliminary three-week survey in October 2012 using rebreather technology, to allow for extended dives down to a depth of 70 meters (230 ft), for a fuller, complete survey of the site. The team completed an underwater circumnavigation of the island, documented several isolated finds, relocated the Antikythera Wreck, and identified a second ancient shipwreck a few hundred meters south of the Antikythera Wreck.
+
+The Hellenic Ephorate of Underwater Antiquities (EUA) has continued investigations at Antikythera. In 2014 and 2015 it conducted robotic mapping surveys over the two ancient wreck sites, cooperating with the Woods Hole Oceanographic Institution and the Australian Centre for Field Robotics of the University of Sydney. Subsequent excavations of the Antikythera Wreck in 2014–2016 delivered new finds from the ship: wood elements from the hull or decks, components of two anchors made of lead, an enormous lead salvage ring, lead hull sheeting, several bronze nails and spikes, and a bronze rigging ring. The wreck also relinquished many luxury goods, including two large bronze spears from statues, the left hand of a marble statue, ornate glass bowls, intact ceramic jars of several different styles, and a gold ring very similar to one recovered in 1976. One extraordinary find is an ancient weapon known as a dolphin, a 100-kilogram (220 lb) lead bulb tipped with an iron spike, intended to be dropped from the ship’s yardarm through the deck and hull of an attacking vessel. This is the only example of a war dolphin ever discovered. On 31 August 2016, a 2000-year old human skeleton nicknamed Pamphilos was discovered at the shipwreck.
+
+The EUA excavation continued in September–October 2017 and in October 2019, and resulted in the recovery of a bronze arm from a sculpture, together with other fragments of bronze and marble statues. Organic finds included more human skeletal remains, and a large section of articulated hull planking and frames from the ship. The team also recovered a finely-formed red marble object that may be a sarcophagus lid, and a mysterious bronze disk depicting a bull.
+
+In 2022 three 8.5-ton boulders that had partially covered the wreck were removed, permitting further discoveries. Human teeth were found, opening the possibility of genetic and isotopic analysis to provide information on the people who sailed the ship. Archaeologist Lorenz Baumer, overseeing the 2022 mission with the University of Geneva, described the Antikythera wreck as "an extremely rich site, the richest in the ancient world".
+
+
+==============================================================================
+PAGE 3 of 7: Derek J. de Solla Price
+SOURCE: https://en.wikipedia.org/w/index.php?oldid=1348961414
+PAGEID: 1234272   OLDID: 1348961414   REVISION: 2026-04-15T03:39:31Z
+==============================================================================
+
+Derek John de Solla Price (22 January 1922 – 3 September 1983) was a British physicist, historian of science, and information scientist. He was known for his investigation of the Antikythera mechanism, an ancient Greek planetary computer, and for quantitative studies on scientific publications, which led to his being described as the "Herald of scientometrics".
+
+== Biography ==
+
+Price was born in Leyton, England, to Philip Price, a tailor, and Fanny de Solla, a singer. He began work in 1938 as an assistant in a physics laboratory at the South West Essex Technical College, before studying Physics and Mathematics at the University of London, where he received a Bachelor of Science in 1942. He then worked as an assistant to Harry Lowery carrying out research on hot and molten metals, and working towards a London external Ph.D. in experimental physics, which he obtained in 1946. This work led to several research papers and to a patent for an emissive-correcting optical pyrometer. He then went to the USA on a Commonwealth Fund fellowship, working in Pittsburgh and Princeton, returning to England in 1947. He was married that year to Ellen Hjorth in Copenhagen.
+
+In 1948 Price took a three-year position as a teacher of applied mathematics at Raffles College, Singapore, which was to become part of the National University of Singapore. There he met C. Northcote Parkinson, the naval historian, who stimulated a love of history in Price that would change the direction of his career. While in Singapore, he formulated his theory on the exponential growth of science. He was looking after the university's complete run of the Philosophical Transactions of the Royal Society, while Raffles College had its library built. He started reading these, and as he placed the volumes in chronological order he noticed that their yearly height increased exponentially with time. This led to a presentation at the Sixth International Congress of the History of Science in Amsterdam, in 1950.
+
+Returning to England, Price decided to make a career in the history of science, and enrolled for a second Ph.D. at the University of Cambridge, supported by an ICI fellowship. He had initially intended to work on a survey of scientific instruments, but during his studies he discovered The Equatorie of the Planetis, a Peterhouse manuscript in Cambridge University Library. The manuscript, written in Middle English, describes an Equatorium, an astronomical calculating instrument, and became the basis of the thesis for his PhD, which he obtained in 1954, and also for a book, published the following year. He believed the work to be by Geoffrey Chaucer, who had written A Treatise on the Astrolabe, but it is now attributed to a St Albans monk called John Westwyk.
+
+Price received a Nuffield Foundation award for research in the History of science, which enabled him to work on scientific instruments during 1955–1956. He first prepared a catalogue of the instrument collection of the British Museum, and then a catalogue of all the ancient astrolabes that he was able to locate.
+
+While working on his Ph.D. in Cambridge, Price met Joseph Needham, the historian of Chinese science. As a result of his work on the Equatorium Price was invited to participate in a project on medieval Chinese astronomical clocks. This led to the book Heavenly Clockwork by Needham, Wang Ling and Price, which was published in 1960.
+
+An engraving of the Tower of the Winds in Athens. A 1762 illustration reproduced by Noble and Price (1968)
+
+Another interest in ancient technology concerned the Antikythera mechanism. This machine had been retrieved from a wreck off the Greek island of Antikythera in 1900, and its function had remained unknown. Price started working on this in the 1950s, and continued on and off for twenty years using various techniques including gamma radiography. He published two papers on the mechanism, in 1959 and 1974, showing that it was a planetary computer, dating from about 80 BCE. Also, with Joseph Noble, he studied the machinery of the Tower of the Winds in Athens, and showed it to be water-driven clockwork, showing times and seasons.
+
+Around 1950, Price adopted his mother's Sephardic name, "de Solla", as a middle name. He was a "British Atheist ... from a rather well-known Sephardic Jewish family", and although his Danish wife, Ellen, had been christened as a Lutheran, he did not, according to their son Mark, regard their marriage as "mixed", because they were both atheists.
+
+Part of the mechanism of the 14th-century De Dondi Clock, from a Bulletin of the Smithsonian Institution (1959)
+
+After obtaining his second doctorate, Price found advancement difficult in England. One colleague alleged that Price, who came from a lower-class background, was "not socially house-trained," and he suspected that he was turned down for university positions for personal reasons. Price decided to move to the United States. In 1957 he became a consultant to the Smithsonian Institution, and then a fellow at the Institute for Advanced Study in Princeton, New Jersey. At Princeton he studied ancient astronomy with Otto Neugebauer. In 1959 he joined the Department of History at Yale University initially as a one-year visitor. He would remain at Yale for the rest of his life.
+
+Price gave a series of lectures in Yale in 1959, which formed the basis for a book, Science since Babylon (1961). In 1960, a Department of History of Science and Medicine was formed at Yale, largely through the efforts of John Fulton who had been Professor of the History of Medicine since 1951. Price became Professor of the History of Science, and on Fulton's death in 1960 became chairman of the department. In 1962 he became the Avalon Professor of the History of Science.
+
+The quantitative study of science, Scientometrics, and its application to science policy, became the principal focus of Price's work from the 1960s onwards. In 1963 his best-known book Little Science, Big Science was published. Early in that year, he met Eugene Garfield, founder of the Science Citation Index (SCI), and formed a lasting collaboration. SCI would provide most of the data for his quantitative work, allowing studies not just of the quantity of scientific publication, but, for example, of the impact of those publications, and of the duration of that impact. In 1965, Price gave the first Science of Science Foundation lecture, entitled The Scientific Foundations of Science Policy, given at the Royal Institution in London. He argued that as science grew exponentially it presented new challenges to policy-makers, and that they could be helped by the kind of Scientometric work he was carrying out and promoting. Clearly exponential growth cannot continue indefinitely, and the slowing of growth rates will correspond to pressing issues around allocation of resources. He also emphasised the critical importance of communication, referring to the "invisible college", a network of scientific communication that exists outside formal channels. The lecture was reviewed at length in the journal Nature.
+
+Price died of a heart attack at the home of his oldest friend, Anthony Michaelis, in London, during a visit to attend the wedding of his niece. He was survived by his wife, Ellen, and their three children, Linda, Jeffrey, and Mark.
+
+In 1984, Price received, posthumously, the ASIS Research Award for outstanding contributions in the field of information science.
+
+Since 1984, the Derek de Solla Price Memorial Medal is awarded by the International Society for Scientometrics and Informetrics to scientists with outstanding contributions to the fields of quantitative studies of science.
+
+== Scientific contributions ==
+
+Price's major scientific contributions include:
+
+Price's law, on the topic of authors publishing academic literature, proposed that half of the publications come from the square root of all authors. For example, if 100 papers are written by 25 authors, then {\displaystyle {\sqrt {25}}=5} out of the 25 authors will have contributed 50 papers. However, empirical data suggest that Price's law is a poor fit, while the related Lotka's law is a good fit;
+
+Studies of the exponential growth of science and the half-life of scientific literature;
+
+Quantitative studies of the network of citations between scientific papers (Price 1965), including the discovery that both the in- and out-degrees of a citation network have power-law distributions, making this the first published example of a scale-free network;
+
+Price's model, a mathematical theory of the growth of citation networks, based on what would now be called a preferential attachment process (Price 1976). This is closely related to the Matthew effect;
+
+An analysis of the Antikythera mechanism, an ancient Greek analogue computer and astronomical instrument (Price 1959, 1974).
+
+A full bibliography is provided by Yagi et al. (1986)
+
+== Selected publications ==
+
+Price, Derek J. (1947). "The temperature variation of the emissivity of metals in the near infra-red". Proceedings of the Physical Society. 59 (1): 131–138. Bibcode:1947PPS....59..131P. doi:10.1088/0959-5309/59/1/319.
+
+—— (1951). Quantitative measures of the development of science. Sixth International Congress of the History of Science, Amsterdam, 1950. Archives internationales d'histoire des sciences. Vol. 14. pp. 85–93.
+
+—— (1952). "The early observatory instruments of trinity college, Cambridge". Annals of Science. 8: 1–12. doi:10.1080/00033795200200012.
+
+—— (1952). Chaucer's astronomy (Weekly evening meeting offprint). Royal Institution of Great Britain.
+
+—— (1953). An Old Palmistry, Being the Earliest Known Book of Palmistry in English, Edited from the Bodleian Ms Digby Roll IV. W. Heffer. ASIN B000PIYKBW.
+
+—— (1955). 'The Equatorie of the Planetis': Edited from Peterhouse MS. 75.1. Cambridge University Press. ISBN 978-0521059947.
+
+—— (1955). "Medieval Land Surveying and Topographical Maps". The Geographical Journal. 121 (1): 1–7. Bibcode:1955GeogJ.121....1P. doi:10.2307/1791800. JSTOR 1791800.
+
+—— (1955). An International Checklist of Astrolabes. Peyronnet. ASIN B0007JKDJ2.
+
+—— (1957). Scientific Humanities: An Urgent Program. ASIN B0007KAV84.
+
+—— (1959). "On the origin of clockwork, perpetual motion devices, and the compass". Bulletin of the United States National Museum (218). Smithsonian Institution Press: 81–112. Reprinted 2019 by Good Press EAN 4057664653352.
+
+—— (1959). "An Ancient Greek Computer". Scientific American. 200 (6): 60–67. Bibcode:1959SciAm.200f..60P. doi:10.1038/scientificamerican0659-60. JSTOR 26309507.
+
+—— (1959). Contra-Copernicus: A Critical Re-estimation of the Mathematical Planetary Theory of Ptolemy, Copernicus, and Kepler. ASIN B0007KCWS6.
+
+—— (1960). The Little Ship of Venice: A Middle English instrument tract. Vol. 15. pp. 399–407. ASIN B0007JV620. doi:10.1093/jhmas/xv.4.399. PMID 13737960.
+
+—— (1962). "Mechanical Waterclocks of the 14th Century in Fez, Morocco". Proceedings of the Tenth International Congress of the History of Science (Ithaca, N.Y). Paris: Hermann. pp. 599–602.
+
+—— (1963). Little Science, Big Science. New York: Columbia University Press. ISBN 978-0-231-08562-5. See review Garfield, E. (1985). "In Tribute to Derek John De Solla Price: A Citation Analysis of Little Science, Big Science". Scientometrics. 7 (3): 487–503. doi:10.1007/BF02017163. S2CID 35486836..
+
+—— (1964). "Ethics of Scientific Publication". Science. 144 (3619): 655–657. Bibcode:1964Sci...144..655D. doi:10.1126/science.144.3619.655. PMID 17806989.
+
+—— (1965). "Networks of Scientific Papers". Science. 149 (3683): 510–515. Bibcode:1965Sci...149..510D. doi:10.1126/science.149.3683.510. PMID 14325149.
+
+—— (1975). Science since Babylon. New Haven, Conn: Yale University Press. ISBN 978-0-300-01797-7. see review
+
+—— (1967). "Nations can Publish or Perish". Science and Technology. 70: 84–90.
+
+—— (1968). The Differences between Science and Technology. Thomas Alva Edison Foundation. ASIN B0007HNK3U.
+
+—— (1969). Portable Sundials in antiquity: Including an account of a new example from Aphrodisias. ASIN B0007K65O8.
+
+—— (1969). Measuring the Size of Science. Israel Academy of Sciences and Humanities. ASIN B007EMQHT0.
+
+—— (1970). "Citation Measures of Hard Science, Soft Science, Technology, and Nonscience". In Nelson, C.E.; Pollock, D.K. (eds.). Communication among Scientists and Engineers. Lexington, Massachusetts: D.C. Heath and Company. pp. 3–22.
+
+—— (1974). Gears from the Greeks. The Antikythera Mechanism: A Calendar Computer from ca. 80 B.C. New Series. Vol. 64. pp. 1–70. doi:10.2307/1006146. ISBN 978-0871696472. JSTOR 1006146.
+
+—— (1976). "A general theory of bibliometric and other cumulative advantage processes". Journal of the American Society for Information Science. 27 (5): 292–306. CiteSeerX 10.1.1.161.114. doi:10.1002/asi.4630270505. S2CID 8536863. (Winner of 1976 JASIS paper award.)
+
+—— (1978). "Editorial statements". Scientometrics. 1 (1): 3–8. doi:10.1007/BF02016836. S2CID 12528125.
+
+Needham, Joseph; Wang, Ling; Price, Derek J.De Solla (1960). Heavenly clockwork: the great astronomical clocks of medieval China. Cambridge University Press. Second edition 1986; with supplement 2008: ISBN 9780521087162.
+
+Noble, Joseph V.; Price, Derek, J.de Solla (1968). "The Water Clock in the Tower of the Winds". American Journal of Archaeology. 72 (4): 345–355. doi:10.2307/503828. JSTOR 503828. S2CID 193112893.
+
+Spiegel-Rösing, Ina-Susanne; Price, Derek J.De Solla (1977). Science, Technology, and Society: A Cross-disciplinary Perspective. SAGE Publications. ISBN 9780803998582.
+
+
+==============================================================================
+PAGE 4 of 7: Metonic cycle
+SOURCE: https://en.wikipedia.org/w/index.php?oldid=1334408017
+PAGEID: 20426   OLDID: 1334408017   REVISION: 2026-01-23T10:31:13Z
+==============================================================================
+
+Depiction of the 19 years of the Metonic cycle as a wheel, with the Julian date of the Easter New Moon, from a 9th-century computistic manuscript made in St. Emmeram's Abbey (Clm 14456, fol. 71r)
+
+For example, by the 19-year Metonic cycle, the full moon repeats on or near Christmas between 1711 and 2300. A small horizontal libration is visible comparing their appearances. A red color shows full moons that are also lunar eclipses.
+
+The Metonic cycle or enneadecaeteris (from Ancient Greek: ἐννεακαιδεκαετηρίς, from ἐννεακαίδεκα, "nineteen") is a period of almost exactly 19 years after which the lunar phases recur at the same time of the year. The recurrence is not perfect, and by precise observation the Metonic cycle defined as 235 synodic months is just 2 hours, 4 minutes and 58 seconds longer than 19 tropical years. Meton of Athens, in the 5th century BC, judged the cycle to be a whole number of days, 6,940. Using these whole numbers facilitates the construction of a lunisolar calendar.
+
+A tropical year (about 365.24 days) is longer than 12 lunar months (about 354.36 days) and shorter than 13 of them (about 383.90 days). In a Metonic calendar (a type of lunisolar calendar), there are twelve years of 12 lunar months and seven years of 13 lunar months.
+
+== Application in traditional calendars ==
+
+In the Babylonian and Hebrew lunisolar calendars, the years 3, 6, 8, 11, 14, 17, and 19 are the long (13-month) years of the Metonic cycle. This cycle forms the basis of the Greek and Hebrew calendars. A 19-year cycle is used for the computation of the date of Easter each year.
+
+The Babylonians applied the 19-year cycle from the late sixth century BC.
+
+According to Livy, the second king of Rome, Numa Pompilius (reigned 715–673 BC), inserted intercalary months in such a way that "in the twentieth year the days should fall in with the same position of the sun from which they had started". As "the twentieth year" takes place nineteen years after "the first year", this seems to indicate that the Metonic cycle was applied to Numa's calendar.
+
+Diodorus Siculus reports that Apollo is said to have visited the Hyperboreans once every 19 years.
+
+The Metonic cycle was implemented in the 2nd century BC Antikythera mechanism, which offers unexpected evidence for the popularity of the calendar based on it.
+
+The (19-year) Metonic cycle is a lunisolar cycle, as is the (76-year) Callippic cycle. An important example of an application of the Metonic cycle in the Julian calendar is the 19-year lunar cycle insofar as provided with a Metonic structure. Meton introduced the 19 year cycle to the Attic calendar in 432 BC. In the following century, Callippus developed the Callippic cycle of four 19-year periods for a 76-year cycle with a mean year of exactly 365.25 days.
+
+Around AD 260 the Alexandrian computist Anatolius, who became bishop of Laodicea in AD 268, was the first to devise a method for determining the date of Easter Sunday. However, it was some later, somewhat different, version of the Metonic 19-year lunar cycle which, as the basic structure of Dionysius Exiguus' and also of Bede's Easter table, would ultimately prevail throughout Christendom, at least until in the year 1582, when the Gregorian calendar was introduced.
+
+The Coligny calendar is a Celtic lunisolar calendar using the Metonic cycle. The bronze plaque on which it was found dates from c. AD 200, but the internal evidence points to the calendar itself being several centuries older, created in the Iron Age or late Bronze Age.
+
+The Metonic cycle is thought to be numerically encoded on the Berlin Gold Hat from central Europe, dating from c. 1000-800 BC.
+
+The Runic calendar is a perpetual calendar based on the 19-year-long Metonic cycle. It is also known as a Rune staff or Runic Almanac. This calendar does not rely on knowledge of the duration of the tropical year or of the occurrence of leap years. It is set at the beginning of each year by observing the first full moon after the winter solstice. The oldest one known, and the only one from the Middle Ages, is the Nyköping staff, which is believed to date from the 13th century.
+
+The Bahá'í calendar, established during the middle of the 19th century, is also based on cycles of 19 solar years.
+
+=== Hebrew calendar ===
+
+A Small Maḥzor (Hebrew מחזור, pronounced [maχˈzor], meaning "cycle") is a 19-year cycle in the lunisolar calendar system used by the Jewish people. It is similar to, but slightly different in usage from, the Greek Metonic cycle (being based on a month of 29+13753⁄25920 days, giving a cycle of 6939+3575⁄5184 ≈ 6939.69 days), and likely derived from or alongside the much earlier Babylonian calendar.
+
+=== Polynesia ===
+
+It is possible that the Polynesian kilo-hoku (astronomers) discovered the Metonic cycle in the same way Meton had, by trying to make the month fit the year.
+
+== Mathematical basis ==
+
+The Metonic cycle is the most accurate cycle of time (in a timespan of less than 100 years) for synchronizing the tropical year and the lunar month (synodic month), when the method of synchronizing is the intercalation of a thirteenth lunar month in a calendar year from time to time. The traditional lunar year of 12 synodic months is about 354 days, approximately eleven days short of the solar year. Thus, every 2 to 3 years there is a discrepancy of 22 to 33 days, or a full synodic month. For example, if the winter solstice and the new moon coincide, it takes 19 tropical years for the coincidence to recur. The mathematical logic is this:
+
+A tropical year lasts 365.2422 days.
+
+a span of 19 tropical years (365.2422 × 19) lasts 6,939.602 days
+
+That duration is almost the same as 235 synodic months:
+
+A synodic month lasts 29.53059 days.
+
+a span of 235 synodic months (29.53059 × 235) lasts 6,939.689 days
+
+Thus the algorithm is correct to 0.087 days (2 hours, 5 minutes and 16 seconds).
+
+For a lunisolar calendar to 'catch up' to this discrepancy and thus maintain seasonal consistency, seven intercalary months are added (one at a time), at intervals of every 2–3 years during the course of 19 solar years. Thus twelve of those years have 12 lunar months and seven have 13 months. Of these months, 125 were full (30 days) and 110 were deficient (29 days), to give a total of 6940 days.
+
+
+==============================================================================
+PAGE 5 of 7: Saros (astronomy)
+SOURCE: https://en.wikipedia.org/w/index.php?oldid=1368659047
+PAGEID: 66111   OLDID: 1368659047   REVISION: 2026-08-10T10:01:46Z
+==============================================================================
+
+In astronomy, the saros (/ˈsɛərɒs/ ) is a length of time covering exactly 223 synodic months (18 years 11 days and 8 hours), nearly 242 draconic months, and nearly 239 anomalistic months. Arising naturally due to synchronization between lunar phase, nodal precession, and apsidal precession, it can be used to predict eclipses of the Sun and Moon. One saros period after an eclipse, the Sun, Earth, and Moon return to approximately the same relative geometry, a near straight line, and a nearly identical eclipse will occur, in what is referred to as an eclipse cycle. Every eclipse has an associated saros series and all succeeding or preceding eclipses have a different saros series associated with them - as the eclipse of the same series occurs or occurred with a gap of one saros only. Solar and lunar eclipses have different saros series.
+
+A series of eclipses that are separated by one saros is called a saros series. It corresponds to:
+
+6,585.321347 solar days
+
+18.029 years
+
+223 synodic months
+
+241.999 draconic months
+
+18.999 eclipse years (38 eclipse seasons of 173.31 days)
+
+238.992 anomalistic months
+
+241.029 sidereal months
+
+The 19 eclipse years means that if there is a solar eclipse (or lunar eclipse), then after one saros a new moon will take place at the same node of the orbit of the Moon, and under these circumstances another eclipse can occur.
+
+== History ==
+
+The earliest discovered historical record of what is known as the saros is by Chaldean (neo-Babylonian) astronomers in the last several centuries BCE. It was later known to Hipparchus, Pliny and Ptolemy.
+
+The name saros (Ancient Greek: σάρος) was applied to the eclipse cycle by Edmond Halley in 1686, who took it from the Suda, a Byzantine lexicon of the 11th century. The Suda says, "[The saros is] a measure and a number among Chaldeans. For 120 saroi make 2220 years (years of 12 lunar months) according to the Chaldeans' reckoning, if indeed the saros makes 222 lunar months, which are 18 years and 6 months (i.e. years of 12 lunar months)." The information in the Suda in turn was derived directly or otherwise from the Chronicle of Eusebius of Caesarea, which quoted Berossus. (Guillaume Le Gentil claimed that Halley's usage was incorrect in 1756, but the name continues to be used.) The Greek word apparently either comes from the Babylonian word sāru (𒊹) meaning the number 3600 or the Greek verb saro (σαρῶ) that means 'sweep (the sky with the series of eclipses)'.
+
+Antikythera Mechanism Saros cycle for the prediction of eclipses ΣΚΓ′, in the red rectangle, and means 223 months. Written between 150 and 100 BCE
+
+The Saros period of 223 lunar months (in Greek numerals, ΣΚΓ′) is in the Antikythera Mechanism user manual on this instrument, made around 150–100 BCE in Greece, as seen in the picture. This number is one of a few inscriptions of the mechanism that are visible with the unaided eye. Above it, the period of the Metonic cycle and the Callippic cycle are also visible.
+
+== Description ==
+
+Lunar eclipses occurring near the Moon's descending node are given odd saros series numbers. The first eclipse in such series passes through the southern edge of the Earth's shadow, and the Moon's path is shifted northward each successive saros, while lunar eclipses occurring near the Moon's ascending node are given even saros series numbers. The first eclipse in such series passes through the northern edge of the Earth's shadow, and the Moon's path is shifted southward each successive saros.
+
+{\displaystyle {\begin{aligned}1{\text{ saros}}&=6585.3211{\text{ days}}\\&=15{\text{ common years}}+3{\text{ leap years}}+12.321{\text{ days}}\\&=14{\text{ common years}}+4{\text{ leap years}}+11.321{\text{ days}}\\&=13{\text{ common years}}+5{\text{ leap years}}+10.321{\text{ days}}\end{aligned}}}
+
+The saros, a period of 6585.3211 days, is useful for predicting the times at which nearly identical eclipses will occur. Three periodicities related to lunar orbit, the synodic month, the draconic month, and the anomalistic month coincide almost perfectly each saros cycle. For an eclipse to occur, either the Moon must be located between the Earth and Sun (for a solar eclipse) or the Earth must be located between the Sun and Moon (for a lunar eclipse). This can happen only when the Moon is new or full, respectively, and repeat occurrences of these lunar phases result from solar and lunar orbits producing the Moon's synodic period of 29.53059 days. During most full and new moons, however, the shadow of the Earth or Moon falls to the north or south of the other body. Eclipses occur when the three bodies form a nearly straight line. Because the plane of the lunar orbit is inclined to that of the Earth, this condition occurs only when a full or new Moon is near or in the ecliptic plane, that is when the Moon is at one of the two nodes (the ascending or descending node). The period of time for two successive lunar passes through the ecliptic plane (returning to the same node) is termed the draconic month, a 27.21222 day period. The three-dimensional geometry of an eclipse, when the new or full moon is near one of the nodes, occurs every five or six months when the Sun is in conjunction or opposition to the Moon and coincidentally also near a node of the Moon's orbit at that time, or twice per eclipse year. Two eclipses separated by one saros have very similar appearance and duration due to the distance between the Earth and Moon being nearly the same for each event: this is because the saros is also an integer multiple of the anomalistic month of 27.5545 days, the period of the moon with respect to the lines of apsides in its orbit.
+
+Visualization of a period of one saros cycle in 3D.
+
+After one saros, the Moon will have completed roughly an integer number of synodic, draconic, and anomalistic periods (223, 242, and 239) and the Earth-Sun-Moon geometry will be nearly identical: the Moon will have the same phase and be at the same node and the same distance from the Earth. In addition, because the saros is close to 18 years in length (about 11 days longer), the Earth will be nearly the same distance from the Sun, and tilted to it in nearly the same orientation (same season). Given the date of an eclipse, one saros later a nearly identical eclipse can be predicted. During this 18-year period, about 40 other solar and lunar eclipses take place, but with a somewhat different geometry. One saros equaling 18.03 years is not equal to a perfect integer number of lunar orbits (Earth revolutions with respect to the fixed stars of 27.32166 days sidereal month), therefore, even though the relative geometry of the Earth–Sun–Moon system will be nearly identical after a saros, the Moon will be in a slightly different position with respect to the stars for each eclipse in a saros series. The axis of rotation of the Earth–Moon system exhibits a precession period of 18.59992 years.
+
+The saros is not an integer number of days, but contains the fraction of +1⁄3 of a day. Thus each successive eclipse in a saros series occurs about eight hours later in the day. In the case of an eclipse of the Sun, this means that the region of visibility will shift westward about 120°, or about one third of the way around the globe, and the two eclipses will thus not be visible from the same place on Earth. In the case of an eclipse of the Moon, the next eclipse might still be visible from the same location as long as the Moon is above the horizon. Given three saros eclipse intervals, the local time of day of an eclipse will be nearly the same. This three saros interval (19,755.96 days) is known as a triple saros or exeligmos (Greek: "turn of the wheel") cycle.
+
+== Saros series ==
+
+Solar eclipses occurring near the Moon's descending node are given even saros series numbers. The first eclipse of each series starts at the southern limb of the Earth and the eclipse's path is shifted northward with each successive saros, while solar eclipses occurring near the Moon's ascending node are given odd saros series numbers. The first eclipse of each series starts at the northern limb of the Earth and the eclipse's path is shifted southward with each successive saros.
+
+Each solar saros series starts with a partial eclipse (Sun first enters the end of the node, when new Moon occurs east of a node) - which means the first eclipse of the saros series occurs within about 15° to 18° of the node before Earth reaches the node and the moon's elongation is also within the gamma range for an eclipse to occur. In each successive saros, the path of the Moon is shifted either northward (when near the descending node) or southward (when near the ascending node) due to the fact that the saros is not an exact integer of draconic months (223 synodic months of a saros is about one hour short of 242 draconic months - hence, the Moon's node shifts eastward by about 0.5º with each cycle). At some point, eclipses are no longer possible and the series terminates (Sun leaves the beginning of the node). An arbitrary solar saros series was designated as solar saros series 1 by compilers of eclipse statistics. This series has finished, but the eclipse of November 16, 1990 BC (Julian calendar) for example is in solar saros series 1. There are different saros series for solar and lunar eclipses. For lunar saros series, the lunar eclipse occurring 58.5 synodic months earlier (February 23, 1994 BC) was assigned the number 1. If there is an eclipse one inex (29 years minus about 20 days) after an eclipse of a particular saros series then it is a member of the next series. For example, the eclipse of October 26, 1961 BC is in solar saros series 2. Saros series, of course, went on before these dates, and it is necessary to extend the saros series numbers backwards to negative numbers even just to accommodate eclipses occurring in the years following 2000 BC (up till the last eclipse with a negative saros number in 1367 BC). It takes between 1226 and 1550 years for the members of a saros series to traverse the Earth's surface from north to south (or vice versa). These extremes allow from 69 to 87 eclipses in each series (most series have 71 or 72 eclipses). From 39 to 59 (mostly about 43) eclipses in a given series will be central (that is, total, annular, or hybrid). At any given time, approximately 40 different saros series will be in progress.
+
+Saros series, as mentioned, are numbered according to the type of eclipse (lunar or solar). In odd numbered series (for solar eclipses) the Sun is near the ascending node, whereas in even numbered series it is near the descending node (this is reversed for lunar eclipse saros series). Generally, the ordering of these series determines the time at which each series peaks, which corresponds to when an eclipse is closest to one of the lunar nodes. For solar eclipses, the 40 series numbered between 117 and 156 are active (series 117 will end in 2054), whereas for lunar eclipses, there are now 41 active saros series numbered between 110 and 150 (series 110 will end in 2027). These numbers can be derived by counting the number of eclipses listed over an 18-year (saros) period from the eclipse catalog sites.
+
+=== Example ===
+
+Saros 131 lunar eclipse dates
+
+May 10, 1427 (Julian calendar) | First penumbral (southern edge of shadow)
+
+...6 intervening penumbral eclipses omitted...
+
+July 25, 1553 (Julian calendar) | First partial
+
+...19 intervening partial eclipses omitted...
+
+March 22, 1932 Final partial | 12:32 UT
+
+April 2, 1950 First total | 20:44 UT
+
+April 13, 1968 | 04:47 UT
+
+April 24, 1986 | 12:43 UT
+
+May 4, 2004 | 20:30 UT
+
+May 16, 2022 First central | 04:11 UT
+
+May 26, 2040 | 11:45 UT
+
+June 6, 2058 | 19:14 UT
+
+June 17, 2076 Central | 02:37 UT
+
+...6 intervening total eclipses omitted...
+
+September 3, 2202 Last total | 05:59 UT
+
+September 13, 2220 | First partial
+
+...18 intervening partial eclipses omitted...
+
+April 9, 2563 | Last partial umbral
+
+...7 intervening penumbral eclipses omitted...
+
+July 7, 2707 | Last penumbral (northern edge of shadow)
+
+As an example of a single saros series, this table gives the dates of some of the 72 lunar eclipses for saros series 131. This eclipse series began in AD 1427 with a partial eclipse at the southern edge of the Earth's shadow when the Moon was close to its descending node. In each successive saros, the Moon's orbital path is shifted northward with respect to the Earth's shadow, with the first total eclipse occurring in 1950. For the following 252 years, total eclipses occur, with the central eclipse in 2078. The first partial eclipse after this will occur in the year 2220, and the final partial eclipse of the series will occur in 2707. The total lifetime of lunar saros series 131 is 1280 years. Solar saros 138 interleaves with this lunar saros with an event occurring every 9 years 5 days alternating between each saros series.
+
+Because of the +1⁄3 fraction of days in a saros, the visibility of each eclipse will differ for an observer at a given locale. For the lunar saros series 131, the first total eclipse of 1950 had its best visibility for viewers in Eastern Europe and the Middle East because mid-eclipse was at 20:44 UT. The following eclipse in the series occurred about 8 hours later in the day with mid-eclipse at 4:47 UT, and was best seen from North America and South America. The third total eclipse occurred about 8 hours later in the day than the second eclipse with mid-eclipse at 12:43 UT, and had its best visibility for viewers in the Western Pacific, East Asia, Australia and New Zealand. This cycle of visibility repeats from the start to the end of the series, with minor variations. Solar saros 138 interleaves with this lunar saros with an event occurring every 9 years 5 days alternating between each saros series.
+
+For a similar example for solar saros see solar saros 136.
+
+== Relationship between lunar and solar saros (sar) ==
+
+After a given lunar or solar eclipse, after 9 years and 5+1⁄2 days (a half saros, or sar) an eclipse will occur that is lunar instead of solar, or vice versa, with similar properties.
+
+For example, if the Moon's penumbra partially covers the southern limb of the Earth during a solar eclipse, 9 years and 5+1⁄2 days later a lunar eclipse will occur in which the Moon is partially covered by the southern limb of the Earth's penumbra. Likewise, 9 years and 5+1⁄2 days after a total solar eclipse or an annular solar eclipse occurs, a total lunar eclipse will also occur. This 9-year period is referred to as a sar. It includes 111+1⁄2 synodic months, or 111 synodic months plus one fortnight. The fortnight accounts for the alternation between solar and lunar eclipse. For a visual example see this chart (each row is one sar apart).
+
+
+==============================================================================
+PAGE 6 of 7: Callippic cycle
+SOURCE: https://en.wikipedia.org/w/index.php?oldid=1329203308
+PAGEID: 1827917   OLDID: 1329203308   REVISION: 2025-12-24T11:33:56Z
+==============================================================================
+
+The Callippic cycle (or Calippic) is a particular approximate common multiple of the tropical year, the synodic month and the day, proposed by Callippus in 330 BC. It is a period of 76 years, as an improvement of the 19-year Metonic cycle.
+
+== Description ==
+
+A century before Callippus, Meton had described a cycle in which 19 years equals 235 lunations, and judged it to be 6,940 days. This exceeds 235 lunations by almost a third of a day, and 19 tropical years by four tenths of a day. It implicitly gave the solar year a duration of 6940⁄19 = 365 + 5⁄19 = 365 + 1⁄4 + 1⁄76 days = 365 d 6 h 18 min 56 s.
+
+Callippus accepted the 19-year cycle, but held that the duration of the year was more closely 365+1⁄4 days (= 365 d 6 h), so he multiplied the 19-year cycle by 4 to obtain an integer number of days, and then omitted 1 day from the last 19-year cycle. Thus, he computed a cycle of 76 years that consists of 940 lunations and 27,759 days, which has been named the Callippic cycle after him. The cycle's error has been computed as one full day in 553 years, or 4.95 parts per million.
+
+The first year of the first Callippic cycle began at the summer solstice of 330 BC (28 June in the proleptic Julian calendar), and was subsequently used by later astronomers. In Ptolemy's Almagest, for example, he cites (Almagest VII 3, H25) observations by Timocharis during the 47th year of the first Callippic cycle (283 BC), when on the eighth of Anthesterion, the Pleiades star cluster was occulted by the Moon.
+
+The Callippic calendar originally used the names of months from the Attic calendar. Later astronomers, such as Hipparchus, preferred other calendars, including the ancient Egyptian calendar. Also Hipparchus invented his own Hipparchic calendar cycle as an improvement upon the Callippic cycle. Ptolemy's Almagest provided some conversions between the Callippic and Egyptian calendars, such as that Anthesterion 8, 47th year of the first Callippic period was equivalent to day 29 of the month of Athyr, during year 465 of Nabonassar. However, the original, complete form of the Callippic calendar is no longer known.
+
+== Equivalents ==
+
+One Callippic cycle corresponds to:
+
+940 synodic months
+
+1,020.084 draconic months
+
+80.084 eclipse years (160 eclipse seasons)
+
+1,007.410 anomalistic months
+
+The 80 eclipse years means that if there is a solar eclipse (or lunar eclipse), then after one callippic cycle a New Moon (resp. Full Moon) will take place at the same node of the orbit of the Moon, and under these circumstances another eclipse can occur.
+
+
+==============================================================================
+PAGE 7 of 7: Olympiad
+SOURCE: https://en.wikipedia.org/w/index.php?oldid=1371958101
+PAGEID: 332902   OLDID: 1371958101   REVISION: 2026-08-29T15:55:26Z
+==============================================================================
+
+Stadium at ancient Olympia
+
+An olympiad (Greek: Ὀλυμπιάς, Olympiás) is a period of four years, particularly those associated with the ancient and modern Olympic Games.
+
+Although the ancient Olympics were established during Greece's Archaic Era, it was not until Hippias that a consistent list was established and not until Ephorus in the Hellenistic period that the first recorded Olympic contest was used as a calendar epoch. Ancient authors agreed that other Olympics had been held before the race won by Coroebus but disagreed on how many; the convention was established to place Coroebus's victory at a time equivalent to the summer of 776 BC in the Proleptic Julian calendar, and to treat it as Year 1 of Olympiad 1. Olympiad 2 began with the next games in the summer of 772 BC.
+
+Thus, for N less than 195, Olympiad N is reckoned as having started in the year {\displaystyle 780-(4\times N)} BC and ended four years later. For N greater than or equal to 195, Olympiad N began in AD {\displaystyle (4\times N)-779} and ended four years later. By extrapolation, the 2nd year of the 701st Olympiad begins roughly around 2 August 2026.
+
+In reference to the modern Olympics, their Olympiads are four year periods beginning on 1 January of the year of the Summer Games. Thus, the I Olympiad began on 1 January 1896, the II Olympiad began 1 January 1900, and so on. The XXXIII Olympiad began 1 January 2024. Because the Julian and Gregorian calendars go directly from 1 BC to AD 1, the cycle of modern Olympiads is ahead of the ancient cycle by one year.
+
+== Ancient Olympics ==
+
+Each olympiad started with the holding of the games, which originally began on the first or second full moon after the summer solstice. After the introduction of the Metonic cycle about 432 BC, the start of the games was determined slightly differently. Within each olympiad, time was reckoned by referring to its 1st, 2nd, 3rd, or 4th year. Ancient writers sometimes describe their Olympiads as lasting five years but do so by counting inclusively; in fact each comprised a four year period. For example, the first year of Olympiad 140 began in the summer of 220 BC and lasted until the middle of 219 BC. After the 2nd, 3rd, and 4th years of Olympiad 140, the games in the summer of 216 BC would begin the first year of Olympiad 141.
+
+=== Historians ===
+
+The sophist Hippias was the first writer to compile a comprehensive list of the Olympic victors (ολυμπιονίκες, olympioníkes). Although his Olympic Record (Ὀλυμπιονικῶν Ἀναγραφή, Olympionikō̂n Anagraphḗ) is now entirely lost, it apparently formed the basis of all later Olympic dating. The numbering of Olympiads was introduced by Eratosthenes or Timaeus; the first on the list occurred in 776 BC. The panhellenic nature of the games, their regular schedule, and the improved victor list allowed Greek historians from Eratosthenes onwards to use the Olympiads as a way of reckoning time that did not depend on the various calendars of the city-states. The first to do so consistently was Timaeus of Tauromenium in the third century BC. Nevertheless, since for events of the early history of the games the reckoning was used in retrospect, some of the dates given by later historian for events before the 5th century BC are very unreliable. Because the Olympics occurred in mid-summer, the years reckoned by the Olympiad system aligned with the Attic calendar (which names years by the names of archons, not numbers) of Ancient Athens, but not with Roman consular years (which began on 1 January) or Ancient Macedonian calendar years (which began in the autumn).
+
+In the 2nd century, Phlegon of Tralles summarized the events of each Olympiad in a book called Olympiads; fragments survive in the work of the Byzantine writer Photius. Christian chroniclers continued to use this Greek system of dating as a way of synchronizing biblical events with Greek and Roman history. In the 3rd century, Sextus Julius Africanus compiled a list of Olympic victors up to 217 BC, and this list has been preserved in the Chronicle of Eusebius.
+
+=== Examples of Ancient Olympiad dates ===
+
+A relief of the Greek Olympiad
+
+Early historians sometimes used the names of Olympic victors as a method of dating events to a specific year. For instance, Thucydides says in his account of the year 428 BC: "It was the Olympiad in which the Rhodian Dorieus gained his second victory."
+
+Dionysius of Halicarnassus dates the foundation of Rome to the first year of the seventh Olympiad, 752 & 751 BC. Since Rome was founded on 21 April, which was in the last half of the ancient Olympic year, it would be 751 BC specifically. In Book 1 chapter 75 Dionysius states: "...Romulus, the first ruler of the city, began his reign in the first year of the seventh Olympiad, when Charops at Athens was in the first year of his ten-year term as archon."
+
+Diodorus Siculus dates the Persian invasion of Greece to 480 BC: "Calliades was archon in Athens, and the Romans made Spurius Cassius and Proculus Verginius Tricostus consuls, and the Eleians celebrated the Seventy-fifth Olympiad, that in which Astylus of Syracuse won the stadion. It was in this year that king Xerxes made his campaign against Greece."
+
+Jerome, in his Latin translation of the Chronicle of Eusebius, dates the birth of Jesus Christ to year 3 of Olympiad 194, the 42nd year of the reign of the emperor Augustus, which equates to the year 2 BC.
+
+=== Anolympiad ===
+
+Though the games were held without interruption, on more than one occasion they were held by others than the Eleians. The Eleians declared such games Anolympiads (non-Olympics), but it is assumed the winners were nevertheless recorded.
+
+=== End of the era ===
+
+During the 3rd century, records of the games are so scanty that historians are not certain whether after 261 they were still held every four years. Some winners were recorded though, until the 293rd Olympiad of AD 393.
+
+Although the end of the games has sometimes been linked to the anti-pagan laws of Theodosius I (391–392) or Theodosius II (435), this is no longer widely accepted. The last games at Olympia were probably held in the first half of the 5th century. The last datable Olympic festival took place at Antioch in 520. Dating by Olympiads survived the Olympics themselves. The Chronicon Paschale dates events by Olympiad down to the 352nd Olympiad (AD 628).
+
+== Modern Olympics ==
+
+Olympiad | First year | Last year | Host city | Country
+
+I (1st) | 1896 | 1899 | Athens | Greece
+
+II (2nd) | 1900 | 1903 | Paris | France
+
+III (3rd) | 1904 | 1907 | St. Louis | United States
+
+IV (4th) | 1908 | 1911 | London | Great Britain
+
+V (5th) | 1912 | 1915 | Stockholm | Sweden
+
+VI (6th) | 1916 | 1919 | Berlin | Germany
+
+VII (7th) | 1920 | 1923 | Antwerp | Belgium
+
+VIII (8th) | 1924 | 1927 | Paris | France
+
+IX (9th) | 1928 | 1931 | Amsterdam | Netherlands
+
+X (10th) | 1932 | 1935 | Los Angeles | United States
+
+XI (11th) | 1936 | 1939 | Berlin | Germany
+
+XII (12th) | 1940 | 1943 | Tokyo | Japan
+
+Helsinki | Finland
+
+XIII (13th) | 1944 | 1947 | London | Great Britain
+
+XIV (14th) | 1948 | 1951 | London | Great Britain
+
+XV (15th) | 1952 | 1955 | Helsinki | Finland
+
+XVI (16th) | 1956 | 1959 | Melbourne | Australia
+
+XVII (17th) | 1960 | 1963 | Rome | Italy
+
+XVIII (18th) | 1964 | 1967 | Tokyo | Japan
+
+XIX (19th) | 1968 | 1971 | Mexico City | Mexico
+
+XX (20th) | 1972 | 1975 | Munich | West Germany
+
+XXI (21st) | 1976 | 1979 | Montreal | Canada
+
+XXII (22nd) | 1980 | 1983 | Moscow | Soviet Union
+
+XXIII (23rd) | 1984 | 1987 | Los Angeles | United States
+
+XXIV (24th) | 1988 | 1991 | Seoul | South Korea
+
+XXV (25th) | 1992 | 1995 | Barcelona | Spain
+
+XXVI (26th) | 1996 | 1999 | Atlanta | United States
+
+XXVII (27th) | 2000 | 2003 | Sydney | Australia
+
+XXVIII (28th) | 2004 | 2007 | Athens | Greece
+
+XXIX (29th) | 2008 | 2011 | Beijing | China
+
+XXX (30th) | 2012 | 2015 | London | Great Britain
+
+XXXI (31st) | 2016 | 2019 | Rio de Janeiro | Brazil
+
+XXXII (32nd) | 2020 | 2023 | Tokyo | Japan
+
+XXXIII (33rd) | 2024 | 2027 | Paris | France
+
+XXXIV (34th) | 2028 | 2031 | Los Angeles | United States
+
+XXXV (35th) | 2032 | 2035 | Brisbane | Australia
+
+=== Start and end ===
+
+The Summer Olympics are more correctly referred to as the Games of the Olympiad. The first poster to announce the games using this term was the one for the 1932 Summer Olympics, in Los Angeles, using the phrase: Call to the games of the Xth Olympiad.
+
+The modern Olympiad is a period of four years: the first Olympiad started on 1 January 1896, and an Olympiad starts on 1 January of the years evenly divisible by four.
+
+This means that the count of the Olympiads continues, even if Olympic Games are cancelled: For instance, the regular intervals would have meant (summer) Olympic Games should have occurred in 1940 and 1944, but both were cancelled due to World War II.
+
+Nonetheless, the count of the Olympiads continued: The 1936 Games were those of the XI Olympiad, while the next Summer Games were those of 1948, which were the Games of the XIV Olympiad. The current Olympiad is the XXXIII of the modern era, which began on 1 January 2024.
+
+Note, however, that the official numbering of the Winter Olympics does not count Olympiads, it counts only the Games themselves.
+
+For example, the first Winter Games, in 1924, are not designated as Winter Games of the VII Olympiad, but as the I Winter Olympic Games. (The first Winter Games were termed as "Olympic" in a later year.)
+
+The 1936 Summer Games were the Games of the XI Olympiad. After the 1940 and 1944 Summer Games were canceled due to World War II, the Games resumed in 1948 as the Games of the XIV Olympiad. However, the 1936 Winter Games were the IV Winter Olympic Games, and on the resumption of the Winter Games in 1948, the event was designated the V Winter Olympic Games.
+
+The 2020 Summer Games were the Games of the XXXII Olympiad. On 24 March 2020, due to the COVID-19 pandemic, it was postponed to 2021 rather than cancelled, and thus becoming the first postponement in the 124-year history of the Olympics.
+
+Some media people have from time to time referred to a particular (e.g., the nth) Winter Olympics as "the Games of the nth Winter Olympiad", perhaps believing it to be the correct formal name for the Winter Games by analogy with that of the Summer Games. Indeed, at least one IOC-published article has applied this nomenclature as well. This analogy is sometimes extended further by media references to "Summer Olympiads".
+
+However, the IOC does not seem to make an official distinction between Olympiads for the summer and winter games, and such usage, particularly for the Winter Olympics, is inconsistent with the numbering discussed above.
+
+=== Quadrennium ===
+
+Some Olympic Committees often use the term quadrennium, which they claim refers to the same four-year period. However, it indicates these quadrennia in calendar years, starting with the first year after the Summer Olympics and ending with the year the next Olympics are held. This would suggest a more precise period of four years, but, for example, the 2001–2004 Quadrennium would then not be exactly the same period as the XXVII Olympiad, which was 2000–2003.
+
+=== Cultural programmes ===
+
+Pierre de Coubertin, who founded the modern Olympic Games, proposed including the arts in the Olympics, returning to the ancient tradition in Olympia, where both cultural events and physical feats were celebrated. At a 1906 conference in Paris, a project was launched to establish five arts competitions as part of the Olympic Games: in architecture, sculpture, painting, literature, and music, the Olympic art competitions. The first official programme was presented during the 1912 Games in Stockholm, with the last held in 1948.
+
+In 1952 the Organising Committee of the Olympic Games (OCOG) of the Helsinki games decided to drop the arts programme. However From 1954 to 1990, the IOC asked each OCOG to organise a programme of arts events that showcased the best of the host country's culture as well as encouraging international understanding. From the Barcelona Olympics in 1992, a "Cultural Olympiad" started being held to accompany the Olympic Games, organised by the OCOG during the preceding four years to each Games as well as a series of major events to coincide with the sports events. The term "Cultural Olympiad" has been largely replaced by "Cultural Programme", which starts about four years before the Games. Around two months before the Games, the "Culture Festival" is launched, lasting until the end of the Paralympic Games. In 2020, a new strategy was announced as part of Olympic Agenda 2020, via Recommendation 26, which aims to "further strengthen the alliance of sport and culture at the Olympic Games and between their different editions". The Olympic Foundation for Culture and Heritage reinforced its own cultural policy as part of this new strategy.
+
+== Other uses ==
+
+The English term is still often used popularly to indicate the games themselves, a usage that is uncommon in ancient Greek (as an Olympiad is most often the time period between and including sets of games). It is also used to indicate international competitions other than physical sports. This includes international science olympiads, such as the International Geography Olympiad, International Mathematical Olympiad, International Forensics Olympiad, and the International Linguistics Olympiad and their associated national qualifying tests (e.g., the United States of America Mathematical Olympiad, the USA Forensics Olympiad or the United Kingdom Linguistics Olympiad), and also events in mind-sports, such as the Science Olympiad, Mindsport Olympiad, Chess Olympiad, International History Olympiad and Computer Olympiad. In these cases Olympiad is used to indicate a regular event of international competition for top achieving participants; it does not necessarily indicate a four-year period.
+
+In some languages, like Czech and Slovak, Olympiad (Czech: olympiáda) is the correct term for the games.
+
+The Olympiad (L'Olimpiade) is also the name of some 60 operas set in Ancient Greece.

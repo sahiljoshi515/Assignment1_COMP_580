@@ -1,0 +1,159 @@
+{
+  "doc_id": "antikythera_dossier_v1",
+  "source_document": "corpus/data/antikythera_dossier_v1.txt",
+  "schema_version": "1.0",
+  "generated_from": "corpus/questions/antikythera_dossier_v1.jsonl",
+  "count": 20,
+  "questions": [
+    {
+      "number": 1,
+      "qid": "antikythera-T1-001",
+      "question": "What weight in grams is recorded for Fragment G of the Antikythera mechanism?",
+      "answer_type": "number",
+      "unit": "grams",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 2,
+      "qid": "antikythera-T1-002",
+      "question": "How many teeth does gear r1, the gear in fragment D otherwise unaccounted for, have?",
+      "answer_type": "number",
+      "unit": "teeth",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 3,
+      "qid": "antikythera-T1-003",
+      "question": "What average circular pitch is given for the mechanism's gear teeth?",
+      "answer_type": "number",
+      "unit": "mm",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 4,
+      "qid": "antikythera-T1-004",
+      "question": "In how many of the Saros dial's 223 synodic month cells do glyphs appear?",
+      "answer_type": "number",
+      "unit": "cells",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 5,
+      "qid": "antikythera-T1-005",
+      "question": "What is Malin and Dickens' best estimate for the number of holes beneath the mechanism's outer front ring?",
+      "answer_type": "phrase",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 6,
+      "qid": "antikythera-T1-006",
+      "question": "What calibrated calendar date did the 1964 carbon dating of the ship's hull planking deliver?",
+      "answer_type": "date",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 7,
+      "qid": "antikythera-T1-007",
+      "question": "In what year did Price become the Avalon Professor of the History of Science?",
+      "answer_type": "date",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 8,
+      "qid": "antikythera-T1-008",
+      "question": "By how much is the Metonic cycle, defined as 235 synodic months, longer than 19 tropical years?",
+      "answer_type": "phrase",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 9,
+      "qid": "antikythera-T1-009",
+      "question": "Expressed in parts per million, what is the computed error of the Callippic cycle?",
+      "answer_type": "number",
+      "unit": "parts per million",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 10,
+      "qid": "antikythera-T1-010",
+      "question": "What period is given for the slow gyration of the Earth-Moon system's rotation axis?",
+      "answer_type": "number",
+      "unit": "years",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 11,
+      "qid": "antikythera-T1-011",
+      "question": "In which city was the final recorded Olympic celebration held?",
+      "answer_type": "entity",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 12,
+      "qid": "antikythera-T2-012",
+      "question": "Fragment 19's back door bears an inscription reading \"... 76 years ...\". Whose observations, cited in Ptolemy's Almagest, are dated to the 47th year of the first period of the cycle that inscription refers to?",
+      "answer_type": "entity",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 13,
+      "qid": "antikythera-T2-013",
+      "question": "Which ancient Greek city is proposed as the device's origin on the strength of the coins later found to have been minted between 76 and 67 BC?",
+      "answer_type": "entity",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 14,
+      "qid": "antikythera-T2-014",
+      "question": "The historian of science who, with the Greek nuclear physicist Charalampos Karakalos, imaged the 82 fragments by X-ray and gamma ray in 1971 obtained a second doctorate in what year?",
+      "answer_type": "date",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 15,
+      "qid": "antikythera-T2-015",
+      "question": "The man who built a simple working model of the mechanism in the 1970s had earlier compiled an inventory of the scientific apparatus held by which institution?",
+      "answer_type": "entity",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 16,
+      "qid": "antikythera-T2-016",
+      "question": "Iversen argues the surviving model was modified for a client from a particular region of northwestern Greece. Which minor games named on the Games dial were held in that region?",
+      "answer_type": "entity",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 17,
+      "qid": "antikythera-T2-017",
+      "question": "The Greek numeral inscription ΣΚΓ on fragment 19 denotes one full cycle. How many draconic months does the document equate with that cycle?",
+      "answer_type": "number",
+      "unit": "draconic months",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 18,
+      "qid": "antikythera-T3-018",
+      "question": "Counting lunar and solar together, how many eclipses do the Saros dial glyphs specify in total?",
+      "answer_type": "number",
+      "unit": "eclipses",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 19,
+      "qid": "antikythera-T3-019",
+      "question": "How many years separate Meton's introduction of the 19-year cycle to the Attic calendar from the start of the first year of the first Callippic cycle?",
+      "answer_type": "number",
+      "unit": "years",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 20,
+      "qid": "antikythera-T3-020",
+      "question": "What is the combined mass, in grams, of the seven major fragments listed for the mechanism?",
+      "answer_type": "number",
+      "unit": "grams",
+      "max_answer_tokens": 8
+    }
+  ]
+}

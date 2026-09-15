@@ -1,0 +1,160 @@
+{
+  "doc_id": "harbour_puzzle_v1",
+  "source_document": "corpus/data/harbour_puzzle_v1.txt",
+  "schema_version": "1.0",
+  "generated_from": "corpus/questions/harbour_puzzle_v1.jsonl",
+  "count": 20,
+  "questions": [
+    {
+      "number": 1,
+      "qid": "harbour-T1-001",
+      "question": "How many berths does the ledger say lie between the Lashafever ailment and the Fruitokwilt ailment?",
+      "answer_type": "number",
+      "unit": "berths",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 2,
+      "qid": "harbour-T1-002",
+      "question": "How many berths separate the Klaegryloc keeper from the Krouslull watch?",
+      "answer_type": "number",
+      "unit": "berths",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 3,
+      "qid": "harbour-T1-003",
+      "question": "Over which run of berths does the harbourmaster count exactly four of the Keindygrist cargo, the Skechekaemia ailment, the Malitis ailment, the Hurdaslull watch and the Jisaengale watch?",
+      "answer_type": "phrase",
+      "max_answer_tokens": 6
+    },
+    {
+      "number": 4,
+      "qid": "harbour-T1-004",
+      "question": "Which ailment stands at the berth immediately east of the Preirkeamund home port?",
+      "answer_type": "entity",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 5,
+      "qid": "harbour-T1-005",
+      "question": "How many slips does the register set between the Gleigrun custodian and the Brileafever malady?",
+      "answer_type": "number",
+      "unit": "berths",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 6,
+      "qid": "harbour-T1-006",
+      "question": "Which ailment is recorded at the same berth as the Sliollesturn watch?",
+      "answer_type": "entity",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 7,
+      "qid": "harbour-T1-007",
+      "question": "Which keeper is recorded at the same berth as the Blystox creature?",
+      "answer_type": "entity",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 8,
+      "qid": "harbour-T1-008",
+      "question": "Which beast does the register place at the first slip, the most westerly of them all?",
+      "answer_type": "entity",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 9,
+      "qid": "harbour-T1-009",
+      "question": "How many berths separate the Chirmillusk creature from the Vroapokell keeper?",
+      "answer_type": "number",
+      "unit": "berths",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 10,
+      "qid": "harbour-T1-010",
+      "question": "Which pennant is berthed immediately west of the Tryngasume pennant, with nothing between them?",
+      "answer_type": "entity",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 11,
+      "qid": "harbour-T1-011",
+      "question": "How many berths lie between the Vylmash cargo and the Fruitokwilt ailment?",
+      "answer_type": "number",
+      "unit": "berths",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 12,
+      "qid": "harbour-T2-001",
+      "question": "How many berths does the ledger count between the Skoukweed cargo and the pennant that is recorded at the same berth as the Gleigrun keeper?",
+      "answer_type": "number",
+      "unit": "berths",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 13,
+      "qid": "harbour-T2-002",
+      "question": "How many berths separate the Gliokosis ailment from the ailment that is recorded at the same berth as the Rourdellyrn creature?",
+      "answer_type": "number",
+      "unit": "berths",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 14,
+      "qid": "harbour-T2-003",
+      "question": "Which home port is entered in the berth immediately east of the keeper who shares a berth with the Kolusreth home port?",
+      "answer_type": "entity",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 15,
+      "qid": "harbour-T2-004",
+      "question": "Which custodian is entered at the slip directly east of the animal that occupies the same slip as the Lyrliospan shift?",
+      "answer_type": "entity",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 16,
+      "qid": "harbour-T2-005",
+      "question": "How many berths does the ledger count between the Stiascar home port and the creature that shares a berth with the Siolweed cargo?",
+      "answer_type": "number",
+      "unit": "berths",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 17,
+      "qid": "harbour-T2-006",
+      "question": "Which home port stands in the berth immediately east of the home port that shares a berth with the Hurdaslull watch?",
+      "answer_type": "entity",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 18,
+      "qid": "harbour-T3-001",
+      "question": "How many of the numbered entries in Part Two name the Gokearot ailment?",
+      "answer_type": "number",
+      "unit": "entries",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 19,
+      "qid": "harbour-T3-002",
+      "question": "How many numbered entries appear under the heading 'SECTION 5 -- The outer berths and the shoal side'?",
+      "answer_type": "number",
+      "unit": "entries",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 20,
+      "qid": "harbour-T3-003",
+      "question": "Across the whole record, how many numbered entries give the gap between the two items they name as three slips?",
+      "answer_type": "number",
+      "unit": "entries",
+      "max_answer_tokens": 8
+    }
+  ]
+}

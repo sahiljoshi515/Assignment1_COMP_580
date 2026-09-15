@@ -1,0 +1,158 @@
+{
+  "doc_id": "dwh_dossier_v1",
+  "source_document": "corpus/data/dwh_dossier_v1.txt",
+  "schema_version": "1.0",
+  "generated_from": "corpus/questions/dwh_dossier_v1.jsonl",
+  "count": 20,
+  "questions": [
+    {
+      "number": 1,
+      "qid": "dwh-T1-001",
+      "question": "Including one-time use sorbent booms, what total length of booms was deployed during the Deepwater Horizon response?",
+      "answer_type": "number",
+      "unit": "ft",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 2,
+      "qid": "dwh-T1-002",
+      "question": "How many sorties were flown to release the dispersant product during the spill response?",
+      "answer_type": "number",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 3,
+      "qid": "dwh-T1-003",
+      "question": "How large was the no-fly zone that aviation regulators imposed over the spill response operations area?",
+      "answer_type": "number",
+      "unit": "sq mi",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 4,
+      "qid": "dwh-T1-004",
+      "question": "How many claimants did the independent auditor of the Gulf Coast Claims Facility find had been wrongly denied or underpaid?",
+      "answer_type": "number",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 5,
+      "qid": "dwh-T1-005",
+      "question": "During the negative pressure test on the Macondo well, what drill pipe pressure result was ignored?",
+      "answer_type": "number",
+      "unit": "psi",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 6,
+      "qid": "dwh-T1-006",
+      "question": "Despite the recommendation to circulate one bottoms up before the cement job, how many barrels of mud did BP actually cycle?",
+      "answer_type": "number",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 7,
+      "qid": "dwh-T1-007",
+      "question": "Under the Limitation of Shipowner's Liability Act, at what value did Transocean put its interest in the Deepwater Horizon?",
+      "answer_type": "number",
+      "unit": "USD",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 8,
+      "qid": "dwh-T1-008",
+      "question": "How many species did the comprehensive 2009 census of offshore Gulf species tally?",
+      "answer_type": "number",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 9,
+      "qid": "dwh-T1-009",
+      "question": "In its testimony to the U.S. House Judiciary Committee, how many lawsuits did Transocean say it was a defendant in?",
+      "answer_type": "number",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 10,
+      "qid": "dwh-T1-010",
+      "question": "Through which captive insurance vehicle does BP largely underwrite its own risk?",
+      "answer_type": "entity",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 11,
+      "qid": "dwh-T1-011",
+      "question": "Of the Corexit shipped to the stricken tanker Esso Essen in April 1968, how much was actually sprayed onto the slick by aircraft?",
+      "answer_type": "number",
+      "unit": "barrels",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 12,
+      "qid": "dwh-T2-001",
+      "question": "The firm that fabricated the rig's well-control stack -- which a congressional inquiry found had a fluid leak and a dead battery -- agreed in December 2011 to pay BP how much?",
+      "answer_type": "number",
+      "unit": "USD",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 13,
+      "qid": "dwh-T2-002",
+      "question": "The chemicals company whose shares jumped 18% in one day in May 2010 once it emerged its dispersant was being used became, in 2011, the property of which company?",
+      "answer_type": "entity",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 14,
+      "qid": "dwh-T2-003",
+      "question": "The partner that held a 10% stake in the Macondo Prospect through a Mitsui unit agreed to pay how much to the Oil Spill Liability Trust Fund?",
+      "answer_type": "number",
+      "unit": "USD",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 15,
+      "qid": "dwh-T2-004",
+      "question": "The BP manager who was angry that the MC 252 well was over budget and refused his technical staff's recommendation to re-squeeze it was later charged with what federal offence?",
+      "answer_type": "phrase",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 16,
+      "qid": "dwh-T2-005",
+      "question": "The Corexit formulation the EPA measured as 63.4% effective in dispersing Louisiana crude was used, with Corexit 7764, during which 1992 oil spill in South Australia?",
+      "answer_type": "entity",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 17,
+      "qid": "dwh-T2-006",
+      "question": "The US District Judge who in December 2012 dismissed all claims against the manufacturer of Corexit presided over which multidistrict litigation docket?",
+      "answer_type": "entity",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 18,
+      "qid": "dwh-T3-001",
+      "question": "Of the eleven workers named as killed in the Deepwater Horizon explosion, how many are listed with a home town in Louisiana?",
+      "answer_type": "number",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 19,
+      "qid": "dwh-T3-002",
+      "question": "Under the January 2013 Justice Department announcement, what was the aggregate sum the Mitsui affiliate was directed to disburse?",
+      "answer_type": "number",
+      "unit": "USD",
+      "max_answer_tokens": 8
+    },
+    {
+      "number": 20,
+      "qid": "dwh-T3-003",
+      "question": "This dossier gives two different volumes for the Corexit applied at the Macondo wellhead -- one in the account of dispersant use during the response, the other from a January 2011 Woods Hole Oceanographic Institute study. What is the difference between them, in US gallons?",
+      "answer_type": "number",
+      "unit": "US gallons",
+      "max_answer_tokens": 8
+    }
+  ]
+}
