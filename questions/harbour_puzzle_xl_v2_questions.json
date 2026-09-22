@@ -1,6 +1,6 @@
 {
   "doc_id": "harbour_puzzle_xl_v2",
-  "source_document": "corpus/data/harbour_puzzle_xl_v2.txt",
+  "source_document": "contexts/harbour_puzzle_xl_v2.txt",
   "schema_version": "1.0",
   "generated_from": "corpus/questions/harbour_puzzle_xl_v2.jsonl",
   "count": 20,
