@@ -2,7 +2,7 @@
   "doc_id": "dwh_dossier_v1",
   "source_document": "corpus/data/dwh_dossier_v1.txt",
   "schema_version": "1.0",
-  "generated_from": "corpus/questions/dwh_dossier_v1.jsonl",
+  "generated_from": "contexts/dwh_dossier_v1.jsonl",
   "count": 20,
   "questions": [
     {
