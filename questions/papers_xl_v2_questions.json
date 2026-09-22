@@ -1,6 +1,6 @@
 {
   "doc_id": "papers_xl_v2",
-  "source_document": "corpus/data/papers_xl_v2.txt",
+  "source_document": "contexts/papers_xl_v2.txt",
   "schema_version": "1.0",
   "generated_from": "corpus/questions/papers_xl_v2.jsonl",
   "count": 20,
