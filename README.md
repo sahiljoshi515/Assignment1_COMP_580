@@ -90,8 +90,7 @@ Fix random seeds whenever applicable and ensure that your experiments can be exe
 Submit:
 
 * Source code (ideally, 2 python files should suffice for this assignment)
-* Generated plots
-* A short report describing your approach, experiments, and results
+* A short report describing your approach, experiments, results, and generated plots
 
 Your report should clearly compare the **full-context baseline** against your **Bloom-Filter-based approach**, including both question-answering accuracy and input token usage.
 
