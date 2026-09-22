@@ -1,6 +1,6 @@
 {
   "doc_id": "antikythera_dossier_v1",
-  "source_document": "corpus/data/antikythera_dossier_v1.txt",
+  "source_document": "contexts/antikythera_dossier_v1.txt",
   "schema_version": "1.0",
   "generated_from": "corpus/questions/antikythera_dossier_v1.jsonl",
   "count": 20,
