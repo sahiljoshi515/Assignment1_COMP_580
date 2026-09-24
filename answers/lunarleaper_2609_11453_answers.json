@@ -1,0 +1,1409 @@
+{
+  "doc_id": "lunarleaper_2609_11453",
+  "source_document": "contexts/lunarleaper_2609_11453.txt",
+  "schema_version": "1.0",
+  "generated_from": "questions/lunarleaper_2609_11453.json",
+  "count": 20,
+  "answers": [
+    {
+      "number": 1,
+      "qid": "lunarleaper-T1-001",
+      "question": "What slope range does the paper give for a pit funnel, constrained by the angle of repose of dry regolith?",
+      "expected": "30 to 40 degrees",
+      "aliases": [
+        "30 to 40",
+        "about 30 to 40 degrees",
+        "30-40 degrees",
+        "30∘ to 40∘",
+        "30° to 40°"
+      ],
+      "gold_answer": "30 to 40 degrees",
+      "accepted_aliases": [
+        "30 to 40",
+        "about 30 to 40 degrees",
+        "30-40 degrees",
+        "30∘ to 40∘",
+        "30° to 40°"
+      ],
+      "answer_type": "phrase",
+      "grading": {
+        "normaliser": "exact_ci",
+        "numeric_tolerance_rel": 0.005,
+        "unit": "degrees",
+        "max_answer_tokens": 8
+      },
+      "tier": "T1_lookup",
+      "lexical_overlap": "verbatim",
+      "min_chunks_required": 1,
+      "retrieval_keys": [
+        "angle of repose",
+        "dry regolith",
+        "funnel",
+        "topographic slope",
+        "pit"
+      ],
+      "gold_spans": [
+        {
+          "source": "1 Introduction",
+          "section_path": [
+            "1 Introduction"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "The topographic slope of the funnel is likely constrained by the angle of repose of dry regolith, at about 30∘ to 40∘."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "5.2 Concept of Operation",
+          "why": "gives a 10 degree traverse cut-off slope, and 4-20 degree slope shading in Figure 12"
+        },
+        {
+          "source": "4.2.1 Camera",
+          "why": "gives funnel slope limits of 5, 10 and >15 degrees for imaging positions"
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Degree glyph in the source is U+2218; graders should normalise it."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 2,
+      "qid": "lunarleaper-T1-002",
+      "question": "How thick are the discrete wall layers seen in LRO NAC images of the Mare Tranquillitatis Pit?",
+      "expected": "1-13 meters",
+      "aliases": [
+        "1 to 13 meters",
+        "between 1 and 13 m",
+        "1-13 m",
+        "1-13 metres"
+      ],
+      "gold_answer": "1-13 meters",
+      "accepted_aliases": [
+        "1 to 13 meters",
+        "between 1 and 13 m",
+        "1-13 m",
+        "1-13 metres"
+      ],
+      "answer_type": "phrase",
+      "grading": {
+        "normaliser": "exact_ci",
+        "numeric_tolerance_rel": 0.005,
+        "unit": "metres",
+        "max_answer_tokens": 8
+      },
+      "tier": "T1_lookup",
+      "lexical_overlap": "paraphrase",
+      "min_chunks_required": 1,
+      "retrieval_keys": [
+        "mare tranquillitatis pit",
+        "layers",
+        "wall",
+        "thick",
+        "lro nac images"
+      ],
+      "gold_spans": [
+        {
+          "source": "2.1 Pit Wall Stratigraphy",
+          "section_path": [
+            "2 Studying Lunar Volcanic Evolution at and around Lunar Pits",
+            "2.1 Pit Wall Stratigraphy"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "Previous analyses of LRO NAC images, particularly of the Mare Tranquillitatis Pit, show discrete layers along the wall that appear between 1-13 meters thick"
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "4.2.1 Camera",
+          "why": "states paleo-regolith layers are about 5 cm thick -- a competing layer thickness"
+        },
+        {
+          "source": "A.1 Simulation Parameters",
+          "why": "assigns a 3 m regolith layer and a 30 m basalt layer"
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": ""
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 3,
+      "qid": "lunarleaper-T1-003",
+      "question": "In the statement of science objective O2, how many pits does the paper say have been located in the mare regions?",
+      "expected": "10",
+      "aliases": [
+        "10 pits",
+        "ten"
+      ],
+      "gold_answer": "10",
+      "accepted_aliases": [
+        "10 pits",
+        "ten"
+      ],
+      "answer_type": "number",
+      "grading": {
+        "normaliser": "numeric",
+        "numeric_tolerance_rel": 0.005,
+        "unit": "pits",
+        "max_answer_tokens": 8
+      },
+      "tier": "T1_lookup",
+      "lexical_overlap": "paraphrase",
+      "min_chunks_required": 1,
+      "retrieval_keys": [
+        "objective o2",
+        "pits located",
+        "mare regions",
+        "lava tubes",
+        "habitation"
+      ],
+      "gold_spans": [
+        {
+          "source": "5.1 Mission Objectives",
+          "section_path": [
+            "5 LunarLeaper - A Mission Overview",
+            "5.1 Mission Objectives"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "Lava tubes are hypothesized to span hundreds of kilometers, yet only 10 pits have been located in the Mare regions."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "1 Introduction",
+          "why": "says 16 mare pits have been identified in orbital images -- the paper contradicts itself, so the question names O2 as the source"
+        },
+        {
+          "source": "1 Introduction",
+          "why": "also gives approximately 300 mapped lunar pits and 279 pits in the Figure 2 caption"
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "The document is internally inconsistent (16 vs 10); question pins the source section deliberately."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 4,
+      "qid": "lunarleaper-T1-004",
+      "question": "What operational performance did the Apollo 17 Traverse Gravimeter Experiment actually achieve on the lunar surface?",
+      "expected": "2 mGal",
+      "aliases": [
+        "2 mgal",
+        "only 2 mGal",
+        "2 milligal"
+      ],
+      "gold_answer": "2 mGal",
+      "accepted_aliases": [
+        "2 mgal",
+        "only 2 mGal",
+        "2 milligal"
+      ],
+      "answer_type": "number",
+      "grading": {
+        "normaliser": "numeric",
+        "numeric_tolerance_rel": 0.005,
+        "unit": "mGal",
+        "max_answer_tokens": 8
+      },
+      "tier": "T1_lookup",
+      "lexical_overlap": "verbatim",
+      "min_chunks_required": 1,
+      "retrieval_keys": [
+        "apollo 17",
+        "traverse gravimeter experiment",
+        "operational performance",
+        "lunar surface",
+        "mgal"
+      ],
+      "gold_spans": [
+        {
+          "source": "Operational Challenges",
+          "section_path": [
+            "4 Investigating Lava Tubes",
+            "4.1 LunarLeaper Subsurface Investigations",
+            "4.1.1 Gravity Surveys",
+            "Operational Challenges"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "The combined impact of these effects is illustrated by the Apollo 17 Traverse Gravimeter Experiment, which, despite a theoretical resolution of 0.035 mGal, achieved an operational performance on the lunar surface of only 2 mGal"
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Operational Challenges",
+          "why": "the same sentence gives a theoretical resolution of 0.035 mGal -- the near-miss competitor"
+        },
+        {
+          "source": "Operational Challenges",
+          "why": "the free-air paragraph gives a 0.05 mGal error budget"
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": ""
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 5,
+      "qid": "lunarleaper-T1-005",
+      "question": "Around what frequency are the thermal moonquakes that dominate the ambient lunar seismic noise?",
+      "expected": "7 Hz",
+      "aliases": [
+        "7 hz",
+        "around 7 Hz",
+        "7"
+      ],
+      "gold_answer": "7 Hz",
+      "accepted_aliases": [
+        "7 hz",
+        "around 7 Hz",
+        "7"
+      ],
+      "answer_type": "number",
+      "grading": {
+        "normaliser": "numeric",
+        "numeric_tolerance_rel": 0.005,
+        "unit": "Hz",
+        "max_answer_tokens": 8
+      },
+      "tier": "T1_lookup",
+      "lexical_overlap": "paraphrase",
+      "min_chunks_required": 1,
+      "retrieval_keys": [
+        "thermal moonquakes",
+        "ambient seismic noise",
+        "frequency",
+        "passive",
+        "hz"
+      ],
+      "gold_spans": [
+        {
+          "source": "Seismic Surveys",
+          "section_path": [
+            "4 Investigating Lava Tubes",
+            "4.3 Alternative Geophysical Investigations",
+            "Seismic Surveys"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "A second, more deployment-friendly seismic strategy is to remain passive and measure the ambient seismic noise created mainly by naturally occurring thermal moonquakes (Civilini et al., 2023) around 7 Hz frequency."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Seismic Surveys",
+          "why": "a later paragraph gives 1-10 Hz as the MEMS sensor measurement band"
+        },
+        {
+          "source": "The LunarLeaper GPR",
+          "why": "radar frequencies of 100 MHz and 150-1200 MHz appear nearby in the same section 4"
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": ""
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 6,
+      "qid": "lunarleaper-T1-006",
+      "question": "Over what frequency band does RIMFAX operate?",
+      "expected": "150 and 1200 MHz",
+      "aliases": [
+        "150-1200 MHz",
+        "150 to 1200 MHz",
+        "between 150 and 1200 MHz"
+      ],
+      "gold_answer": "150 and 1200 MHz",
+      "accepted_aliases": [
+        "150-1200 MHz",
+        "150 to 1200 MHz",
+        "between 150 and 1200 MHz"
+      ],
+      "answer_type": "phrase",
+      "grading": {
+        "normaliser": "exact_ci",
+        "numeric_tolerance_rel": 0.005,
+        "unit": "MHz",
+        "max_answer_tokens": 8
+      },
+      "tier": "T1_lookup",
+      "lexical_overlap": "verbatim",
+      "min_chunks_required": 1,
+      "retrieval_keys": [
+        "rimfax",
+        "operating",
+        "frequency band",
+        "mhz",
+        "gpr"
+      ],
+      "gold_spans": [
+        {
+          "source": "The LunarLeaper GPR",
+          "section_path": [
+            "4 Investigating Lava Tubes",
+            "4.1 LunarLeaper Subsurface Investigations",
+            "4.1.2 Ground Penetrating Radar (GPR)",
+            "The LunarLeaper GPR"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "Operating between 150 and 1200 MHz, RIMFAX has been providing high-resolution imaging of subsurface layers to depths of more than 15 meters on the crater floor and more than 30 meters on the Jezero delta."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "The LunarLeaper GPR",
+          "why": "the same paragraph baselines an antenna with gain around 100 MHz for the lunar version"
+        },
+        {
+          "source": "A.1 Simulation Parameters",
+          "why": "the simulation uses 100 MHz and 250 MHz source wavelets"
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": ""
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 7,
+      "qid": "lunarleaper-T1-007",
+      "question": "What angular sharpness must the pit-wall photographic instrument achieve to pick out 5 cm details from the far rim?",
+      "expected": "0.25 mrad",
+      "aliases": [
+        "0.25 milliradians",
+        "0.25 mrad",
+        "0.25"
+      ],
+      "gold_answer": "0.25 mrad",
+      "accepted_aliases": [
+        "0.25 milliradians",
+        "0.25 mrad",
+        "0.25"
+      ],
+      "answer_type": "number",
+      "grading": {
+        "normaliser": "numeric",
+        "numeric_tolerance_rel": 0.005,
+        "unit": "mrad",
+        "max_answer_tokens": 8
+      },
+      "tier": "T1_lookup",
+      "lexical_overlap": "mismatch",
+      "min_chunks_required": 1,
+      "retrieval_keys": [
+        "angular",
+        "sharpness",
+        "photographic instrument",
+        "far rim",
+        "5 cm details"
+      ],
+      "gold_spans": [
+        {
+          "source": "4.2.1 Camera",
+          "section_path": [
+            "4 Investigating Lava Tubes",
+            "4.2 LunarLeaper Surface Investigations",
+            "4.2.1 Camera"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "To resolve structures of 5 cm in size across the pit from a distance of 100 meters, an angular resolution of 0.25 mrad is needed."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Instrument (4.2.2 Fabry Perot Spectrometer)",
+          "why": "gives an instantaneous field of view of 24.5 mrad -- same unit, different instrument"
+        },
+        {
+          "source": "5.2 Concept of Operation",
+          "why": "states a coarser requirement of at least 10 cm resolution at 100 m"
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Question deliberately avoids the document's own words 'imager', 'resolve', 'opposite pit wall'."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 8,
+      "qid": "lunarleaper-T1-008",
+      "question": "Over how long is a paleo-regolith layer of about 5 cm assumed to have formed, given Marius Hills regolith formation rates?",
+      "expected": "13.3 million years",
+      "aliases": [
+        "13.3 Myr",
+        "13.3 million yr",
+        "13.3 million"
+      ],
+      "gold_answer": "13.3 million years",
+      "accepted_aliases": [
+        "13.3 Myr",
+        "13.3 million yr",
+        "13.3 million"
+      ],
+      "answer_type": "number",
+      "grading": {
+        "normaliser": "numeric",
+        "numeric_tolerance_rel": 0.005,
+        "unit": "million years",
+        "max_answer_tokens": 8
+      },
+      "tier": "T1_lookup",
+      "lexical_overlap": "paraphrase",
+      "min_chunks_required": 1,
+      "retrieval_keys": [
+        "paleo-regolith",
+        "formation rates",
+        "marius hills",
+        "million years",
+        "5 cm thickness"
+      ],
+      "gold_spans": [
+        {
+          "source": "4.2.1 Camera",
+          "section_path": [
+            "4 Investigating Lava Tubes",
+            "4.2 LunarLeaper Surface Investigations",
+            "4.2.1 Camera"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "For context, paleo-regolith layers that formed over as little as 13.3 million years in between volcanic episodes, are assumed to be about 5 cm in thickness"
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "2 Studying Lunar Volcanic Evolution at and around Lunar Pits",
+          "why": "gives 3.3 Ga for the maria and ~100 Myr crater survival -- competing timescales"
+        },
+        {
+          "source": "Operating Principles (4.1.2)",
+          "why": "gives 2.5-2.2 Ga for the Chang'e-4 basaltic lens"
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": ""
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 9,
+      "qid": "lunarleaper-T1-009",
+      "question": "What peak acceleration did bench testing show the tunable etalon survives?",
+      "expected": "1500 g",
+      "aliases": [
+        "1500g",
+        "1,500 g",
+        "1500"
+      ],
+      "gold_answer": "1500 g",
+      "accepted_aliases": [
+        "1500g",
+        "1,500 g",
+        "1500"
+      ],
+      "answer_type": "number",
+      "grading": {
+        "normaliser": "numeric",
+        "numeric_tolerance_rel": 0.005,
+        "unit": "g",
+        "max_answer_tokens": 8
+      },
+      "tier": "T1_lookup",
+      "lexical_overlap": "mismatch",
+      "min_chunks_required": 1,
+      "retrieval_keys": [
+        "peak acceleration",
+        "bench testing",
+        "tunable etalon",
+        "survives",
+        "spectrometer"
+      ],
+      "gold_spans": [
+        {
+          "source": "Instrument (4.2.2 Fabry Perot Spectrometer)",
+          "section_path": [
+            "4 Investigating Lava Tubes",
+            "4.2 LunarLeaper Surface Investigations",
+            "4.2.2 Fabry Perot Spectrometer",
+            "Instrument"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "Preliminary shock tests have shown the filter design to be robust up to 1500 g"
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Instrument (4.2.2 Fabry Perot Spectrometer)",
+          "why": "the adjacent sentences give 8.5 mm filter size, >80% throughput and 0-70 V drive -- other filter numbers"
+        },
+        {
+          "source": "Instrument (4.2.2 Fabry Perot Spectrometer)",
+          "why": "sensor head masses of 105 g and 200 g are also quoted in grams"
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "'etalon' never appears in the document; the document says 'Fabry-Perot filters' / 'filter design'."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 10,
+      "qid": "lunarleaper-T1-010",
+      "question": "How many electric motors does the walking machine use to point its instruments where it wants them?",
+      "expected": "12",
+      "aliases": [
+        "twelve",
+        "12 actuators"
+      ],
+      "gold_answer": "12",
+      "accepted_aliases": [
+        "twelve",
+        "12 actuators"
+      ],
+      "answer_type": "number",
+      "grading": {
+        "normaliser": "numeric",
+        "numeric_tolerance_rel": 0.005,
+        "unit": "actuators",
+        "max_answer_tokens": 8
+      },
+      "tier": "T1_lookup",
+      "lexical_overlap": "mismatch",
+      "min_chunks_required": 1,
+      "retrieval_keys": [
+        "electric motors",
+        "walking machine",
+        "point instruments",
+        "aim",
+        "legged"
+      ],
+      "gold_spans": [
+        {
+          "source": "5.3 Robot Design",
+          "section_path": [
+            "5 LunarLeaper - A Mission Overview",
+            "5.3 Robot Design"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "Indeed, its 12 actuators allow the robot to pan, tilt or roll in the payload’s desired direction."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "5.2 Concept of Operation",
+          "why": "the robot visits 3 points near the pit edge -- another small count in the same section"
+        },
+        {
+          "source": "5.3 Robot Design",
+          "why": "the robot mass of 30 kg and 29 GB data volume sit in the same subsection"
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Document says 'actuators', never 'motors'; says 'robot', never 'walking machine'."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 11,
+      "qid": "lunarleaper-T1-011",
+      "question": "Terrestrial analogues identify one failure mode, acting at stress levels below overall continuum failure, as a primary way pits form in lava tubes. What is that mode called?",
+      "expected": "stoping",
+      "aliases": [
+        "stoping failure"
+      ],
+      "gold_answer": "stoping",
+      "accepted_aliases": [
+        "stoping failure"
+      ],
+      "answer_type": "phrase",
+      "grading": {
+        "normaliser": "exact_ci",
+        "numeric_tolerance_rel": 0.005,
+        "unit": "",
+        "max_answer_tokens": 8
+      },
+      "tier": "T1_lookup",
+      "lexical_overlap": "paraphrase",
+      "min_chunks_required": 1,
+      "retrieval_keys": [
+        "failure mode",
+        "continuum failure",
+        "pits form",
+        "lava tubes",
+        "terrestrial analogues"
+      ],
+      "gold_spans": [
+        {
+          "source": "3.2 Stability of Lava Tubes and Pits",
+          "section_path": [
+            "3 Lava Tubes on the Moon",
+            "3.2 Stability of Lava Tubes and Pits"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "Furthermore, it is known from terrestrial analogues (Okubo and Martel, 1998; Roche et al., 2001; Zhao et al., 2022) that stoping, a discontinuum failure mode that can occur at stress levels below overall continuum failure, is a primary formation mechanism of pits in lava tubes."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "3.2 Stability of Lava Tubes and Pits",
+          "why": "the preceding paragraph lists three hypothesised skylight formation mechanisms (meteoroid impacts, tube geometry with gravitational loading, geologic heterogeneity) -- the topically adjacent wrong answer"
+        },
+        {
+          "source": "3.2 Stability of Lava Tubes and Pits",
+          "why": "the Geological Strength Index (GSI) approach is the other named rock-mass concept in the same subsection"
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Chosen over a third appendix lookup so section 3 is represented and the first half of the document is not left empty."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 12,
+      "qid": "lunarleaper-T2-001",
+      "question": "The gravity forward model considers two candidate lava tubes; the wider one is given a width matching the approximate width of the rille on which the Marius Hills Pit sits. What vertical height does that wider modelled tube have?",
+      "expected": "20 meters",
+      "aliases": [
+        "20 m",
+        "20 metres",
+        "20"
+      ],
+      "gold_answer": "20 meters",
+      "accepted_aliases": [
+        "20 m",
+        "20 metres",
+        "20"
+      ],
+      "answer_type": "number",
+      "grading": {
+        "normaliser": "numeric",
+        "numeric_tolerance_rel": 0.005,
+        "unit": "metres",
+        "max_answer_tokens": 8
+      },
+      "tier": "T2_multihop",
+      "lexical_overlap": "paraphrase",
+      "min_chunks_required": 2,
+      "retrieval_keys": [
+        "gravity forward model",
+        "lava tube",
+        "rille width",
+        "marius hills pit",
+        "tube height"
+      ],
+      "gold_spans": [
+        {
+          "source": "2.2 Regional Volcanic Evolution",
+          "section_path": [
+            "2 Studying Lunar Volcanic Evolution at and around Lunar Pits",
+            "2.2 Regional Volcanic Evolution"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "The MHP is placed on top of a 10’s of km long and approximately 500 m wide rille"
+        },
+        {
+          "source": "Forward Modeling",
+          "section_path": [
+            "4 Investigating Lava Tubes",
+            "4.1 LunarLeaper Subsurface Investigations",
+            "4.1.1 Gravity Surveys",
+            "Forward Modeling"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "A large lava tube of 500 meters width and 20 meters height located at a depth of 50 meters"
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Forward Modeling",
+          "why": "the same paragraph models a second, 50 m wide tube -- without the rille width you cannot tell which tube is meant"
+        },
+        {
+          "source": "Forward Simulations / A.1",
+          "why": "the GPR simulation's cave is 30 m high and 60 m wide, a competing tube geometry"
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Join key is the 500 m width, which appears in neither the question nor the answer. Spans are ~14,200 characters apart."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 13,
+      "qid": "lunarleaper-T2-002",
+      "question": "At the first vantage point beside the pit the robot takes a compositional depth profile as well as images. What is the total mass of that profiling instrument's sensor head?",
+      "expected": "105 g",
+      "aliases": [
+        "105 grams",
+        "105g",
+        "105"
+      ],
+      "gold_answer": "105 g",
+      "accepted_aliases": [
+        "105 grams",
+        "105g",
+        "105"
+      ],
+      "answer_type": "number",
+      "grading": {
+        "normaliser": "numeric",
+        "numeric_tolerance_rel": 0.005,
+        "unit": "g",
+        "max_answer_tokens": 8
+      },
+      "tier": "T2_multihop",
+      "lexical_overlap": "paraphrase",
+      "min_chunks_required": 2,
+      "retrieval_keys": [
+        "first vantage point",
+        "compositional depth profile",
+        "sensor head",
+        "total mass",
+        "pit edge"
+      ],
+      "gold_spans": [
+        {
+          "source": "5.2 Concept of Operation",
+          "section_path": [
+            "5 LunarLeaper - A Mission Overview",
+            "5.2 Concept of Operation"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "At the first vantage point, images of the pits will be taken in addition to a compositional depth profile from the spectrometer"
+        },
+        {
+          "source": "Instrument (4.2.2 Fabry Perot Spectrometer)",
+          "section_path": [
+            "4 Investigating Lava Tubes",
+            "4.2 LunarLeaper Surface Investigations",
+            "4.2.2 Fabry Perot Spectrometer",
+            "Instrument"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "The sensor head has a diameter of 40 mm, a length of 45 mm, and a total mass of 105 g."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Instrument (4.2.2 Fabry Perot Spectrometer)",
+          "why": "the next sentence gives 200 g for the instrument electronics -- the obvious wrong grab"
+        },
+        {
+          "source": "Seismic Surveys",
+          "why": "MEMS seismometers of a few 100 grams are another instrument mass in the document"
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Join key is 'spectrometer', named in neither question nor answer. Spans are ~15,700 characters apart."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 14,
+      "qid": "lunarleaper-T2-003",
+      "question": "Two of the robot's survey instruments record along the standard route at spacings that differ by a factor of one hundred. The more closely spaced of the two is adapted from a device flown on a Mars rover -- what is that device's acronym?",
+      "expected": "RIMFAX",
+      "aliases": [
+        "rimfax",
+        "Radar Imager for Mars' Subsurface Experiment"
+      ],
+      "gold_answer": "RIMFAX",
+      "accepted_aliases": [
+        "rimfax",
+        "Radar Imager for Mars' Subsurface Experiment"
+      ],
+      "answer_type": "entity",
+      "grading": {
+        "normaliser": "exact_ci",
+        "numeric_tolerance_rel": 0.005,
+        "unit": "",
+        "max_answer_tokens": 8
+      },
+      "tier": "T2_multihop",
+      "lexical_overlap": "mismatch",
+      "min_chunks_required": 2,
+      "retrieval_keys": [
+        "survey instruments",
+        "standard route",
+        "spacings",
+        "factor of one hundred",
+        "mars rover device"
+      ],
+      "gold_spans": [
+        {
+          "source": "5.2 Concept of Operation",
+          "section_path": [
+            "5 LunarLeaper - A Mission Overview",
+            "5.2 Concept of Operation"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "A gravimeter will obtain measurements every 10 m, the GPR will obtain measurements every 10 cm."
+        },
+        {
+          "source": "The LunarLeaper GPR",
+          "section_path": [
+            "4 Investigating Lava Tubes",
+            "4.1 LunarLeaper Subsurface Investigations",
+            "4.1.2 Ground Penetrating Radar (GPR)",
+            "The LunarLeaper GPR"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "For LunarLeaper, we plan to use a GPR instrument based on the Radar Imager for Mars’ Subsurface Experiment (RIMFAX)"
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Operational Challenges (4.1.1)",
+          "why": "GRASS is the other named heritage instrument and could be grabbed instead"
+        },
+        {
+          "source": "4.2.1 Camera",
+          "why": "MCAM / VIPER NavCam is a third heritage instrument named in section 4"
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Requires resolving which instrument samples at 10 cm vs 10 m before hopping. Spans ~32,400 characters apart. Wording avoids 'gravimeter', 'GPR', 'traverse' and 'every 10 cm'."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 15,
+      "qid": "lunarleaper-T2-004",
+      "question": "Of the two antenna heights above the regolith used in the forward simulations, which one gives the higher energy reaching the cave?",
+      "expected": "5 cm",
+      "aliases": [
+        "5 centimetres",
+        "5cm",
+        "5"
+      ],
+      "gold_answer": "5 cm",
+      "accepted_aliases": [
+        "5 centimetres",
+        "5cm",
+        "5"
+      ],
+      "answer_type": "number",
+      "grading": {
+        "normaliser": "numeric",
+        "numeric_tolerance_rel": 0.005,
+        "unit": "cm",
+        "max_answer_tokens": 8
+      },
+      "tier": "T2_multihop",
+      "lexical_overlap": "verbatim",
+      "min_chunks_required": 2,
+      "retrieval_keys": [
+        "antenna height",
+        "above the regolith",
+        "forward simulations",
+        "energy reaching the cave",
+        "source-receiver"
+      ],
+      "gold_spans": [
+        {
+          "source": "A.1 Simulation Parameters",
+          "section_path": [
+            "Appendix A GPR Simulation Details",
+            "A.1 Simulation Parameters"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "We assign Perfectly Matched Layer (PML) boundary conditions that effectively dampen waves that reach the boundaries of the domain, and simulate an antenna at both 5 cm and 30 cm above the top of the regolith."
+        },
+        {
+          "source": "Forward Simulations",
+          "section_path": [
+            "4 Investigating Lava Tubes",
+            "4.1 LunarLeaper Subsurface Investigations",
+            "4.1.2 Ground Penetrating Radar (GPR)",
+            "Forward Simulations"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "The curves show, as expected, a higher energy reaching the cave when the source-receiver pair touches the regolith floor."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "A.1 Simulation Parameters",
+          "why": "the other simulated height, 30 cm, sits in the same sentence"
+        },
+        {
+          "source": "A.1 Simulation Parameters",
+          "why": "the modelling domain is discretised at 5 cm, so '5 cm' also occurs as a grid spacing"
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "The appendix alone gives an ambiguous pair (5 cm and 30 cm); section 4.1.2 says the closer-to-ground case wins. Spans ~36,900 characters apart."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 16,
+      "qid": "lunarleaper-T2-005",
+      "question": "Table 1 lists an electrical conductivity for each simulated material. What conductivity does it give for the material whose wave velocity the Kirchhoff migration assumed?",
+      "expected": "1.2",
+      "aliases": [
+        "1.2 mS/m",
+        "1.2 millisiemens per metre"
+      ],
+      "gold_answer": "1.2",
+      "accepted_aliases": [
+        "1.2 mS/m",
+        "1.2 millisiemens per metre"
+      ],
+      "answer_type": "number",
+      "grading": {
+        "normaliser": "numeric",
+        "numeric_tolerance_rel": 0.005,
+        "unit": "mS/m",
+        "max_answer_tokens": 8
+      },
+      "tier": "T2_multihop",
+      "lexical_overlap": "verbatim",
+      "min_chunks_required": 2,
+      "retrieval_keys": [
+        "table 1",
+        "electrical conductivity",
+        "kirchhoff migration",
+        "wave velocity",
+        "material"
+      ],
+      "gold_spans": [
+        {
+          "source": "Forward Simulations",
+          "section_path": [
+            "4 Investigating Lava Tubes",
+            "4.1 LunarLeaper Subsurface Investigations",
+            "4.1.2 Ground Penetrating Radar (GPR)",
+            "Forward Simulations"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "We present post-processed and migrated data to facilitate visualization (Figure 7c), using a Kirchhoff migration with a constant velocity of 0.1 , which represents the velocity in basalt with the chosen dielectric properties"
+        },
+        {
+          "source": "A.1 Simulation Parameters (Table 1)",
+          "section_path": [
+            "Appendix A GPR Simulation Details",
+            "A.1 Simulation Parameters"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "Basalt | 9 | 1.2 | 0.05"
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "A.1 Simulation Parameters (Table 1)",
+          "why": "the regolith row gives 0.7 mS/m and the vacuum row 0 -- the table alone cannot say which row is meant"
+        },
+        {
+          "source": "A.1 Simulation Parameters (Table 1)",
+          "why": "the basalt row's permittivity of 9 and loss tangent of 0.05 sit beside the answer"
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Join key is 'basalt', which appears in neither the question nor the answer. Spans ~39,400 characters apart."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 17,
+      "qid": "lunarleaper-T2-006",
+      "question": "LunarLeaper tightens one instrument's sampling to every 5 m while crossing the rille. In which lava tube system was a recent Earth-analogue survey with that same geophysical method carried out?",
+      "expected": "Cueva de Los Naturalistas",
+      "aliases": [
+        "cueva de los naturalistas",
+        "Cueva de los Naturalistas"
+      ],
+      "gold_answer": "Cueva de Los Naturalistas",
+      "accepted_aliases": [
+        "cueva de los naturalistas",
+        "Cueva de los Naturalistas"
+      ],
+      "answer_type": "entity",
+      "grading": {
+        "normaliser": "exact_ci",
+        "numeric_tolerance_rel": 0.005,
+        "unit": "",
+        "max_answer_tokens": 8
+      },
+      "tier": "T2_multihop",
+      "lexical_overlap": "paraphrase",
+      "min_chunks_required": 2,
+      "retrieval_keys": [
+        "sampling every 5 m",
+        "rille",
+        "earth-analogue",
+        "lava tube system",
+        "geophysical method"
+      ],
+      "gold_spans": [
+        {
+          "source": "5.2 Concept of Operation",
+          "section_path": [
+            "5 LunarLeaper - A Mission Overview",
+            "5.2 Concept of Operation"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "While traversing the rille which might reflect the edges of the underlying lava tube, the GRAV sampling frequency will be increased to every 5 meters for 50 meters."
+        },
+        {
+          "source": "Analogue Studies",
+          "section_path": [
+            "4 Investigating Lava Tubes",
+            "4.1 LunarLeaper Subsurface Investigations",
+            "4.1.1 Gravity Surveys",
+            "Analogue Studies"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "Very recently, a gravity investigation was performed in the “Cueva de Los Naturalistas” in the UNESCO Global Geopark of Lanzarote"
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Analogue Studies",
+          "why": "Lanzarote and the UNESCO Global Geopark are the containing place names, easily returned instead of the cave"
+        },
+        {
+          "source": "Forward Simulations",
+          "why": "the GPR analogue discussion is the competing 'method' thread in the same section"
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Requires identifying GRAV = gravimeter from section 5.2 before the analogue study is the right chunk. Spans ~42,500 characters apart."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 18,
+      "qid": "lunarleaper-T3-001",
+      "question": "What is the combined weight of the miniaturised infrared instrument's optical head and its driving electronics?",
+      "expected": "305 g",
+      "aliases": [
+        "305 grams",
+        "305g",
+        "0.305 kg",
+        "305"
+      ],
+      "gold_answer": "305 g",
+      "accepted_aliases": [
+        "305 grams",
+        "305g",
+        "0.305 kg",
+        "305"
+      ],
+      "answer_type": "number",
+      "grading": {
+        "normaliser": "numeric",
+        "numeric_tolerance_rel": 0.005,
+        "unit": "g",
+        "max_answer_tokens": 8
+      },
+      "tier": "T3_aggregate",
+      "lexical_overlap": "mismatch",
+      "min_chunks_required": 1,
+      "retrieval_keys": [
+        "combined weight",
+        "optical head",
+        "driving electronics",
+        "infrared instrument",
+        "miniaturised"
+      ],
+      "gold_spans": [
+        {
+          "source": "Instrument (4.2.2 Fabry Perot Spectrometer)",
+          "section_path": [
+            "4 Investigating Lava Tubes",
+            "4.2 LunarLeaper Surface Investigations",
+            "4.2.2 Fabry Perot Spectrometer",
+            "Instrument"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "The sensor head has a diameter of 40 mm, a length of 45 mm, and a total mass of 105 g. Instrument electronics are estimated to weigh close to 200 g"
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Instrument (4.2.2 Fabry Perot Spectrometer)",
+          "why": "105 g and 200 g are each stated outright, so a single-value answer is the likely error"
+        },
+        {
+          "source": "5.3 Robot Design",
+          "why": "the 30 kg robot mass is the other mass figure in the paper"
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Derived: 105 g sensor head + ~200 g electronics. Document says 'sensor head', 'Instrument electronics', 'mass' -- never 'optical head', 'driving electronics' or 'weight' in this sense."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 19,
+      "qid": "lunarleaper-T3-002",
+      "question": "By how many percentage points does the plagioclase fraction fall between the base-layer mixture and the top-layer mixture?",
+      "expected": "25",
+      "aliases": [
+        "25 percentage points",
+        "25 points",
+        "25%"
+      ],
+      "gold_answer": "25",
+      "accepted_aliases": [
+        "25 percentage points",
+        "25 points",
+        "25%"
+      ],
+      "answer_type": "number",
+      "grading": {
+        "normaliser": "numeric",
+        "numeric_tolerance_rel": 0.005,
+        "unit": "percentage points",
+        "max_answer_tokens": 8
+      },
+      "tier": "T3_aggregate",
+      "lexical_overlap": "paraphrase",
+      "min_chunks_required": 1,
+      "retrieval_keys": [
+        "plagioclase",
+        "base layer",
+        "top layer",
+        "mixture",
+        "percentage points"
+      ],
+      "gold_spans": [
+        {
+          "source": "Mineralogical Investigations",
+          "section_path": [
+            "4 Investigating Lava Tubes",
+            "4.2 LunarLeaper Surface Investigations",
+            "4.2.2 Fabry Perot Spectrometer",
+            "Mineralogical Investigations"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "The mixing ratios were chosen to represent a plausible stratigraphic sequence in lunar mare basalts: 50% pyroxene and 50% plagioclase for the base layer, 50% pyroxene, 40% plagioclase, and 10% olivine for the middle layer, and 50% pyroxene, 25% plagioclase, and 25% olivine for the top layer"
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Mineralogical Investigations",
+          "why": "the middle layer's 40% plagioclase invites a 10-point answer instead"
+        },
+        {
+          "source": "Mineralogical Investigations",
+          "why": "pyroxene stays at 50% in all three mixtures, and olivine rises 0 to 25%"
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Derived: 50% (base) minus 25% (top) = 25 percentage points."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 20,
+      "qid": "lunarleaper-T3-003",
+      "question": "In the migrated GPR section, by how many metres is the bottom of the cave mislocated?",
+      "expected": "20 m",
+      "aliases": [
+        "20 metres",
+        "20 meters",
+        "20"
+      ],
+      "gold_answer": "20 m",
+      "accepted_aliases": [
+        "20 metres",
+        "20 meters",
+        "20"
+      ],
+      "answer_type": "number",
+      "grading": {
+        "normaliser": "numeric",
+        "numeric_tolerance_rel": 0.005,
+        "unit": "metres",
+        "max_answer_tokens": 8
+      },
+      "tier": "T3_aggregate",
+      "lexical_overlap": "verbatim",
+      "min_chunks_required": 1,
+      "retrieval_keys": [
+        "migrated",
+        "mislocated",
+        "bottom of the cave",
+        "depth",
+        "gpr section"
+      ],
+      "gold_spans": [
+        {
+          "source": "Forward Simulations",
+          "section_path": [
+            "4 Investigating Lava Tubes",
+            "4.1 LunarLeaper Subsurface Investigations",
+            "4.1.2 Ground Penetrating Radar (GPR)",
+            "Forward Simulations"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "After migration we see two prominent reflections at 30 m and 40 m depth. The 30 m reflection is the surface of the cave, and appears where expected. The 40 m reflection is the bottom of the cave and is mislocated at 40 instead of 60 m."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Forward Simulations",
+          "why": "the 30 m reflection is the cave top and appears where expected -- an adjacent, correct depth"
+        },
+        {
+          "source": "A.1 Simulation Parameters",
+          "why": "the cave is 30 m high and 60 m wide, so 30 and 60 both look like plausible answers"
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Derived: the bottom appears at 40 m instead of 60 m, an error of 20 m."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    }
+  ]
+}
