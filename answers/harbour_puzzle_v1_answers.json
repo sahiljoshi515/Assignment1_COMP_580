@@ -1,0 +1,1596 @@
+{
+  "doc_id": "harbour_puzzle_v1",
+  "source_document": "corpus/data/harbour_puzzle_v1.txt",
+  "schema_version": "1.0",
+  "generated_from": "corpus/questions/harbour_puzzle_v1.jsonl",
+  "count": 20,
+  "answers": [
+    {
+      "number": 1,
+      "qid": "harbour-T1-001",
+      "question": "How many berths does the ledger say lie between the Lashafever ailment and the Fruitokwilt ailment?",
+      "expected": "12",
+      "aliases": [
+        "twelve",
+        "12 berths"
+      ],
+      "gold_answer": "12",
+      "accepted_aliases": [
+        "twelve",
+        "12 berths"
+      ],
+      "answer_type": "number",
+      "grading": {
+        "normaliser": "numeric",
+        "numeric_tolerance_rel": 0.005,
+        "unit": "berths",
+        "max_answer_tokens": 8
+      },
+      "tier": "T1_lookup",
+      "lexical_overlap": "verbatim",
+      "min_chunks_required": 1,
+      "clue_ids": [
+        10
+      ],
+      "retrieval_keys": [
+        "lashafever",
+        "ailment",
+        "fruitokwilt",
+        "berths",
+        "lie between"
+      ],
+      "gold_spans": [
+        {
+          "source": "SECTION 1 -- The western berths, first round",
+          "section_path": [
+            "PART TWO -- THE INSPECTION RECORD",
+            "SECTION 1 -- The western berths, first round"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "Exactly 12 berths lie between\n        the Lashafever ailment and the Fruitokwilt ailment."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "SECTION 12 -- Matters arising from the weighbridge, numbered entry 408",
+          "why": "Gives 11 berths between the Vylmash cargo and the same Fruitokwilt ailment -- same shape, different pair, different number."
+        },
+        {
+          "source": "SECTION 2 -- Notes taken walking east, numbered entry 59",
+          "why": "States 'exactly 10 berths' for an unrelated pair, in the same run of entries."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Single numbered entry; 12 is the only value the document states for this pair."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 2,
+      "qid": "harbour-T1-002",
+      "question": "How many berths separate the Klaegryloc keeper from the Krouslull watch?",
+      "expected": "13",
+      "aliases": [
+        "thirteen",
+        "13 berths"
+      ],
+      "gold_answer": "13",
+      "accepted_aliases": [
+        "thirteen",
+        "13 berths"
+      ],
+      "answer_type": "number",
+      "grading": {
+        "normaliser": "numeric",
+        "numeric_tolerance_rel": 0.005,
+        "unit": "berths",
+        "max_answer_tokens": 8
+      },
+      "tier": "T1_lookup",
+      "lexical_overlap": "verbatim",
+      "min_chunks_required": 1,
+      "clue_ids": [
+        63
+      ],
+      "retrieval_keys": [
+        "klaegryloc",
+        "keeper",
+        "krouslull",
+        "watch",
+        "berths",
+        "separating"
+      ],
+      "gold_spans": [
+        {
+          "source": "SECTION 2 -- Notes taken walking east",
+          "section_path": [
+            "PART TWO -- THE INSPECTION RECORD",
+            "SECTION 2 -- Notes taken walking east"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "There are\n        exactly 13 berths separating the Klaegryloc keeper from the Krouslull watch."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "SECTION 4 -- Entries made against the flood, numbered entry 122",
+          "why": "Names both the Klaegryloc keeper and the Krouslull watch but gives a range count (berths 10 through 14), not a separation."
+        },
+        {
+          "source": "SECTION 1 -- The western berths, first round, numbered entry 10",
+          "why": "Nearby 'Exactly 12 berths lie between ...' entry -- adjacent number, different pair."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "'exactly 13 berths' occurs exactly once in the document."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 3,
+      "qid": "harbour-T1-003",
+      "question": "Over which run of berths does the harbourmaster count exactly four of the Keindygrist cargo, the Skechekaemia ailment, the Malitis ailment, the Hurdaslull watch and the Jisaengale watch?",
+      "expected": "berths 9 through 17",
+      "aliases": [
+        "9 through 17",
+        "berths 9-17",
+        "9-17"
+      ],
+      "gold_answer": "berths 9 through 17",
+      "accepted_aliases": [
+        "9 through 17",
+        "berths 9-17",
+        "9-17"
+      ],
+      "answer_type": "phrase",
+      "grading": {
+        "normaliser": "exact_ci",
+        "unit": "",
+        "max_answer_tokens": 6
+      },
+      "tier": "T1_lookup",
+      "lexical_overlap": "paraphrase",
+      "min_chunks_required": 1,
+      "clue_ids": [
+        97
+      ],
+      "retrieval_keys": [
+        "harbourmaster",
+        "counts",
+        "keindygrist",
+        "skechekaemia",
+        "hurdaslull",
+        "jisaengale",
+        "berths"
+      ],
+      "gold_spans": [
+        {
+          "source": "SECTION 3 -- The middle reach",
+          "section_path": [
+            "PART TWO -- THE INSPECTION RECORD",
+            "SECTION 3 -- The middle reach"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "The harbourmaster\n        counts exactly 4 of these within berths 9 through 17: the Keindygrist cargo, the\n        Skechekaemia ailment, the Malitis ailment, the Hurdaslull watch and the Jisaengale\n        watch."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "SECTION 11 -- The night round, numbered entry 380",
+          "why": "'Exactly 2 of the following lie in berths 8 through 17' -- near-identical range, different list."
+        },
+        {
+          "source": "SECTION 1 -- The western berths, first round, numbered entry 14",
+          "why": "'exactly 2 of these within berths 2 through 17' -- shares the upper bound 17."
+        },
+        {
+          "source": "SECTION 7 -- The quarter's carried-forward entries, numbered entry 225",
+          "why": "'Exactly 3 of the following lie in berths 15 through 19' -- same template, different span."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "'berths 9 through 17' occurs exactly once in the document."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 4,
+      "qid": "harbour-T1-004",
+      "question": "Which ailment stands at the berth immediately east of the Preirkeamund home port?",
+      "expected": "Malitis",
+      "aliases": [
+        "the Malitis ailment",
+        "Malitis ailment"
+      ],
+      "gold_answer": "Malitis",
+      "accepted_aliases": [
+        "the Malitis ailment",
+        "Malitis ailment"
+      ],
+      "answer_type": "entity",
+      "grading": {
+        "normaliser": "exact_ci",
+        "unit": "",
+        "max_answer_tokens": 8
+      },
+      "tier": "T1_lookup",
+      "lexical_overlap": "paraphrase",
+      "min_chunks_required": 1,
+      "clue_ids": [
+        165
+      ],
+      "retrieval_keys": [
+        "preirkeamund",
+        "home port",
+        "immediately",
+        "east",
+        "ailment",
+        "berth"
+      ],
+      "gold_spans": [
+        {
+          "source": "SECTION 5 -- The outer berths and the shoal side",
+          "section_path": [
+            "PART TWO -- THE INSPECTION RECORD",
+            "SECTION 5 -- The outer berths and the shoal side"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "The Preirkeamund home port\n        lies immediately to the west of the Malitis ailment."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "SECTION 5 -- The outer berths and the shoal side, numbered entry 151",
+          "why": "'The Shamymor keeper is berthed immediately beside the Preirkeamund home port' -- same anchor token, adjacency but a keeper and no direction."
+        },
+        {
+          "source": "SECTION 6 -- Second round, same day, numbered entry 204",
+          "why": "'The Toarnoukmeal cargo shares a berth with the Malitis ailment' -- names Malitis in an unrelated relation."
+        },
+        {
+          "source": "SECTION 5 -- The outer berths and the shoal side, numbered entry 145",
+          "why": "'The Lashafever ailment is berthed somewhere west of the Preirkeamund home port' -- an ailment plus Preirkeamund, but only a loose ordering."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Entry 165 is the only adjacency the document states for the Preirkeamund home port with a direction."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 5,
+      "qid": "harbour-T1-005",
+      "question": "How many slips does the register set between the Gleigrun custodian and the Brileafever malady?",
+      "expected": "14",
+      "aliases": [
+        "fourteen",
+        "14 berths"
+      ],
+      "gold_answer": "14",
+      "accepted_aliases": [
+        "fourteen",
+        "14 berths"
+      ],
+      "answer_type": "number",
+      "grading": {
+        "normaliser": "numeric",
+        "numeric_tolerance_rel": 0.005,
+        "unit": "berths",
+        "max_answer_tokens": 8
+      },
+      "tier": "T1_lookup",
+      "lexical_overlap": "mismatch",
+      "min_chunks_required": 1,
+      "clue_ids": [
+        207
+      ],
+      "retrieval_keys": [
+        "slips",
+        "register",
+        "gleigrun",
+        "custodian",
+        "brileafever",
+        "malady"
+      ],
+      "gold_spans": [
+        {
+          "source": "SECTION 6 -- Second round, same day",
+          "section_path": [
+            "PART TWO -- THE INSPECTION RECORD",
+            "SECTION 6 -- Second round, same day"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "Exactly 14 berths lie between the Gleigrun keeper and the Brileafever ailment."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "SECTION 10 -- Entries queried and then allowed, numbered entry 363",
+          "why": "'exactly 6 berths separating the Gleigrun keeper from the Slethern home port' -- same keeper, different partner and number."
+        },
+        {
+          "source": "SECTION 3 -- The middle reach, numbered entry 68",
+          "why": "'the ledger counts exactly 16 berths' between the Naegiachill and Brileafever ailments -- same ailment, different number."
+        },
+        {
+          "source": "SECTION 8 -- Observations at the change of the watch, numbered entry 274",
+          "why": "'The Pleashyspan watch and the Brileafever ailment are recorded at the same berth' -- same ailment, no count."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Mismatch wording: slip/register/custodian/malady appear nowhere in the document (grep-checked). The two invented token names are unavoidable if the question is to be answerable."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 6,
+      "qid": "harbour-T1-006",
+      "question": "Which ailment is recorded at the same berth as the Sliollesturn watch?",
+      "expected": "Triothague",
+      "aliases": [
+        "the Triothague ailment",
+        "Triothague ailment"
+      ],
+      "gold_answer": "Triothague",
+      "accepted_aliases": [
+        "the Triothague ailment",
+        "Triothague ailment"
+      ],
+      "answer_type": "entity",
+      "grading": {
+        "normaliser": "exact_ci",
+        "unit": "",
+        "max_answer_tokens": 8
+      },
+      "tier": "T1_lookup",
+      "lexical_overlap": "paraphrase",
+      "min_chunks_required": 1,
+      "clue_ids": [
+        289
+      ],
+      "retrieval_keys": [
+        "sliollesturn",
+        "watch",
+        "recorded",
+        "same berth",
+        "ailment"
+      ],
+      "gold_spans": [
+        {
+          "source": "SECTION 8 -- Observations at the change of the watch",
+          "section_path": [
+            "PART TWO -- THE INSPECTION RECORD",
+            "SECTION 8 -- Observations at the change of the watch"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "The Sliollesturn watch and\n        the Triothague ailment are recorded at the same berth."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "SECTION 2 -- Notes taken walking east, numbered entry 66",
+          "why": "'The Sliollesturn watch and the Swiastresin cargo are recorded at the same berth' -- identical phrasing, but a cargo."
+        },
+        {
+          "source": "SECTION 11 -- The night round, numbered entry 401",
+          "why": "'No berth on the reach carries both the Triothague ailment and the Slethern home port' -- names Triothague in a negation."
+        },
+        {
+          "source": "SECTION 10 -- Entries queried and then allowed, numbered entry 360",
+          "why": "'The Triothague ailment and the Skaskelreth home port are not recorded at the same berth' -- same verb, negated."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Entries 66 and 289 are the only two same-berth statements about the Sliollesturn watch; only 289 names an ailment."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 7,
+      "qid": "harbour-T1-007",
+      "question": "Which keeper is recorded at the same berth as the Blystox creature?",
+      "expected": "Gluldar",
+      "aliases": [
+        "the Gluldar keeper",
+        "Gluldar keeper"
+      ],
+      "gold_answer": "Gluldar",
+      "accepted_aliases": [
+        "the Gluldar keeper",
+        "Gluldar keeper"
+      ],
+      "answer_type": "entity",
+      "grading": {
+        "normaliser": "exact_ci",
+        "unit": "",
+        "max_answer_tokens": 8
+      },
+      "tier": "T1_lookup",
+      "lexical_overlap": "verbatim",
+      "min_chunks_required": 1,
+      "clue_ids": [
+        315
+      ],
+      "retrieval_keys": [
+        "blystox",
+        "creature",
+        "keeper",
+        "same berth",
+        "recorded"
+      ],
+      "gold_spans": [
+        {
+          "source": "SECTION 9 -- The eastern stretch",
+          "section_path": [
+            "PART TWO -- THE INSPECTION RECORD",
+            "SECTION 9 -- The eastern stretch"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "The Blystox creature and\n        the Gluldar keeper are recorded at the same berth."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "SECTION 10 -- Entries queried and then allowed, numbered entry 352",
+          "why": "'The Blystox creature and the Trathaikalt home port lie side by side' -- same creature, adjacency rather than same berth, and a home port."
+        },
+        {
+          "source": "SECTION 12 -- Matters arising from the weighbridge, numbered entry 411",
+          "why": "'The Skaskelreth home port is berthed somewhere west of the Blystox creature' -- same creature, loose ordering."
+        },
+        {
+          "source": "SECTION 5 -- The outer berths and the shoal side, numbered entry 152",
+          "why": "The only other entry naming Gluldar, inside a range count -- gives no berth-sharing partner."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "'Gluldar' occurs 3 times in the document, so the gold string is close to unique."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 8,
+      "qid": "harbour-T1-008",
+      "question": "Which beast does the register place at the first slip, the most westerly of them all?",
+      "expected": "Chirloulax",
+      "aliases": [
+        "the Chirloulax creature",
+        "Chirloulax creature"
+      ],
+      "gold_answer": "Chirloulax",
+      "accepted_aliases": [
+        "the Chirloulax creature",
+        "Chirloulax creature"
+      ],
+      "answer_type": "entity",
+      "grading": {
+        "normaliser": "exact_ci",
+        "unit": "",
+        "max_answer_tokens": 8
+      },
+      "tier": "T1_lookup",
+      "lexical_overlap": "mismatch",
+      "min_chunks_required": 1,
+      "clue_ids": [
+        341
+      ],
+      "retrieval_keys": [
+        "beast",
+        "register",
+        "first slip",
+        "westerly"
+      ],
+      "gold_spans": [
+        {
+          "source": "SECTION 10 -- Entries queried and then allowed",
+          "section_path": [
+            "PART TWO -- THE INSPECTION RECORD",
+            "SECTION 10 -- Entries queried and then allowed"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "The Chirloulax creature is\n        at berth 1, the westernmost on the reach."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "FRONT MATTER, opening note on the numbering convention",
+          "why": "'berth 1 is the westernmost on the reach, berth 20 the easternmost' -- explains the convention and will out-rank the entry that actually names the creature."
+        },
+        {
+          "source": "SECTION 1 -- The western berths, first round, numbered entry 21",
+          "why": "Names the Chirloulax creature inside a berths 8 through 14 range count -- topically adjacent, contradicts a careless read."
+        },
+        {
+          "source": "SECTION 1 -- The western berths, first round, numbered entry 41",
+          "why": "'The Chirloulax creature occupies an odd-numbered berth' -- parity only."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Full mismatch: beast/register/slip/westerly are all absent from the document (grep-checked), and the question names no invented token at all."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 9,
+      "qid": "harbour-T1-009",
+      "question": "How many berths separate the Chirmillusk creature from the Vroapokell keeper?",
+      "expected": "9",
+      "aliases": [
+        "nine",
+        "9 berths"
+      ],
+      "gold_answer": "9",
+      "accepted_aliases": [
+        "nine",
+        "9 berths"
+      ],
+      "answer_type": "number",
+      "grading": {
+        "normaliser": "numeric",
+        "numeric_tolerance_rel": 0.005,
+        "unit": "berths",
+        "max_answer_tokens": 8
+      },
+      "tier": "T1_lookup",
+      "lexical_overlap": "verbatim",
+      "min_chunks_required": 1,
+      "clue_ids": [
+        379
+      ],
+      "retrieval_keys": [
+        "chirmillusk",
+        "creature",
+        "vroapokell",
+        "keeper",
+        "berths",
+        "separating"
+      ],
+      "gold_spans": [
+        {
+          "source": "SECTION 11 -- The night round",
+          "section_path": [
+            "PART TWO -- THE INSPECTION RECORD",
+            "SECTION 11 -- The night round"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "There are exactly 9 berths\n        separating the Chirmillusk creature from the Vroapokell keeper."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "SECTION 6 -- Second round, same day, numbered entry 197",
+          "why": "'exactly 5 berths separating the Chirmillusk creature from the Slunneadeen pennant' -- same creature, different partner and number."
+        },
+        {
+          "source": "SECTION 9 -- The eastern stretch, numbered entry 297",
+          "why": "'exactly 1 berth separating the Pleashyspan watch from the Vroapokell keeper' -- same keeper, different partner and number."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "'exactly 9 berths' occurs exactly once in the document."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 10,
+      "qid": "harbour-T1-010",
+      "question": "Which pennant is berthed immediately west of the Tryngasume pennant, with nothing between them?",
+      "expected": "Slunneadeen",
+      "aliases": [
+        "the Slunneadeen pennant",
+        "Slunneadeen pennant"
+      ],
+      "gold_answer": "Slunneadeen",
+      "accepted_aliases": [
+        "the Slunneadeen pennant",
+        "Slunneadeen pennant"
+      ],
+      "answer_type": "entity",
+      "grading": {
+        "normaliser": "exact_ci",
+        "unit": "",
+        "max_answer_tokens": 8
+      },
+      "tier": "T1_lookup",
+      "lexical_overlap": "paraphrase",
+      "min_chunks_required": 1,
+      "clue_ids": [
+        386
+      ],
+      "retrieval_keys": [
+        "tryngasume",
+        "pennant",
+        "immediately west",
+        "nothing between them"
+      ],
+      "gold_spans": [
+        {
+          "source": "SECTION 11 -- The night round",
+          "section_path": [
+            "PART TWO -- THE INSPECTION RECORD",
+            "SECTION 11 -- The night round"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "The Slunneadeen pennant is\n        berthed immediately west of the Tryngasume pennant, with nothing between them."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "SECTION 5 -- The outer berths and the shoal side, numbered entry 181",
+          "why": "'The Wuidearnard creature lies immediately to the west of the Tryngasume pennant' -- the same relation and the same anchor, but a creature, not a pennant."
+        },
+        {
+          "source": "SECTION 3 -- The middle reach, numbered entry 78",
+          "why": "'One and the same berth carries the Drakock creature and the Tryngasume pennant' -- same anchor, different relation."
+        },
+        {
+          "source": "SECTION 7 -- The quarter's carried-forward entries, numbered entry 237",
+          "why": "'The Tryngasume pennant is berthed somewhere east of the Shearnume pennant' -- two pennants, loose ordering."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Entries 181 and 386 both put something immediately west of the Tryngasume pennant; only 386 names a pennant."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 11,
+      "qid": "harbour-T1-011",
+      "question": "How many berths lie between the Vylmash cargo and the Fruitokwilt ailment?",
+      "expected": "11",
+      "aliases": [
+        "eleven",
+        "11 berths"
+      ],
+      "gold_answer": "11",
+      "accepted_aliases": [
+        "eleven",
+        "11 berths"
+      ],
+      "answer_type": "number",
+      "grading": {
+        "normaliser": "numeric",
+        "numeric_tolerance_rel": 0.005,
+        "unit": "berths",
+        "max_answer_tokens": 8
+      },
+      "tier": "T1_lookup",
+      "lexical_overlap": "verbatim",
+      "min_chunks_required": 1,
+      "clue_ids": [
+        408
+      ],
+      "retrieval_keys": [
+        "vylmash",
+        "cargo",
+        "fruitokwilt",
+        "ailment",
+        "berths",
+        "lie between"
+      ],
+      "gold_spans": [
+        {
+          "source": "SECTION 12 -- Matters arising from the weighbridge",
+          "section_path": [
+            "PART TWO -- THE INSPECTION RECORD",
+            "SECTION 12 -- Matters arising from the weighbridge"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "Exactly 11 berths lie\n        between the Vylmash cargo and the Fruitokwilt ailment."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "SECTION 1 -- The western berths, first round, numbered entry 10",
+          "why": "'Exactly 12 berths lie between the Lashafever ailment and the Fruitokwilt ailment' -- same ailment, same phrasing, different number."
+        },
+        {
+          "source": "SECTION 10 -- Entries queried and then allowed, numbered entry 350",
+          "why": "'exactly 10 berths separating the Brolgale watch from the Bithaemia ailment' -- neighbouring number, unrelated pair."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "'exactly 11 berths' occurs exactly once in the document."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 12,
+      "qid": "harbour-T2-001",
+      "question": "How many berths does the ledger count between the Skoukweed cargo and the pennant that is recorded at the same berth as the Gleigrun keeper?",
+      "expected": "16",
+      "aliases": [
+        "sixteen",
+        "16 berths"
+      ],
+      "gold_answer": "16",
+      "accepted_aliases": [
+        "sixteen",
+        "16 berths"
+      ],
+      "answer_type": "number",
+      "grading": {
+        "normaliser": "numeric",
+        "numeric_tolerance_rel": 0.005,
+        "unit": "berths",
+        "max_answer_tokens": 8
+      },
+      "tier": "T2_multihop",
+      "lexical_overlap": "paraphrase",
+      "min_chunks_required": 2,
+      "clue_ids": [
+        410,
+        112
+      ],
+      "retrieval_keys": [
+        "skoukweed",
+        "cargo",
+        "gleigrun",
+        "keeper",
+        "pennant",
+        "same berth",
+        "berths"
+      ],
+      "gold_spans": [
+        {
+          "source": "SECTION 12 -- Matters arising from the weighbridge",
+          "section_path": [
+            "PART TWO -- THE INSPECTION RECORD",
+            "SECTION 12 -- Matters arising from the weighbridge"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "One and the\n        same berth carries the Shearnume pennant and the Gleigrun keeper."
+        },
+        {
+          "source": "SECTION 4 -- Entries made against the flood",
+          "section_path": [
+            "PART TWO -- THE INSPECTION RECORD",
+            "SECTION 4 -- Entries made against the flood"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "There are exactly 16 berths separating\n        the Shearnume pennant from the Skoukweed cargo."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "SECTION 9 -- The eastern stretch, numbered entry 311",
+          "why": "'exactly 17 berths separating the Blozythel creature from the Skoukweed cargo' -- same cargo, one off the gold number."
+        },
+        {
+          "source": "SECTION 6 -- Second round, same day, numbered entry 207",
+          "why": "'Exactly 14 berths lie between the Gleigrun keeper and the Brileafever ailment' -- same keeper, a berth count, wrong pair."
+        },
+        {
+          "source": "SECTION 10 -- Entries queried and then allowed, numbered entry 363",
+          "why": "'exactly 6 berths separating the Gleigrun keeper from the Slethern home port' -- same keeper, another berth count."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Join key is the Shearnume pennant and appears in neither question nor answer. Gold spans are 91,071 characters apart (entry 112 in Section 4, entry 410 in Section 12)."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 13,
+      "qid": "harbour-T2-002",
+      "question": "How many berths separate the Gliokosis ailment from the ailment that is recorded at the same berth as the Rourdellyrn creature?",
+      "expected": "7",
+      "aliases": [
+        "seven",
+        "7 berths"
+      ],
+      "gold_answer": "7",
+      "accepted_aliases": [
+        "seven",
+        "7 berths"
+      ],
+      "answer_type": "number",
+      "grading": {
+        "normaliser": "numeric",
+        "numeric_tolerance_rel": 0.005,
+        "unit": "berths",
+        "max_answer_tokens": 8
+      },
+      "tier": "T2_multihop",
+      "lexical_overlap": "verbatim",
+      "min_chunks_required": 2,
+      "clue_ids": [
+        368,
+        8
+      ],
+      "retrieval_keys": [
+        "gliokosis",
+        "ailment",
+        "rourdellyrn",
+        "creature",
+        "same berth",
+        "berths",
+        "separating"
+      ],
+      "gold_spans": [
+        {
+          "source": "SECTION 11 -- The night round",
+          "section_path": [
+            "PART TWO -- THE INSPECTION RECORD",
+            "SECTION 11 -- The night round"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "The Gokearot ailment\n        and the Rourdellyrn creature are recorded at the same berth."
+        },
+        {
+          "source": "SECTION 1 -- The western berths, first round",
+          "section_path": [
+            "PART TWO -- THE INSPECTION RECORD",
+            "SECTION 1 -- The western berths, first round"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "There are\n        exactly 7 berths separating the Gokearot ailment from the Gliokosis ailment."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "SECTION 9 -- The eastern stretch, numbered entry 318",
+          "why": "'exactly 3 berths separating the Rourdellyrn creature from the Slouvask home port' -- same creature, a berth count, wrong hop."
+        },
+        {
+          "source": "SECTION 7 -- The quarter's carried-forward entries, numbered entry 227",
+          "why": "'Exactly 7 berths lie between the Spekrilaemia ailment and the Kolusreth home port' -- same number, unrelated pair, and will retrieve on 'ailment'."
+        },
+        {
+          "source": "SECTION 3 -- The middle reach, numbered entry 83",
+          "why": "'One and the same berth carries the Zapyrander pennant and the Rourdellyrn creature' -- the other same-berth fact about Rourdellyrn, which is a pennant, not an ailment."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Join key is the Gokearot ailment and appears in neither question nor answer. Gold spans are 111,176 characters apart (entry 8 in Section 1, entry 368 in Section 11)."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 14,
+      "qid": "harbour-T2-003",
+      "question": "Which home port is entered in the berth immediately east of the keeper who shares a berth with the Kolusreth home port?",
+      "expected": "Slouvask",
+      "aliases": [
+        "the Slouvask home port",
+        "Slouvask home port"
+      ],
+      "gold_answer": "Slouvask",
+      "accepted_aliases": [
+        "the Slouvask home port",
+        "Slouvask home port"
+      ],
+      "answer_type": "entity",
+      "grading": {
+        "normaliser": "exact_ci",
+        "unit": "",
+        "max_answer_tokens": 8
+      },
+      "tier": "T2_multihop",
+      "lexical_overlap": "paraphrase",
+      "min_chunks_required": 2,
+      "clue_ids": [
+        161,
+        74
+      ],
+      "retrieval_keys": [
+        "kolusreth",
+        "home port",
+        "shares a berth",
+        "keeper",
+        "immediately east"
+      ],
+      "gold_spans": [
+        {
+          "source": "SECTION 5 -- The outer berths and the shoal side",
+          "section_path": [
+            "PART TWO -- THE INSPECTION RECORD",
+            "SECTION 5 -- The outer berths and the shoal side"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "The Kolusreth home port shares a\n        berth with the Wairlaithric keeper."
+        },
+        {
+          "source": "SECTION 3 -- The middle reach",
+          "section_path": [
+            "PART TWO -- THE INSPECTION RECORD",
+            "SECTION 3 -- The middle reach"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "The Slouvask home\n        port stands in the very next berth east of the Wairlaithric keeper."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "SECTION 5 -- The outer berths and the shoal side, numbered entry 147",
+          "why": "'The Skiodrescar home port stands in the very next berth west of the Kloakreth home port' -- two home ports, same adjacency template."
+        },
+        {
+          "source": "SECTION 7 -- The quarter's carried-forward entries, numbered entry 227",
+          "why": "'Exactly 7 berths lie between the Spekrilaemia ailment and the Kolusreth home port' -- same anchor token, wrong relation."
+        },
+        {
+          "source": "SECTION 11 -- The night round, numbered entry 376",
+          "why": "'The Slouvask home port is berthed no further west than berth 13' -- names the answer but supports nothing."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Join key is the Wairlaithric keeper and appears in neither question nor answer. Gold spans are 26,697 characters apart (entry 74 in Section 3, entry 161 in Section 5)."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 15,
+      "qid": "harbour-T2-004",
+      "question": "Which custodian is entered at the slip directly east of the animal that occupies the same slip as the Lyrliospan shift?",
+      "expected": "Glaevek",
+      "aliases": [
+        "the Glaevek keeper",
+        "Glaevek keeper"
+      ],
+      "gold_answer": "Glaevek",
+      "accepted_aliases": [
+        "the Glaevek keeper",
+        "Glaevek keeper"
+      ],
+      "answer_type": "entity",
+      "grading": {
+        "normaliser": "exact_ci",
+        "unit": "",
+        "max_answer_tokens": 8
+      },
+      "tier": "T2_multihop",
+      "lexical_overlap": "mismatch",
+      "min_chunks_required": 2,
+      "clue_ids": [
+        267,
+        48
+      ],
+      "retrieval_keys": [
+        "custodian",
+        "slip",
+        "animal",
+        "lyrliospan",
+        "shift",
+        "directly east"
+      ],
+      "gold_spans": [
+        {
+          "source": "SECTION 8 -- Observations at the change of the watch",
+          "section_path": [
+            "PART TWO -- THE INSPECTION RECORD",
+            "SECTION 8 -- Observations at the change of the watch"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "One and the same\n        berth carries the Lyrliospan watch and the Troazeillox creature."
+        },
+        {
+          "source": "SECTION 2 -- Notes taken walking east",
+          "section_path": [
+            "PART TWO -- THE INSPECTION RECORD",
+            "SECTION 2 -- Notes taken walking east"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "The Glaevek\n        keeper is berthed immediately east of the Troazeillox creature, with nothing between\n        them."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "SECTION 5 -- The outer berths and the shoal side, numbered entry 179",
+          "why": "'The Lyrliospan watch stands in the very next berth east of the Choudosreth home port' -- same watch, an adjacency, but a home port and the other direction."
+        },
+        {
+          "source": "SECTION 9 -- The eastern stretch, numbered entry 328",
+          "why": "'The Lyrliospan watch stands in the very next berth west of the Jirmekresin cargo' -- same watch, adjacency, a cargo."
+        },
+        {
+          "source": "SECTION 9 -- The eastern stretch, numbered entry 293",
+          "why": "'The Glaevek keeper is berthed immediately beside the Mitranbark cargo' -- names the answer with an undirected adjacency."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Join key is the Troazeillox creature and appears in neither question nor answer. Gold spans are 67,669 characters apart (entry 48 in Section 2, entry 267 in Section 8). Mismatch wording: custodian/slip/animal are absent from the document; 'Lyrliospan' is unavoidable. Entry 123 states the same adjacency in reverse and is an acceptable second hop."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 16,
+      "qid": "harbour-T2-005",
+      "question": "How many berths does the ledger count between the Stiascar home port and the creature that shares a berth with the Siolweed cargo?",
+      "expected": "10",
+      "aliases": [
+        "ten",
+        "10 berths"
+      ],
+      "gold_answer": "10",
+      "accepted_aliases": [
+        "ten",
+        "10 berths"
+      ],
+      "answer_type": "number",
+      "grading": {
+        "normaliser": "numeric",
+        "numeric_tolerance_rel": 0.005,
+        "unit": "berths",
+        "max_answer_tokens": 8
+      },
+      "tier": "T2_multihop",
+      "lexical_overlap": "paraphrase",
+      "min_chunks_required": 2,
+      "clue_ids": [
+        75,
+        312
+      ],
+      "retrieval_keys": [
+        "stiascar",
+        "home port",
+        "siolweed",
+        "cargo",
+        "creature",
+        "same berth",
+        "berths"
+      ],
+      "gold_spans": [
+        {
+          "source": "SECTION 3 -- The middle reach",
+          "section_path": [
+            "PART TWO -- THE INSPECTION RECORD",
+            "SECTION 3 -- The middle reach"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "One and the same\n        berth carries the Skyrnel creature and the Siolweed cargo."
+        },
+        {
+          "source": "SECTION 9 -- The eastern stretch",
+          "section_path": [
+            "PART TWO -- THE INSPECTION RECORD",
+            "SECTION 9 -- The eastern stretch"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "Between the\n        Stiascar home port and the Skyrnel creature the ledger counts exactly 10 berths."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "SECTION 11 -- The night round, numbered entry 373",
+          "why": "'Exactly 3 berths lie between the Friadradidge pennant and the Skyrnel creature' -- the same creature reached by the join, different partner and number."
+        },
+        {
+          "source": "SECTION 4 -- Entries made against the flood, numbered entry 104",
+          "why": "'Exactly 4 berths lie between the Bresterelle pennant and the Skyrnel creature' -- same creature, another berth count."
+        },
+        {
+          "source": "SECTION 2 -- Notes taken walking east, numbered entry 59",
+          "why": "'the ledger counts exactly 10 berths' for an unrelated pair -- same number reachable from the wrong chunk."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Join key is the Skyrnel creature and appears in neither question nor answer. Gold spans are 70,755 characters apart (entry 75 in Section 3, entry 312 in Section 9)."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 17,
+      "qid": "harbour-T2-006",
+      "question": "Which home port stands in the berth immediately east of the home port that shares a berth with the Hurdaslull watch?",
+      "expected": "Kloakreth",
+      "aliases": [
+        "the Kloakreth home port",
+        "Kloakreth home port"
+      ],
+      "gold_answer": "Kloakreth",
+      "accepted_aliases": [
+        "the Kloakreth home port",
+        "Kloakreth home port"
+      ],
+      "answer_type": "entity",
+      "grading": {
+        "normaliser": "exact_ci",
+        "unit": "",
+        "max_answer_tokens": 8
+      },
+      "tier": "T2_multihop",
+      "lexical_overlap": "paraphrase",
+      "min_chunks_required": 2,
+      "clue_ids": [
+        309,
+        147
+      ],
+      "retrieval_keys": [
+        "hurdaslull",
+        "watch",
+        "home port",
+        "shares a berth",
+        "immediately east"
+      ],
+      "gold_spans": [
+        {
+          "source": "SECTION 9 -- The eastern stretch",
+          "section_path": [
+            "PART TWO -- THE INSPECTION RECORD",
+            "SECTION 9 -- The eastern stretch"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "One and the\n        same berth carries the Hurdaslull watch and the Skiodrescar home port."
+        },
+        {
+          "source": "SECTION 5 -- The outer berths and the shoal side",
+          "section_path": [
+            "PART TWO -- THE INSPECTION RECORD",
+            "SECTION 5 -- The outer berths and the shoal side"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "The Skiodrescar home\n        port stands in the very next berth west of the Kloakreth home port."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "SECTION 5 -- The outer berths and the shoal side, numbered entry 167",
+          "why": "'The Kloakreth home port stands in the very next berth east of the Swekmash cargo' -- names the answer in the same template but anchored on a cargo."
+        },
+        {
+          "source": "SECTION 9 -- The eastern stretch, numbered entry 324",
+          "why": "'The Shakoague ailment is berthed immediately beside the Hurdaslull watch' -- same watch, an adjacency, but an ailment and no direction."
+        },
+        {
+          "source": "SECTION 4 -- Entries made against the flood, numbered entry 132",
+          "why": "'Between the Vrafeamor keeper and the Hurdaslull watch the ledger counts exactly 2 berths' -- same watch, wrong relation."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Join key is the Skiodrescar home port and appears in neither question nor answer. Gold spans are 47,786 characters apart (entry 147 in Section 5, entry 309 in Section 9)."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 18,
+      "qid": "harbour-T3-001",
+      "question": "How many of the numbered entries in Part Two name the Gokearot ailment?",
+      "expected": "11",
+      "aliases": [
+        "eleven"
+      ],
+      "gold_answer": "11",
+      "accepted_aliases": [
+        "eleven"
+      ],
+      "answer_type": "number",
+      "grading": {
+        "normaliser": "numeric",
+        "numeric_tolerance_rel": 0.005,
+        "unit": "entries",
+        "max_answer_tokens": 8
+      },
+      "tier": "T3_aggregate",
+      "lexical_overlap": "paraphrase",
+      "min_chunks_required": 11,
+      "clue_ids": [
+        7,
+        8,
+        46,
+        54,
+        77,
+        193,
+        244,
+        250,
+        368,
+        396,
+        397
+      ],
+      "retrieval_keys": [
+        "numbered entries",
+        "gokearot",
+        "ailment",
+        "part two",
+        "how many"
+      ],
+      "gold_spans": [
+        {
+          "source": "SECTION 1 -- The western berths, first round",
+          "section_path": [
+            "PART TWO -- THE INSPECTION RECORD",
+            "SECTION 1 -- The western berths, first round"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "The Gokearot ailment and\n        the Skiodrescar home port are recorded at the same berth."
+        },
+        {
+          "source": "SECTION 7 -- The quarter's carried-forward entries",
+          "section_path": [
+            "PART TWO -- THE INSPECTION RECORD",
+            "SECTION 7 -- The quarter's carried-forward entries"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "The Gokearot ailment shares\n        a berth with the Swekmash cargo."
+        },
+        {
+          "source": "SECTION 11 -- The night round",
+          "section_path": [
+            "PART TWO -- THE INSPECTION RECORD",
+            "SECTION 11 -- The night round"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "The Gokearot ailment\n        and the Rourdellyrn creature are recorded at the same berth."
+        },
+        {
+          "source": "SECTION 11 -- The night round",
+          "section_path": [
+            "PART TWO -- THE INSPECTION RECORD",
+            "SECTION 11 -- The night round"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "None of the following lie in berths 6 through 8: the Dormuiric keeper, the\n        Chemamander pennant and the Gokearot ailment."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "SECTION 8 -- Observations at the change of the watch, clerks' interleaved note",
+          "why": "'The Gokearot ailment was inspected in passing and nothing was found worth entering' -- one of five filler mentions of Gokearot that are NOT numbered entries; counting them gives 16, not 11."
+        },
+        {
+          "source": "PART THREE -- CLOSING NOTES",
+          "why": "'The papers relating to the Gokearot ailment are held in the outer office' -- another non-entry mention."
+        },
+        {
+          "source": "PART ONE -- THE STANDING ROSTER, 'Ailments entered in the health return'",
+          "why": "Gokearot is listed once in the roll itself, which is not a numbered entry; counting every occurrence of the token gives 16, and counting occurrences rather than entries gives 12 because entry 396 names it twice."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Derived: 11 distinct numbered entries name Gokearot (ids 7, 8, 46, 54, 77, 193, 244, 250, 368, 396, 397). The token occurs 16 times in the document: entry 396 names it twice, one occurrence is the Part One roll of ailments, and four are clerks' filler sentences outside the numbered entries."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 19,
+      "qid": "harbour-T3-002",
+      "question": "How many numbered entries appear under the heading 'SECTION 5 -- The outer berths and the shoal side'?",
+      "expected": "44",
+      "aliases": [
+        "forty-four"
+      ],
+      "gold_answer": "44",
+      "accepted_aliases": [
+        "forty-four"
+      ],
+      "answer_type": "number",
+      "grading": {
+        "normaliser": "numeric",
+        "numeric_tolerance_rel": 0.005,
+        "unit": "entries",
+        "max_answer_tokens": 8
+      },
+      "tier": "T3_aggregate",
+      "lexical_overlap": "verbatim",
+      "min_chunks_required": 3,
+      "clue_ids": [
+        138,
+        181
+      ],
+      "retrieval_keys": [
+        "section 5",
+        "outer berths",
+        "shoal side",
+        "numbered entries",
+        "how many"
+      ],
+      "gold_spans": [
+        {
+          "source": "SECTION 5 -- The outer berths and the shoal side",
+          "section_path": [
+            "PART TWO -- THE INSPECTION RECORD",
+            "SECTION 5 -- The outer berths and the shoal side"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "SECTION 5 -- The outer berths and the shoal side"
+        },
+        {
+          "source": "SECTION 5 -- The outer berths and the shoal side",
+          "section_path": [
+            "PART TWO -- THE INSPECTION RECORD",
+            "SECTION 5 -- The outer berths and the shoal side"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "The\n        Troazeillox creature lies within the first 7 berths of the reach."
+        },
+        {
+          "source": "SECTION 5 -- The outer berths and the shoal side",
+          "section_path": [
+            "PART TWO -- THE INSPECTION RECORD",
+            "SECTION 5 -- The outer berths and the shoal side"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "The Wuidearnard creature lies\n        immediately to the west of the Tryngasume pennant."
+        },
+        {
+          "source": "SECTION 6 -- Second round, same day",
+          "section_path": [
+            "PART TWO -- THE INSPECTION RECORD",
+            "SECTION 6 -- Second round, same day"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "SECTION 6 -- Second round, same day"
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "SECTION 1 -- The western berths, first round",
+          "why": "The longest-looking section by page count and the one a chunker is most likely to return first; it holds 41 entries, not 44."
+        },
+        {
+          "source": "SECTION 12 -- Matters arising from the weighbridge",
+          "why": "The shortest section (15 entries) -- a plausible wrong answer if the model counts the final block."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Derived: Section 5 runs from numbered entry 138 to numbered entry 181 inclusive, so 181 - 138 + 1 = 44. Section 5 is the largest of the twelve sections."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 20,
+      "qid": "harbour-T3-003",
+      "question": "Across the whole record, how many numbered entries give the gap between the two items they name as three slips?",
+      "expected": "6",
+      "aliases": [
+        "six"
+      ],
+      "gold_answer": "6",
+      "accepted_aliases": [
+        "six"
+      ],
+      "answer_type": "number",
+      "grading": {
+        "normaliser": "numeric",
+        "numeric_tolerance_rel": 0.005,
+        "unit": "entries",
+        "max_answer_tokens": 8
+      },
+      "tier": "T3_aggregate",
+      "lexical_overlap": "mismatch",
+      "min_chunks_required": 6,
+      "clue_ids": [
+        28,
+        42,
+        238,
+        260,
+        318,
+        373
+      ],
+      "retrieval_keys": [
+        "gap",
+        "slips",
+        "three",
+        "numbered entries",
+        "items"
+      ],
+      "gold_spans": [
+        {
+          "source": "SECTION 1 -- The western berths, first round",
+          "section_path": [
+            "PART TWO -- THE INSPECTION RECORD",
+            "SECTION 1 -- The western berths, first round"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "Exactly 3 berths\n        lie between the Bresterelle pennant and the Pessuitis ailment."
+        },
+        {
+          "source": "SECTION 2 -- Notes taken walking east",
+          "section_path": [
+            "PART TWO -- THE INSPECTION RECORD",
+            "SECTION 2 -- Notes taken walking east"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "Exactly 3 berths lie\n        between the Trethax creature and the Kaernoythe home port."
+        },
+        {
+          "source": "SECTION 7 -- The quarter's carried-forward entries",
+          "section_path": [
+            "PART TWO -- THE INSPECTION RECORD",
+            "SECTION 7 -- The quarter's carried-forward entries"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "Between the Dormuiric keeper and the Thoflake cargo the ledger counts exactly 3\n        berths."
+        },
+        {
+          "source": "SECTION 8 -- Observations at the change of the watch",
+          "section_path": [
+            "PART TWO -- THE INSPECTION RECORD",
+            "SECTION 8 -- Observations at the change of the watch"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "Between the Druichofever ailment and the Pleashyspan watch the ledger counts exactly\n        3 berths."
+        },
+        {
+          "source": "SECTION 9 -- The eastern stretch",
+          "section_path": [
+            "PART TWO -- THE INSPECTION RECORD",
+            "SECTION 9 -- The eastern stretch"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "There are exactly 3 berths separating the Rourdellyrn creature from the Slouvask home\n        port."
+        },
+        {
+          "source": "SECTION 11 -- The night round",
+          "section_path": [
+            "PART TWO -- THE INSPECTION RECORD",
+            "SECTION 11 -- The night round"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "Exactly 3 berths lie\n        between the Friadradidge pennant and the Skyrnel creature."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Numbered entries using the 'count' template, e.g. entry 225",
+          "why": "'Exactly 3 of the following lie in berths 15 through 19' also contains 'exactly 3' but counts items in a range, not berths between a pair -- folding these in inflates the total."
+        },
+        {
+          "source": "SECTION 10 -- Entries queried and then allowed, numbered entry 363",
+          "why": "'exactly 6 berths separating the Gleigrun keeper from the Slethern home port' -- contains the gold answer 6 as a berth count, so a careless extractor can return 6 for the wrong reason."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Derived: six numbered entries state a three-berth separation, across all three surface forms ('Exactly 3 berths lie between', 'There are exactly 3 berths separating', 'the ledger counts exactly 3 berths'). Entries 28, 42, 238, 260, 318, 373. Mismatch wording: 'gap' and 'slips' are absent from the document."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    }
+  ]
+}
