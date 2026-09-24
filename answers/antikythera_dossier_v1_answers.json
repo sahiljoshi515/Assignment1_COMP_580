@@ -1,0 +1,1392 @@
+{
+  "doc_id": "antikythera_dossier_v1",
+  "source_document": "corpus/data/antikythera_dossier_v1.txt",
+  "schema_version": "1.0",
+  "generated_from": "corpus/questions/antikythera_dossier_v1.jsonl",
+  "count": 20,
+  "answers": [
+    {
+      "number": 1,
+      "qid": "antikythera-T1-001",
+      "question": "What weight in grams is recorded for Fragment G of the Antikythera mechanism?",
+      "expected": "31.7",
+      "aliases": [
+        "31.7 g",
+        "31.7 grams"
+      ],
+      "gold_answer": "31.7",
+      "accepted_aliases": [
+        "31.7 g",
+        "31.7 grams"
+      ],
+      "answer_type": "number",
+      "grading": {
+        "normaliser": "numeric",
+        "numeric_tolerance_rel": 0.005,
+        "unit": "grams",
+        "max_answer_tokens": 8
+      },
+      "tier": "T1_lookup",
+      "lexical_overlap": "verbatim",
+      "min_chunks_required": 1,
+      "retrieval_keys": [
+        "fragment g",
+        "weight",
+        "grams",
+        "antikythera mechanism",
+        "major fragments"
+      ],
+      "gold_spans": [
+        {
+          "source": "Antikythera mechanism",
+          "section_path": [
+            "Design",
+            "Major fragments"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "Fragment G | 125 × 110 | 31.7 | Yes | A combination of fragments taken from fragment C while cleaning."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Antikythera mechanism / Design (major fragments table)",
+          "why": "Six sibling rows carry near-miss weights in the same table: A 369.1, B 99.4, C 63.8, D 15.0, E 22.1, F 86.2 g."
+        },
+        {
+          "source": "Antikythera mechanism / Design (Fragment C row)",
+          "why": "Fragment G shares the size '125 × 110' with Fragment C's dimensions and is described as taken from Fragment C, inviting the 63.8 g answer."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Deep table value, unlikely to be memorised. Sits in the first quarter of the document."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 2,
+      "qid": "antikythera-T1-002",
+      "question": "How many teeth does gear r1, the gear in fragment D otherwise unaccounted for, have?",
+      "expected": "63",
+      "aliases": [
+        "63 teeth",
+        "sixty-three"
+      ],
+      "gold_answer": "63",
+      "accepted_aliases": [
+        "63 teeth",
+        "sixty-three"
+      ],
+      "answer_type": "number",
+      "grading": {
+        "normaliser": "numeric",
+        "numeric_tolerance_rel": 0.005,
+        "unit": "teeth",
+        "max_answer_tokens": 8
+      },
+      "tier": "T1_lookup",
+      "lexical_overlap": "verbatim",
+      "min_chunks_required": 1,
+      "retrieval_keys": [
+        "r1",
+        "gear",
+        "teeth",
+        "fragment d",
+        "unaccounted"
+      ],
+      "gold_spans": [
+        {
+          "source": "Antikythera mechanism",
+          "section_path": [
+            "Design",
+            "Mechanics",
+            "Gearing"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "No gearing for such a planetary display survives and all gears are accounted for—with the exception of one 63-toothed gear (r1) otherwise unaccounted for in fragment D."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Antikythera mechanism / Known gear scheme",
+          "why": "'The Sun gear is b1/b2 and b2 has 64 teeth' -- a tooth count one away from the gold answer, a few paragraphs later."
+        },
+        {
+          "source": "Antikythera mechanism / lead section",
+          "why": "'The largest gear is about 13 cm (5 in) in diameter and originally had 223 teeth' -- the other tooth count in the document."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Gear tooth count as requested in the brief; near-miss competitor (64) is deliberate."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 3,
+      "qid": "antikythera-T1-003",
+      "question": "What average circular pitch is given for the mechanism's gear teeth?",
+      "expected": "1.6 mm",
+      "aliases": [
+        "1.6",
+        "1.6mm",
+        "1.6 millimetres"
+      ],
+      "gold_answer": "1.6 mm",
+      "accepted_aliases": [
+        "1.6",
+        "1.6mm",
+        "1.6 millimetres"
+      ],
+      "answer_type": "number",
+      "grading": {
+        "normaliser": "numeric",
+        "numeric_tolerance_rel": 0.005,
+        "unit": "mm",
+        "max_answer_tokens": 8
+      },
+      "tier": "T1_lookup",
+      "lexical_overlap": "verbatim",
+      "min_chunks_required": 1,
+      "retrieval_keys": [
+        "average",
+        "circular pitch",
+        "gear teeth",
+        "mm"
+      ],
+      "gold_spans": [
+        {
+          "source": "Antikythera mechanism",
+          "section_path": [
+            "Design",
+            "Mechanics",
+            "Gearing"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "The gear teeth were in the form of equilateral triangles with an average circular pitch of 1.6 mm, an average wheel thickness of 1.4 mm and an average air gap between gears of 1.2 mm."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Antikythera mechanism / Gearing",
+          "why": "Same sentence gives average wheel thickness 1.4 mm and average air gap 1.2 mm -- two near-miss millimetre figures."
+        },
+        {
+          "source": "Antikythera mechanism / Design (Fragment A row)",
+          "why": "'approximately 30 mm thick at its thickest point' is the other millimetre measurement of the artefact."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Instrument parameter, sub-article depth."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 4,
+      "qid": "antikythera-T1-004",
+      "question": "In how many of the Saros dial's 223 synodic month cells do glyphs appear?",
+      "expected": "51",
+      "aliases": [
+        "51 cells",
+        "fifty-one"
+      ],
+      "gold_answer": "51",
+      "accepted_aliases": [
+        "51 cells",
+        "fifty-one"
+      ],
+      "answer_type": "number",
+      "grading": {
+        "normaliser": "numeric",
+        "numeric_tolerance_rel": 0.005,
+        "unit": "cells",
+        "max_answer_tokens": 8
+      },
+      "tier": "T1_lookup",
+      "lexical_overlap": "paraphrase",
+      "min_chunks_required": 1,
+      "retrieval_keys": [
+        "saros dial",
+        "synodic month cells",
+        "glyphs",
+        "223"
+      ],
+      "gold_spans": [
+        {
+          "source": "Antikythera mechanism",
+          "section_path": [
+            "Design",
+            "Faces",
+            "Rear face"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "Glyphs in 51 of the 223 synodic month cells of the dial specify the occurrence of 38 lunar and 27 solar eclipses."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Antikythera mechanism / Rear face",
+          "why": "Same sentence carries 38 lunar and 27 solar eclipses, and 223 -- three competing counts inside one clause."
+        },
+        {
+          "source": "Antikythera mechanism / Design (Fragment B row)",
+          "why": "'235 cells of which 49 have been deciphered' is a structurally identical cell-count claim for the Metonic scale."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Strong intra-sentence distractors; the 49/235 pair elsewhere is the retrieval trap."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 5,
+      "qid": "antikythera-T1-005",
+      "question": "What is Malin and Dickens' best estimate for the number of holes beneath the mechanism's outer front ring?",
+      "expected": "352.3±1.5",
+      "aliases": [
+        "352.3 ± 1.5",
+        "352.3+/-1.5",
+        "352.3"
+      ],
+      "gold_answer": "352.3±1.5",
+      "accepted_aliases": [
+        "352.3 ± 1.5",
+        "352.3+/-1.5",
+        "352.3"
+      ],
+      "answer_type": "phrase",
+      "grading": {
+        "normaliser": "exact_ci",
+        "numeric_tolerance_rel": null,
+        "unit": null,
+        "max_answer_tokens": 8
+      },
+      "tier": "T1_lookup",
+      "lexical_overlap": "verbatim",
+      "min_chunks_required": 1,
+      "retrieval_keys": [
+        "malin and dickens",
+        "best estimate",
+        "number of holes",
+        "front ring"
+      ],
+      "gold_spans": [
+        {
+          "source": "Antikythera mechanism",
+          "section_path": [
+            "Design",
+            "Faces",
+            "Front face"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "Malin and Dickens' best estimate is 352.3±1.5"
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Antikythera mechanism / Front face",
+          "why": "The same passage reports Budiselic et al.'s 354 intervals, Woan and Bayley's 354-355, and the traditional 365 -- three rival hole counts in adjacent sentences."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Named-source question to avoid the three-competing-values ambiguity trap."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 6,
+      "qid": "antikythera-T1-006",
+      "question": "What calibrated calendar date did the 1964 carbon dating of the ship's hull planking deliver?",
+      "expected": "220 BC ± 43 years",
+      "aliases": [
+        "220 BC +/- 43 years",
+        "220 BC ±43 years",
+        "220 BC"
+      ],
+      "gold_answer": "220 BC ± 43 years",
+      "accepted_aliases": [
+        "220 BC +/- 43 years",
+        "220 BC ±43 years",
+        "220 BC"
+      ],
+      "answer_type": "date",
+      "grading": {
+        "normaliser": "exact_ci",
+        "numeric_tolerance_rel": null,
+        "unit": null,
+        "max_answer_tokens": 8
+      },
+      "tier": "T1_lookup",
+      "lexical_overlap": "paraphrase",
+      "min_chunks_required": 1,
+      "retrieval_keys": [
+        "1964",
+        "carbon dated",
+        "hull planking",
+        "calibrated calendar date"
+      ],
+      "gold_spans": [
+        {
+          "source": "Antikythera wreck",
+          "section_path": [
+            "Dating"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "Eventually, in 1964, a sample of the hull planking was carbon dated, and delivered a calibrated calendar date of 220 BC ± 43 years."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Antikythera wreck / Dating",
+          "why": "Same section offers amphorae at 80-70 BC, Hellenistic pottery at 75-50 BC and coins minted 76-67 BC -- four competing dating lines in one chunk."
+        },
+        {
+          "source": "Antikythera mechanism / lead section",
+          "why": "'dated by multiple lines of evidence to approximately 70-60 BC' is the headline wreck date a model may substitute."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Dating argument as the brief requested; the disparity with the ceramics is the point of the passage."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 7,
+      "qid": "antikythera-T1-007",
+      "question": "In what year did Price become the Avalon Professor of the History of Science?",
+      "expected": "1962",
+      "aliases": [
+        "in 1962"
+      ],
+      "gold_answer": "1962",
+      "accepted_aliases": [
+        "in 1962"
+      ],
+      "answer_type": "date",
+      "grading": {
+        "normaliser": "exact_ci",
+        "numeric_tolerance_rel": null,
+        "unit": null,
+        "max_answer_tokens": 8
+      },
+      "tier": "T1_lookup",
+      "lexical_overlap": "paraphrase",
+      "min_chunks_required": 1,
+      "retrieval_keys": [
+        "price",
+        "avalon professor",
+        "history of science",
+        "year"
+      ],
+      "gold_spans": [
+        {
+          "source": "Derek J. de Solla Price",
+          "section_path": [
+            "Biography"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "In 1962 he became the Avalon Professor of the History of Science."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Derek J. de Solla Price / Biography",
+          "why": "Adjacent sentences give 1959 (joined Yale), 1960 (department formed, became chairman) and 1963 (Little Science, Big Science) -- a dense run of near-miss years."
+        },
+        {
+          "source": "Derek J. de Solla Price / Selected publications",
+          "why": "A 1962 publication entry ('Mechanical Waterclocks of the 14th Century in Fez, Morocco') repeats the gold token in an unrelated chunk."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Sits about 70% through the document."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 8,
+      "qid": "antikythera-T1-008",
+      "question": "By how much is the Metonic cycle, defined as 235 synodic months, longer than 19 tropical years?",
+      "expected": "2 hours, 4 minutes and 58 seconds",
+      "aliases": [
+        "2 hours 4 minutes and 58 seconds",
+        "two hours, four minutes and 58 seconds"
+      ],
+      "gold_answer": "2 hours, 4 minutes and 58 seconds",
+      "accepted_aliases": [
+        "2 hours 4 minutes and 58 seconds",
+        "two hours, four minutes and 58 seconds"
+      ],
+      "answer_type": "phrase",
+      "grading": {
+        "normaliser": "exact_ci",
+        "numeric_tolerance_rel": null,
+        "unit": null,
+        "max_answer_tokens": 8
+      },
+      "tier": "T1_lookup",
+      "lexical_overlap": "paraphrase",
+      "min_chunks_required": 1,
+      "retrieval_keys": [
+        "metonic cycle",
+        "235 synodic months",
+        "19 tropical years",
+        "longer"
+      ],
+      "gold_spans": [
+        {
+          "source": "Metonic cycle",
+          "section_path": [
+            "lead section"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "The recurrence is not perfect, and by precise observation the Metonic cycle defined as 235 synodic months is just 2 hours, 4 minutes and 58 seconds longer than 19 tropical years."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Metonic cycle / Mathematical basis",
+          "why": "'Thus the algorithm is correct to 0.087 days (2 hours, 5 minutes and 16 seconds)' -- a near-identical hours/minutes/seconds figure for the same comparison computed from rounded constants."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "The 2h5m16s figure later in the same page is the sharpest near-miss competitor in the corpus."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 9,
+      "qid": "antikythera-T1-009",
+      "question": "Expressed in parts per million, what is the computed error of the Callippic cycle?",
+      "expected": "4.95",
+      "aliases": [
+        "4.95 parts per million",
+        "4.95 ppm"
+      ],
+      "gold_answer": "4.95",
+      "accepted_aliases": [
+        "4.95 parts per million",
+        "4.95 ppm"
+      ],
+      "answer_type": "number",
+      "grading": {
+        "normaliser": "numeric",
+        "numeric_tolerance_rel": 0.005,
+        "unit": "parts per million",
+        "max_answer_tokens": 8
+      },
+      "tier": "T1_lookup",
+      "lexical_overlap": "verbatim",
+      "min_chunks_required": 1,
+      "retrieval_keys": [
+        "callippic cycle",
+        "error",
+        "parts per million"
+      ],
+      "gold_spans": [
+        {
+          "source": "Callippic cycle",
+          "section_path": [
+            "Description"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "The cycle's error has been computed as one full day in 553 years, or 4.95 parts per million."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Callippic cycle / Description",
+          "why": "The same sentence gives the error as 'one full day in 553 years', the alternative phrasing a model may return instead."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Late in the document (page 6 of 7)."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 10,
+      "qid": "antikythera-T1-010",
+      "question": "What period is given for the slow gyration of the Earth-Moon system's rotation axis?",
+      "expected": "18.59992",
+      "aliases": [
+        "18.59992 years"
+      ],
+      "gold_answer": "18.59992",
+      "accepted_aliases": [
+        "18.59992 years"
+      ],
+      "answer_type": "number",
+      "grading": {
+        "normaliser": "numeric",
+        "numeric_tolerance_rel": 0.005,
+        "unit": "years",
+        "max_answer_tokens": 8
+      },
+      "tier": "T1_lookup",
+      "lexical_overlap": "mismatch",
+      "min_chunks_required": 1,
+      "retrieval_keys": [
+        "gyration",
+        "earth-moon system",
+        "rotation axis",
+        "period"
+      ],
+      "gold_spans": [
+        {
+          "source": "Saros (astronomy)",
+          "section_path": [
+            "Description"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "The axis of rotation of the Earth–Moon system exhibits a precession period of 18.59992 years."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Saros (astronomy) / lead section",
+          "why": "The saros equivalence list offers 18.029 years and 18.999 eclipse years -- two 18-point-something figures in the same article."
+        },
+        {
+          "source": "Antikythera mechanism / Known gear scheme",
+          "why": "'a precessional advancement ... with a period of 8.8826 years, compared with the current value of precession period of the moon of 8.85 years' -- a different precession period for a related quantity."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Mismatch: the document's key term is 'precession period'; the question says 'slow gyration'. Residual overlap on 'Earth-Moon system' is unavoidable without making the question ambiguous."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 11,
+      "qid": "antikythera-T1-011",
+      "question": "In which city was the final recorded Olympic celebration held?",
+      "expected": "Antioch",
+      "aliases": [
+        "at Antioch",
+        "Antioch, 520"
+      ],
+      "gold_answer": "Antioch",
+      "accepted_aliases": [
+        "at Antioch",
+        "Antioch, 520"
+      ],
+      "answer_type": "entity",
+      "grading": {
+        "normaliser": "exact_ci",
+        "numeric_tolerance_rel": null,
+        "unit": null,
+        "max_answer_tokens": 8
+      },
+      "tier": "T1_lookup",
+      "lexical_overlap": "mismatch",
+      "min_chunks_required": 1,
+      "retrieval_keys": [
+        "city",
+        "final",
+        "recorded",
+        "olympic celebration"
+      ],
+      "gold_spans": [
+        {
+          "source": "Olympiad",
+          "section_path": [
+            "Ancient Olympics",
+            "End of the era"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "The last datable Olympic festival took place at Antioch in 520."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Olympiad / End of the era",
+          "why": "The preceding sentence -- 'The last games at Olympia were probably held in the first half of the 5th century' -- puts Olympia one clause away as a competing city."
+        },
+        {
+          "source": "Olympiad / End of the era",
+          "why": "'the Chronicon Paschale dates events by Olympiad down to the 352nd Olympiad (AD 628)' is a later date that reads like an 'end' answer."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Mismatch: document says 'last datable Olympic festival took place'; question says 'final recorded Olympic celebration held'. Last page of the document."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 12,
+      "qid": "antikythera-T2-012",
+      "question": "Fragment 19's back door bears an inscription reading \"... 76 years ...\". Whose observations, cited in Ptolemy's Almagest, are dated to the 47th year of the first period of the cycle that inscription refers to?",
+      "expected": "Timocharis",
+      "aliases": [
+        "observations by Timocharis"
+      ],
+      "gold_answer": "Timocharis",
+      "accepted_aliases": [
+        "observations by Timocharis"
+      ],
+      "answer_type": "entity",
+      "grading": {
+        "normaliser": "exact_ci",
+        "numeric_tolerance_rel": null,
+        "unit": null,
+        "max_answer_tokens": 8
+      },
+      "tier": "T2_multihop",
+      "lexical_overlap": "paraphrase",
+      "min_chunks_required": 2,
+      "retrieval_keys": [
+        "fragment 19",
+        "back door inscription",
+        "76 years",
+        "almagest",
+        "47th year",
+        "observations"
+      ],
+      "gold_spans": [
+        {
+          "source": "Antikythera mechanism",
+          "section_path": [
+            "Design"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "Fragment 19 contains significant back door inscriptions including one reading \"... 76 years ...\" which refers to the Callippic cycle."
+        },
+        {
+          "source": "Callippic cycle",
+          "section_path": [
+            "Description"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "In Ptolemy's Almagest, for example, he cites (Almagest VII 3, H25) observations by Timocharis during the 47th year of the first Callippic cycle (283 BC), when on the eighth of Anthesterion, the Pleiades star cluster was occulted by the Moon."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Antikythera mechanism / Doors",
+          "why": "'On fragment 19, it is written \"76 years, 19 years\" representing the Callippic and Metonic cycles' repeats hop 1 without supplying any observer."
+        },
+        {
+          "source": "Callippic cycle / Description",
+          "why": "Hipparchus appears in the next paragraph as the astronomer who improved on the cycle -- the likeliest confabulated name."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Join key ('Callippic cycle') appears in neither question nor answer. Spans are on page 1 and page 6, ~105k characters apart."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 13,
+      "qid": "antikythera-T2-013",
+      "question": "Which ancient Greek city is proposed as the device's origin on the strength of the coins later found to have been minted between 76 and 67 BC?",
+      "expected": "Pergamon",
+      "aliases": [
+        "the ancient Greek city of Pergamon",
+        "Pergamum"
+      ],
+      "gold_answer": "Pergamon",
+      "accepted_aliases": [
+        "the ancient Greek city of Pergamon",
+        "Pergamum"
+      ],
+      "answer_type": "entity",
+      "grading": {
+        "normaliser": "exact_ci",
+        "numeric_tolerance_rel": null,
+        "unit": null,
+        "max_answer_tokens": 8
+      },
+      "tier": "T2_multihop",
+      "lexical_overlap": "paraphrase",
+      "min_chunks_required": 2,
+      "retrieval_keys": [
+        "ancient greek city",
+        "origin",
+        "coins",
+        "minted",
+        "76 and 67 bc"
+      ],
+      "gold_spans": [
+        {
+          "source": "Antikythera wreck",
+          "section_path": [
+            "Dating"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "Any possible association with Sulla was eliminated, however, when the coins discovered in the 1970s during work by Jacques Cousteau and associates were found to have been minted between 76 and 67 BC."
+        },
+        {
+          "source": "Antikythera mechanism",
+          "section_path": [
+            "History",
+            "Origin"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "Another theory suggests that coins found by Jacques Cousteau at the wreck site in the 1970s date to the time of the device's construction, and posits that its origin may have been from the ancient Greek city of Pergamon, home of the Library of Pergamum."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Antikythera mechanism / Origin",
+          "why": "The same section proposes Corinth, Syracuse and Rhodes as origins; Rhodes is argued from the ship's Rhodian-style vases in the very next paragraph."
+        },
+        {
+          "source": "Antikythera wreck / Dating",
+          "why": "The Sulla-from-Athens theory sits in the same sentence as the coin dates and names Athens and Italy."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Join key (Jacques Cousteau / the 1970s dive) is in neither question nor answer; the minting dates live only on page 2 and the city only on page 1, ~47k characters apart."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 14,
+      "qid": "antikythera-T2-014",
+      "question": "The historian of science who, with the Greek nuclear physicist Charalampos Karakalos, imaged the 82 fragments by X-ray and gamma ray in 1971 obtained a second doctorate in what year?",
+      "expected": "1954",
+      "aliases": [
+        "in 1954"
+      ],
+      "gold_answer": "1954",
+      "accepted_aliases": [
+        "in 1954"
+      ],
+      "answer_type": "date",
+      "grading": {
+        "normaliser": "exact_ci",
+        "numeric_tolerance_rel": null,
+        "unit": null,
+        "max_answer_tokens": 8
+      },
+      "tier": "T2_multihop",
+      "lexical_overlap": "verbatim",
+      "min_chunks_required": 2,
+      "retrieval_keys": [
+        "charalampos karakalos",
+        "x-ray",
+        "gamma ray",
+        "82 fragments",
+        "1971",
+        "second doctorate"
+      ],
+      "gold_spans": [
+        {
+          "source": "Antikythera mechanism",
+          "section_path": [
+            "History",
+            "Discovery"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "In 1971, Price and Greek nuclear physicist Charalampos Karakalos made X-ray and gamma-ray images of the 82 fragments."
+        },
+        {
+          "source": "Derek J. de Solla Price",
+          "section_path": [
+            "Biography"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "The manuscript, written in Middle English, describes an Equatorium, an astronomical calculating instrument, and became the basis of the thesis for his PhD, which he obtained in 1954, and also for a book, published the following year."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Derek J. de Solla Price / Biography",
+          "why": "The first doctorate -- 'a London external Ph.D. in experimental physics, which he obtained in 1946' -- is the same sentence shape with a different year."
+        },
+        {
+          "source": "Antikythera mechanism / Discovery",
+          "why": "'Price published a paper on their findings in 1974' sits in the hop-1 chunk and is the year a single-hop retrieval will return."
+        },
+        {
+          "source": "Derek J. de Solla Price / Biography",
+          "why": "'where he received a Bachelor of Science in 1942' and the 1955 book publication bracket the gold year in the same paragraph."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Join key (Price's name) appears in neither question nor answer; it is present only inside the hop-1 span. Spans on page 1 and page 3, ~72k characters apart."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 15,
+      "qid": "antikythera-T2-015",
+      "question": "The man who built a simple working model of the mechanism in the 1970s had earlier compiled an inventory of the scientific apparatus held by which institution?",
+      "expected": "the British Museum",
+      "aliases": [
+        "British Museum"
+      ],
+      "gold_answer": "the British Museum",
+      "accepted_aliases": [
+        "British Museum"
+      ],
+      "answer_type": "entity",
+      "grading": {
+        "normaliser": "exact_ci",
+        "numeric_tolerance_rel": null,
+        "unit": null,
+        "max_answer_tokens": 8
+      },
+      "tier": "T2_multihop",
+      "lexical_overlap": "mismatch",
+      "min_chunks_required": 2,
+      "retrieval_keys": [
+        "simple working model",
+        "1970s",
+        "inventory",
+        "scientific apparatus",
+        "institution"
+      ],
+      "gold_spans": [
+        {
+          "source": "Antikythera mechanism",
+          "section_path": [
+            "Reconstruction efforts",
+            "Proposed gear schemes"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "Derek J. de Solla Price built a simple model in the 1970s."
+        },
+        {
+          "source": "Derek J. de Solla Price",
+          "section_path": [
+            "Biography"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "He first prepared a catalogue of the instrument collection of the British Museum, and then a catalogue of all the ancient astrolabes that he was able to locate."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Derek J. de Solla Price / Biography",
+          "why": "'In 1957 he became a consultant to the Smithsonian Institution' -- the other institution attached to Price, and the question says 'institution'."
+        },
+        {
+          "source": "Antikythera mechanism / Popular culture and museum replicas",
+          "why": "A list of museums holding reconstructions (National Archaeological Museum, American Computer Museum, Kotsanas Museum) fires on 'model' plus 'museum'."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Mismatch wording: 'inventory of scientific apparatus' for the document's 'catalogue of the instrument collection'. Join key (Price) in neither question nor answer; spans ~17k characters apart."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 16,
+      "qid": "antikythera-T2-016",
+      "question": "Iversen argues the surviving model was modified for a client from a particular region of northwestern Greece. Which minor games named on the Games dial were held in that region?",
+      "expected": "Naa",
+      "aliases": [
+        "the Naa games",
+        "Naa games of Dodona"
+      ],
+      "gold_answer": "Naa",
+      "accepted_aliases": [
+        "the Naa games",
+        "Naa games of Dodona"
+      ],
+      "answer_type": "entity",
+      "grading": {
+        "normaliser": "exact_ci",
+        "numeric_tolerance_rel": null,
+        "unit": null,
+        "max_answer_tokens": 8
+      },
+      "tier": "T2_multihop",
+      "lexical_overlap": "verbatim",
+      "min_chunks_required": 2,
+      "retrieval_keys": [
+        "iversen",
+        "modified for a client",
+        "northwestern greece",
+        "games dial",
+        "minor games"
+      ],
+      "gold_spans": [
+        {
+          "source": "Antikythera mechanism",
+          "section_path": [
+            "History",
+            "Origin"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "A study by Iversen in 2017 reasons that the prototype for the device was from Rhodes, but that this particular model was modified for a client from Epirus in northwestern Greece"
+        },
+        {
+          "source": "Antikythera mechanism",
+          "section_path": [
+            "Design",
+            "Faces",
+            "Rear face"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "the Games dial mentions the very minor Naa games of Dodona (in Epirus)"
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Antikythera mechanism / Rear face",
+          "why": "The Games dial's other lesser games, 'the Halieia of Rhodes', is listed in the same sentence -- and Rhodes is named in the hop-1 span, so the wrong hop leads straight to Halieia."
+        },
+        {
+          "source": "Antikythera mechanism / Rear face",
+          "why": "The four crown games (Isthmia, Olympia, Nemea, Pythia) sit in the same table and are the more famous answer."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Join key (Epirus) in neither question nor answer. Both spans are on page 1 but ~19k characters apart, in Origin and Rear face."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 17,
+      "qid": "antikythera-T2-017",
+      "question": "The Greek numeral inscription ΣΚΓ on fragment 19 denotes one full cycle. How many draconic months does the document equate with that cycle?",
+      "expected": "241.999",
+      "aliases": [
+        "241.999 draconic months"
+      ],
+      "gold_answer": "241.999",
+      "accepted_aliases": [
+        "241.999 draconic months"
+      ],
+      "answer_type": "number",
+      "grading": {
+        "normaliser": "numeric",
+        "numeric_tolerance_rel": 0.005,
+        "unit": "draconic months",
+        "max_answer_tokens": 8
+      },
+      "tier": "T2_multihop",
+      "lexical_overlap": "verbatim",
+      "min_chunks_required": 2,
+      "retrieval_keys": [
+        "σκγ",
+        "fragment 19",
+        "greek numeral",
+        "draconic months",
+        "cycle"
+      ],
+      "gold_spans": [
+        {
+          "source": "Antikythera mechanism",
+          "section_path": [
+            "Design",
+            "Doors"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "ΣΚΓ, indicating the Saros cycle of 223 months, present on fragment 19."
+        },
+        {
+          "source": "Saros (astronomy)",
+          "section_path": [
+            "lead section"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "241.999 draconic months"
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Saros (astronomy) / lead section",
+          "why": "'nearly 242 draconic months' appears in the opening sentence -- the rounded competitor for the precise gold value."
+        },
+        {
+          "source": "Saros (astronomy) / Saros series",
+          "why": "'223 synodic months of a saros is about one hour short of 242 draconic months' repeats the rounded figure in a second chunk."
+        },
+        {
+          "source": "Saros (astronomy) / lead section",
+          "why": "The same equivalence list gives 238.992 anomalistic months and 241.029 sidereal months -- two values within 1% of the gold."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Join key (the saros) in neither question nor answer. Spans on page 1 and page 5, ~62k characters apart."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 18,
+      "qid": "antikythera-T3-018",
+      "question": "Counting lunar and solar together, how many eclipses do the Saros dial glyphs specify in total?",
+      "expected": "65",
+      "aliases": [
+        "65 eclipses",
+        "sixty-five"
+      ],
+      "gold_answer": "65",
+      "accepted_aliases": [
+        "65 eclipses",
+        "sixty-five"
+      ],
+      "answer_type": "number",
+      "grading": {
+        "normaliser": "numeric",
+        "numeric_tolerance_rel": 0.005,
+        "unit": "eclipses",
+        "max_answer_tokens": 8
+      },
+      "tier": "T3_aggregate",
+      "lexical_overlap": "paraphrase",
+      "min_chunks_required": 1,
+      "retrieval_keys": [
+        "saros dial",
+        "glyphs",
+        "eclipses",
+        "lunar",
+        "solar",
+        "total"
+      ],
+      "gold_spans": [
+        {
+          "source": "Antikythera mechanism",
+          "section_path": [
+            "Design",
+            "Faces",
+            "Rear face"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "Glyphs in 51 of the 223 synodic month cells of the dial specify the occurrence of 38 lunar and 27 solar eclipses."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Antikythera mechanism / Rear face",
+          "why": "51 (the number of glyph-bearing cells) is the figure a model will return instead of summing 38 + 27."
+        },
+        {
+          "source": "Antikythera mechanism / Rear face",
+          "why": "223 synodic month cells sits in the same sentence as a third competing count."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Derived: 38 + 27 = 65. The document never states 65."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 19,
+      "qid": "antikythera-T3-019",
+      "question": "How many years separate Meton's introduction of the 19-year cycle to the Attic calendar from the start of the first year of the first Callippic cycle?",
+      "expected": "102",
+      "aliases": [
+        "102 years"
+      ],
+      "gold_answer": "102",
+      "accepted_aliases": [
+        "102 years"
+      ],
+      "answer_type": "number",
+      "grading": {
+        "normaliser": "numeric",
+        "numeric_tolerance_rel": 0.005,
+        "unit": "years",
+        "max_answer_tokens": 8
+      },
+      "tier": "T3_aggregate",
+      "lexical_overlap": "paraphrase",
+      "min_chunks_required": 2,
+      "retrieval_keys": [
+        "meton",
+        "19-year cycle",
+        "attic calendar",
+        "first callippic cycle",
+        "years separate"
+      ],
+      "gold_spans": [
+        {
+          "source": "Metonic cycle",
+          "section_path": [
+            "Application in traditional calendars"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "Meton introduced the 19 year cycle to the Attic calendar in 432 BC."
+        },
+        {
+          "source": "Callippic cycle",
+          "section_path": [
+            "Description"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "The first year of the first Callippic cycle began at the summer solstice of 330 BC (28 June in the proleptic Julian calendar), and was subsequently used by later astronomers."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Callippic cycle / Description",
+          "why": "'A century before Callippus, Meton had described a cycle' invites the round answer 100 instead of the computed 102."
+        },
+        {
+          "source": "Metonic cycle / Application in traditional calendars",
+          "why": "'In the following century, Callippus developed the Callippic cycle' repeats the century framing in the other source page."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Derived: 432 BC - 330 BC = 102 years. Requires both pages; the document states neither the subtraction nor the result."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 20,
+      "qid": "antikythera-T3-020",
+      "question": "What is the combined mass, in grams, of the seven major fragments listed for the mechanism?",
+      "expected": "687.3",
+      "aliases": [
+        "687.3 g",
+        "687.3 grams"
+      ],
+      "gold_answer": "687.3",
+      "accepted_aliases": [
+        "687.3 g",
+        "687.3 grams"
+      ],
+      "answer_type": "number",
+      "grading": {
+        "normaliser": "numeric",
+        "numeric_tolerance_rel": 0.005,
+        "unit": "grams",
+        "max_answer_tokens": 8
+      },
+      "tier": "T3_aggregate",
+      "lexical_overlap": "mismatch",
+      "min_chunks_required": 1,
+      "retrieval_keys": [
+        "combined mass",
+        "grams",
+        "seven major fragments",
+        "mechanism"
+      ],
+      "gold_spans": [
+        {
+          "source": "Antikythera mechanism",
+          "section_path": [
+            "Design",
+            "Major fragments"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "Fragment A | 180 × 150 | 369.1"
+        },
+        {
+          "source": "Antikythera mechanism",
+          "section_path": [
+            "Design",
+            "Major fragments"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "Fragment B | 125 × 60 | 99.4"
+        },
+        {
+          "source": "Antikythera mechanism",
+          "section_path": [
+            "Design",
+            "Major fragments"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "Fragment C | 120 × 110 | 63.8"
+        },
+        {
+          "source": "Antikythera mechanism",
+          "section_path": [
+            "Design",
+            "Major fragments"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "Fragment D | 45 × 35 | 15.0"
+        },
+        {
+          "source": "Antikythera mechanism",
+          "section_path": [
+            "Design",
+            "Major fragments"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "Fragment E | 60 × 35 | 22.1"
+        },
+        {
+          "source": "Antikythera mechanism",
+          "section_path": [
+            "Design",
+            "Major fragments"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "Fragment F | 90 × 80 | 86.2"
+        },
+        {
+          "source": "Antikythera mechanism",
+          "section_path": [
+            "Design",
+            "Major fragments"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "Fragment G | 125 × 110 | 31.7"
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Antikythera mechanism / Design (Fragment A row)",
+          "why": "Fragment A alone weighs 369.1 g and is called 'the main fragment', so a partial read returns 369.1."
+        },
+        {
+          "source": "Antikythera mechanism / lead section",
+          "why": "'82 separate fragments' and 'seven are mechanically significant' invite a count answer rather than a mass total."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Derived: 369.1+99.4+63.8+15.0+22.1+86.2+31.7 = 687.3. Mismatch wording: the table's column header is 'Weight [g]'; the word 'mass' never occurs in the document (only 'Massachusetts')."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    }
+  ]
+}
