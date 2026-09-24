@@ -13,11 +13,13 @@ The repository contains two directories:
 ```text
 Assignment1_COMP_580/
 ├── contexts/
-└── questions/
+├── questions/
+└── answers/
 ```
 
 * `contexts/` contains the long-context documents.
 * `questions/` contains the corresponding questions for each context.
+* `answers/` contains the corresponding answers to the questions for each context.
 
 ## Contexts
 
@@ -31,13 +33,13 @@ The `v2` contexts are significantly longer. You are welcome to experiment with t
 
 ## Task
 
-First, establish a **full-context baseline** by answering each question using the entire corresponding context:
+First, establish a **full-context baseline** by answering each question and comparing the answers with the gold answers in `answers/` using the entire corresponding context:
 
 ```text
 LLM(Full Context + Question)
 ```
 
-Next, design your own method for using **Bloom Filters to index or compress the context**. Then query the LLM using the reduced context:
+Next, design your own method for using **Bloom Filters to compress the context**. Then query the LLM using the reduced context:
 
 ```text
 LLM(Compressed Context + Question)
