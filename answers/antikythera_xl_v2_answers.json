@@ -1,8 +1,8 @@
 {
   "doc_id": "antikythera_xl_v2",
-  "source_document": "corpus/data/antikythera_xl_v2.txt",
+  "source_document": "contexts/antikythera_xl_v2.txt",
   "schema_version": "1.0",
-  "generated_from": "corpus/questions/antikythera_xl_v2.jsonl",
+  "generated_from": "questions/antikythera_xl_v2.json",
   "count": 20,
   "answers": [
     {
