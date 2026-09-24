@@ -1,0 +1,1432 @@
+{
+  "doc_id": "dwh_dossier_v1",
+  "source_document": "corpus/data/dwh_dossier_v1.txt",
+  "schema_version": "1.0",
+  "generated_from": "corpus/questions/dwh_dossier_v1.jsonl",
+  "count": 20,
+  "answers": [
+    {
+      "number": 1,
+      "qid": "dwh-T1-001",
+      "question": "Including one-time use sorbent booms, what total length of booms was deployed during the Deepwater Horizon response?",
+      "expected": "13,300,000 ft",
+      "aliases": [
+        "13,300,000 feet",
+        "13.3 million ft",
+        "4,100 km",
+        "13,300,000 ft (4,100 km)"
+      ],
+      "gold_answer": "13,300,000 ft",
+      "accepted_aliases": [
+        "13,300,000 feet",
+        "13.3 million ft",
+        "4,100 km",
+        "13,300,000 ft (4,100 km)"
+      ],
+      "answer_type": "number",
+      "grading": {
+        "normaliser": "numeric",
+        "numeric_tolerance_rel": 0.005,
+        "max_answer_tokens": 8,
+        "unit": "ft"
+      },
+      "tier": "T1_lookup",
+      "lexical_overlap": "verbatim",
+      "min_chunks_required": 1,
+      "retrieval_keys": [
+        "one-time use sorbent booms",
+        "total length",
+        "booms",
+        "deployed"
+      ],
+      "gold_spans": [
+        {
+          "source": "Deepwater Horizon oil spill",
+          "section_path": [
+            "Containment, collection and use of dispersants",
+            "Containment"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "Including one-time use sorbent booms, a total of 13,300,000 ft (4,100 km) of booms were deployed."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Deepwater Horizon oil spill > Containment",
+          "why": "The immediately preceding sentence gives 4,200,000 ft (1,300 km) for containment booms alone -- a near-miss figure for the same object."
+        },
+        {
+          "source": "Timeline of the Deepwater Horizon oil spill > April",
+          "why": "29 April entry gives 100,000 feet / 180,000 feet / 300,000 feet of containment boom, another boom-length family."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Sub-article detail; the two boom totals sit in the same paragraph so a topically-right chunk still has to pick the right one."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 2,
+      "qid": "dwh-T1-002",
+      "question": "How many sorties were flown to release the dispersant product during the spill response?",
+      "expected": "400",
+      "aliases": [
+        "over 400",
+        "Over 400 sorties",
+        "more than 400",
+        "400 sorties"
+      ],
+      "gold_answer": "400",
+      "accepted_aliases": [
+        "over 400",
+        "Over 400 sorties",
+        "more than 400",
+        "400 sorties"
+      ],
+      "answer_type": "number",
+      "grading": {
+        "normaliser": "numeric",
+        "numeric_tolerance_rel": 0.005,
+        "max_answer_tokens": 8,
+        "unit": ""
+      },
+      "tier": "T1_lookup",
+      "lexical_overlap": "verbatim",
+      "min_chunks_required": 1,
+      "retrieval_keys": [
+        "sorties",
+        "flown",
+        "release",
+        "dispersant",
+        "product"
+      ],
+      "gold_spans": [
+        {
+          "source": "Deepwater Horizon oil spill",
+          "section_path": [
+            "Containment, collection and use of dispersants",
+            "Use of Corexit dispersant"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "Over 400 sorties were flown to release the product."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Deepwater Horizon oil spill > Removal",
+          "why": "411 controlled in-situ fires -- a similar three-digit count for a different response activity, in an adjacent section."
+        },
+        {
+          "source": "Deepwater Horizon oil spill > Removal",
+          "why": "82 helicopters and 20 fixed-wing aircraft were involved -- another aviation count nearby."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Deep response detail, not a headline fact. Document wording is 'Over 400 sorties'; gold is the bare numeral so the numeric normaliser can parse it, with the hedged forms as aliases."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 3,
+      "qid": "dwh-T1-003",
+      "question": "How large was the no-fly zone that aviation regulators imposed over the spill response operations area?",
+      "expected": "900 sq mi",
+      "aliases": [
+        "900 square miles",
+        "2,300 km2",
+        "2,300 km²",
+        "900 sq mi (2,300 km²)"
+      ],
+      "gold_answer": "900 sq mi",
+      "accepted_aliases": [
+        "900 square miles",
+        "2,300 km2",
+        "2,300 km²",
+        "900 sq mi (2,300 km²)"
+      ],
+      "answer_type": "number",
+      "grading": {
+        "normaliser": "numeric",
+        "numeric_tolerance_rel": 0.005,
+        "max_answer_tokens": 8,
+        "unit": "sq mi"
+      },
+      "tier": "T1_lookup",
+      "lexical_overlap": "mismatch",
+      "min_chunks_required": 1,
+      "retrieval_keys": [
+        "no-fly zone",
+        "aviation regulators",
+        "imposed",
+        "operations area",
+        "response"
+      ],
+      "gold_spans": [
+        {
+          "source": "Deepwater Horizon oil spill",
+          "section_path": [
+            "Containment, collection and use of dispersants",
+            "Access restrictions"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "the Federal Aviation Administration (FAA) implemented a 900 sq mi (2,300 km²) temporary flight restriction zone over the operations area"
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Deepwater Horizon oil spill > Volume and extent of oil spill",
+          "why": "70,000 sq mi (180,000 km²) of ocean directly affected -- a much larger area figure in square miles."
+        },
+        {
+          "source": "Deepwater Horizon oil spill > Economy",
+          "why": "NOAA closed 86,985 sq mi (225,290 km²) to commercial fishing -- another square-mile closure figure."
+        },
+        {
+          "source": "Deepwater Horizon explosion > Casualties",
+          "why": "The Coast Guard surveyed nearly 1,940 square miles in the search -- a third square-mile figure."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Mismatch probe: the document says 'temporary flight restriction zone' and 'Federal Aviation Administration'; the question says 'no-fly zone' and 'aviation regulators', neither of which appears anywhere in the text."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 4,
+      "qid": "dwh-T1-004",
+      "question": "How many claimants did the independent auditor of the Gulf Coast Claims Facility find had been wrongly denied or underpaid?",
+      "expected": "7,300",
+      "aliases": [
+        "7300",
+        "7,300 claimants"
+      ],
+      "gold_answer": "7,300",
+      "accepted_aliases": [
+        "7300",
+        "7,300 claimants"
+      ],
+      "answer_type": "number",
+      "grading": {
+        "normaliser": "numeric",
+        "numeric_tolerance_rel": 0.005,
+        "max_answer_tokens": 8,
+        "unit": ""
+      },
+      "tier": "T1_lookup",
+      "lexical_overlap": "paraphrase",
+      "min_chunks_required": 1,
+      "retrieval_keys": [
+        "claimants",
+        "auditor",
+        "wrongly denied",
+        "underpaid",
+        "claims facility"
+      ],
+      "gold_spans": [
+        {
+          "source": "Deepwater Horizon oil spill",
+          "section_path": [
+            "Legal aspects and settlements",
+            "Spill response fund"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "An auditor BDO Consulting found that 7,300 claimants were wrongly denied or underpaid."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Deepwater Horizon oil spill > Spill response fund",
+          "why": "The same section says more than one million claims of 220,000 individual and business claimants were processed -- a much larger claimant count two sentences away."
+        },
+        {
+          "source": "Deepwater Horizon oil spill > Spill response fund",
+          "why": "The Mississippi Center for Justice provided pro bono assistance to 10,000 people -- another five-figure people count in the same paragraph."
+        },
+        {
+          "source": "Deepwater Horizon oil spill > Civil litigation and settlements",
+          "why": "Roughly 100,000 claims filed by individuals and businesses in the March 2012 settlement."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Docket-level detail from the claims-administration story, not a memorised headline."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 5,
+      "qid": "dwh-T1-005",
+      "question": "During the negative pressure test on the Macondo well, what drill pipe pressure result was ignored?",
+      "expected": "1,400 psi",
+      "aliases": [
+        "1,400-psi",
+        "1400 psi",
+        "1,400",
+        "1400"
+      ],
+      "gold_answer": "1,400 psi",
+      "accepted_aliases": [
+        "1,400-psi",
+        "1400 psi",
+        "1,400",
+        "1400"
+      ],
+      "answer_type": "number",
+      "grading": {
+        "normaliser": "numeric",
+        "numeric_tolerance_rel": 0.005,
+        "max_answer_tokens": 8,
+        "unit": "psi"
+      },
+      "tier": "T1_lookup",
+      "lexical_overlap": "verbatim",
+      "min_chunks_required": 1,
+      "retrieval_keys": [
+        "negative pressure test",
+        "drill pipe",
+        "psi",
+        "ignored",
+        "macondo"
+      ],
+      "gold_spans": [
+        {
+          "source": "Deepwater Horizon explosion",
+          "section_path": [
+            "Investigation into explosion"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "During the \"negative pressure test\", for which there was no detailed procedure, a \"no flow\" result from the kill line was accepted, while a 1,400-psi result on the drill pipe was ignored."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Deepwater Horizon explosion > Investigation into explosion",
+          "why": "The preceding failure item quotes 'about 500 to 700 psi or 3,400 to 4,800 kPa' for converting the float equipment -- a different pressure for a different step, a few hundred characters away."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Table-style forensic detail from BP's eight-failure list."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 6,
+      "qid": "dwh-T1-006",
+      "question": "Despite the recommendation to circulate one bottoms up before the cement job, how many barrels of mud did BP actually cycle?",
+      "expected": "261 barrels",
+      "aliases": [
+        "261",
+        "261 bbl",
+        "261 barrels (41.5 m³)"
+      ],
+      "gold_answer": "261 barrels",
+      "accepted_aliases": [
+        "261",
+        "261 bbl",
+        "261 barrels (41.5 m³)"
+      ],
+      "answer_type": "number",
+      "grading": {
+        "normaliser": "numeric",
+        "numeric_tolerance_rel": 0.005,
+        "max_answer_tokens": 8,
+        "unit": ""
+      },
+      "tier": "T1_lookup",
+      "lexical_overlap": "verbatim",
+      "min_chunks_required": 1,
+      "retrieval_keys": [
+        "bottoms up",
+        "circulate",
+        "barrels",
+        "mud",
+        "cement job"
+      ],
+      "gold_spans": [
+        {
+          "source": "Timeline of the Deepwater Horizon oil spill",
+          "section_path": [
+            "2010 events",
+            "April"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "Despite this recommendation, BP cycles only 261 barrels (41.5 m³) of mud, a fraction of the total mud used in the well."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Timeline of the Deepwater Horizon oil spill > April",
+          "why": "The same entry contains the 6-versus-21 centralizer numbers, the most salient small integers in the paragraph."
+        },
+        {
+          "source": "Deepwater Horizon oil spill > Well declared \"effectively dead\"",
+          "why": "Drilling mud pumped at approximately 2 bbl (320 L) per minute during the static kill -- another mud-volume rate."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Individual timeline entry; the mud volume is rarely quoted outside the primary sources."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 7,
+      "qid": "dwh-T1-007",
+      "question": "Under the Limitation of Shipowner's Liability Act, at what value did Transocean put its interest in the Deepwater Horizon?",
+      "expected": "$26,764,083",
+      "aliases": [
+        "26,764,083",
+        "$26,764,083.00",
+        "26764083"
+      ],
+      "gold_answer": "$26,764,083",
+      "accepted_aliases": [
+        "26,764,083",
+        "$26,764,083.00",
+        "26764083"
+      ],
+      "answer_type": "number",
+      "grading": {
+        "normaliser": "numeric",
+        "numeric_tolerance_rel": 0.005,
+        "max_answer_tokens": 8,
+        "unit": "USD"
+      },
+      "tier": "T1_lookup",
+      "lexical_overlap": "verbatim",
+      "min_chunks_required": 1,
+      "retrieval_keys": [
+        "limitation of shipowner's liability act",
+        "transocean",
+        "interest",
+        "values",
+        "deepwater horizon"
+      ],
+      "gold_spans": [
+        {
+          "source": "Timeline of the Deepwater Horizon oil spill",
+          "section_path": [
+            "2010 events",
+            "May"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "Transocean files in the U.S. District Court for the Southern District of Texas to limit its liability under the Limitation of Shipowner's Liability Act to just its interest in the Deepwater Horizon which it values at $26,764,083."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Deepwater Horizon litigation > Litigation timeline",
+          "why": "Transocean's US $700 million insurance policy -- the other Transocean-linked dollar figure attached to the rig itself."
+        },
+        {
+          "source": "Deepwater Horizon explosion > Lawsuits",
+          "why": "BP filed $40 billion worth of lawsuits against Transocean, Halliburton and Cameron."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Exact-dollar court filing figure; essentially impossible to have memorised."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 8,
+      "qid": "dwh-T1-008",
+      "question": "How many species did the comprehensive 2009 census of offshore Gulf species tally?",
+      "expected": "15,700",
+      "aliases": [
+        "15700",
+        "15,700 species"
+      ],
+      "gold_answer": "15,700",
+      "accepted_aliases": [
+        "15700",
+        "15,700 species"
+      ],
+      "answer_type": "number",
+      "grading": {
+        "normaliser": "numeric",
+        "numeric_tolerance_rel": 0.005,
+        "max_answer_tokens": 8,
+        "unit": ""
+      },
+      "tier": "T1_lookup",
+      "lexical_overlap": "mismatch",
+      "min_chunks_required": 1,
+      "retrieval_keys": [
+        "census",
+        "tally",
+        "2009",
+        "offshore gulf species",
+        "comprehensive"
+      ],
+      "gold_spans": [
+        {
+          "source": "Environmental impact of the Deepwater Horizon oil spill",
+          "section_path": [
+            "Impact to marine species"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "A comprehensive 2009 inventory of offshore Gulf species counted 15,700."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Environmental impact of the Deepwater Horizon oil spill > Impact to marine species",
+          "why": "The very next sentence says the spill area includes 8,332 species -- the number a reader most often attaches to 'how many species'."
+        },
+        {
+          "source": "Deepwater Horizon oil spill > Environmental impact",
+          "why": "The spill area hosts 8,332 species with a different per-taxon breakdown (1,270 fish, 604 polychaetes ...) in a far-away chunk."
+        },
+        {
+          "source": "Environmental impact of the Deepwater Horizon oil spill > Impact to marine species",
+          "why": "About 34,000 birds counted in the national refuges most at risk."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Mismatch probe: the document says 'inventory ... counted'; the question says 'census ... tally'. Neither 'census' nor 'tally' occurs anywhere in the document (verified by grep)."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 9,
+      "qid": "dwh-T1-009",
+      "question": "In its testimony to the U.S. House Judiciary Committee, how many lawsuits did Transocean say it was a defendant in?",
+      "expected": "120",
+      "aliases": [
+        "120 lawsuits",
+        "one hundred and twenty"
+      ],
+      "gold_answer": "120",
+      "accepted_aliases": [
+        "120 lawsuits",
+        "one hundred and twenty"
+      ],
+      "answer_type": "number",
+      "grading": {
+        "normaliser": "numeric",
+        "numeric_tolerance_rel": 0.005,
+        "max_answer_tokens": 8,
+        "unit": ""
+      },
+      "tier": "T1_lookup",
+      "lexical_overlap": "verbatim",
+      "min_chunks_required": 1,
+      "retrieval_keys": [
+        "house judiciary committee",
+        "transocean",
+        "defendant",
+        "lawsuits",
+        "testimony"
+      ],
+      "gold_spans": [
+        {
+          "source": "Deepwater Horizon litigation",
+          "section_path": [
+            "Litigation timeline"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "House Judiciary Committee that it was defendant in 120 lawsuits, of which more than 80 were class actions seeking payment for financial losses covered by the Oil Spill Pollution Act."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Deepwater Horizon litigation > Litigation timeline",
+          "why": "The very next paragraph reports 'over 130 lawsuits' filed against BP, Transocean, Cameron and Halliburton at the same date -- the classic near-miss."
+        },
+        {
+          "source": "Deepwater Horizon oil spill > Civil litigation and settlements",
+          "why": "The same 'over 130 lawsuits' sentence repeated in the main spill article, far away in the document."
+        },
+        {
+          "source": "Deepwater Horizon litigation > Department of Justice lawsuit",
+          "why": "The case was consolidated with about 200 others."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "The competing 120/130 pair is the whole point of this question."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 10,
+      "qid": "dwh-T1-010",
+      "question": "Through which captive insurance vehicle does BP largely underwrite its own risk?",
+      "expected": "Jupiter Insurance Ltd",
+      "aliases": [
+        "Jupiter Insurance",
+        "Jupiter Insurance Limited"
+      ],
+      "gold_answer": "Jupiter Insurance Ltd",
+      "accepted_aliases": [
+        "Jupiter Insurance",
+        "Jupiter Insurance Limited"
+      ],
+      "answer_type": "entity",
+      "grading": {
+        "normaliser": "exact_ci",
+        "numeric_tolerance_rel": 0.005,
+        "max_answer_tokens": 8,
+        "unit": ""
+      },
+      "tier": "T1_lookup",
+      "lexical_overlap": "mismatch",
+      "min_chunks_required": 1,
+      "retrieval_keys": [
+        "captive insurance",
+        "underwrite",
+        "own risk",
+        "bp",
+        "vehicle"
+      ],
+      "gold_spans": [
+        {
+          "source": "Deepwater Horizon litigation",
+          "section_path": [
+            "Litigation timeline"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "BP, which largely self-insures through its own Jupiter Insurance Ltd, was also the subject of early litigation from multiple Lloyd's of London underwriting syndicates"
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Deepwater Horizon litigation > Litigation timeline",
+          "why": "The same sentence names Lloyd's of London underwriting syndicates -- the insurer name a model is far likelier to produce."
+        },
+        {
+          "source": "Deepwater Horizon litigation > Litigation timeline",
+          "why": "Transocean's US $700 million insurance policy is the other insurance object in the paragraph."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Mismatch probe: 'captive' and 'underwrite' appear nowhere in the document (verified by grep); the document says 'self-insures'."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 11,
+      "qid": "dwh-T1-011",
+      "question": "Of the Corexit shipped to the stricken tanker Esso Essen in April 1968, how much was actually sprayed onto the slick by aircraft?",
+      "expected": "125 barrels",
+      "aliases": [
+        "125",
+        "125 bbl"
+      ],
+      "gold_answer": "125 barrels",
+      "accepted_aliases": [
+        "125",
+        "125 bbl"
+      ],
+      "answer_type": "number",
+      "grading": {
+        "normaliser": "numeric",
+        "numeric_tolerance_rel": 0.005,
+        "max_answer_tokens": 8,
+        "unit": "barrels"
+      },
+      "tier": "T1_lookup",
+      "lexical_overlap": "verbatim",
+      "min_chunks_required": 1,
+      "retrieval_keys": [
+        "esso essen",
+        "corexit",
+        "sprayed",
+        "slick",
+        "aircraft",
+        "barrels"
+      ],
+      "gold_spans": [
+        {
+          "source": "Corexit",
+          "section_path": [
+            "Use",
+            "1968-1988"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "125 barrels of it was sprayed onto the slick by aircraft over two days, after which the slick was dispersed."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Corexit > 1968-1988",
+          "why": "The immediately preceding clause says 300 barrels of Corexit were shipped to the scene -- the shipped figure versus the sprayed figure."
+        },
+        {
+          "source": "Corexit > 1989-2015",
+          "why": "2,000 US gallons of Corexit air-dropped onto oil from the SS Puerto Rican -- another aerial application volume."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Pre-Deepwater Corexit history; sub-article detail with a shipped-versus-sprayed near miss in the same sentence pair."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 12,
+      "qid": "dwh-T2-001",
+      "question": "The firm that fabricated the rig's well-control stack -- which a congressional inquiry found had a fluid leak and a dead battery -- agreed in December 2011 to pay BP how much?",
+      "expected": "$250 million",
+      "aliases": [
+        "250 million",
+        "$250m",
+        "250 million dollars"
+      ],
+      "gold_answer": "$250 million",
+      "accepted_aliases": [
+        "250 million",
+        "$250m",
+        "250 million dollars"
+      ],
+      "answer_type": "number",
+      "grading": {
+        "normaliser": "numeric",
+        "numeric_tolerance_rel": 0.005,
+        "max_answer_tokens": 8,
+        "unit": "USD"
+      },
+      "tier": "T2_multihop",
+      "lexical_overlap": "mismatch",
+      "min_chunks_required": 2,
+      "retrieval_keys": [
+        "well-control stack",
+        "fabricated",
+        "fluid leak",
+        "dead battery",
+        "congressional inquiry",
+        "december 2011"
+      ],
+      "gold_spans": [
+        {
+          "source": "Deepwater Horizon oil spill",
+          "section_path": [
+            "Legal aspects and settlements",
+            "Investigations"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "According to the US Congressional investigation, the rig's blowout preventer, built by Cameron International Corporation, had a hydraulic leak and a failed battery, and therefore failed."
+        },
+        {
+          "source": "Deepwater Horizon explosion",
+          "section_path": [
+            "Lawsuits"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "n December 2011, Cameron International agreed to pay a $250 million settlement to BP PLC to settle all claims related to the Deepwater Horizon with neither party admitting responsibility."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Deepwater Horizon explosion > Lawsuits",
+          "why": "Weatherford International settled with BP for $75 million and Anadarko for $4 billion in the same section -- other contractor settlement amounts."
+        },
+        {
+          "source": "Deepwater Horizon explosion > Lawsuits",
+          "why": "MOEX Offshore agreed to pay US$1.08 billion to settle BP claims -- the nearest neighbouring settlement figure."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Hops are 45,809 characters apart. Join key 'Cameron International' appears in neither the question nor the answer. Mismatch vocabulary: 'well-control stack', 'fabricated', 'fluid leak', 'dead battery' and 'congressional inquiry' are all absent from the document, which says 'blowout preventer', 'built by', 'hydraulic leak', 'failed battery' and 'US Congressional investigation'."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 13,
+      "qid": "dwh-T2-002",
+      "question": "The chemicals company whose shares jumped 18% in one day in May 2010 once it emerged its dispersant was being used became, in 2011, the property of which company?",
+      "expected": "Ecolab",
+      "aliases": [
+        "Ecolab Inc",
+        "Ecolab Inc."
+      ],
+      "gold_answer": "Ecolab",
+      "accepted_aliases": [
+        "Ecolab Inc",
+        "Ecolab Inc."
+      ],
+      "answer_type": "entity",
+      "grading": {
+        "normaliser": "exact_ci",
+        "numeric_tolerance_rel": 0.005,
+        "max_answer_tokens": 8,
+        "unit": ""
+      },
+      "tier": "T2_multihop",
+      "lexical_overlap": "paraphrase",
+      "min_chunks_required": 2,
+      "retrieval_keys": [
+        "shares",
+        "jumped 18%",
+        "one day",
+        "may 2010",
+        "dispersant",
+        "property",
+        "2011"
+      ],
+      "gold_spans": [
+        {
+          "source": "Timeline of the Deepwater Horizon oil spill",
+          "section_path": [
+            "2010 events",
+            "May"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "Shares of Nalco Holding Company jump 18% in one day after it is revealed that its dispersant products are being used for the cleanup."
+        },
+        {
+          "source": "Corexit",
+          "section_path": [
+            "Ownership"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "n 2011, Corexit became the property of Ecolab, following a merger between Ecolab and Nalco Holding Company."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Corexit > Ownership",
+          "why": "The same section says Corexit was originally developed by the Standard Oil Company of New Jersey, which merged with Humble Oil to form Exxon -- a competing 'became the property of' chain."
+        },
+        {
+          "source": "Corexit (lead)",
+          "why": "Nalco Holding Company is named as the producer, so a model that stops at hop one answers 'Nalco'."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Hops are 60,759 characters apart, in different source pages. Join key 'Nalco Holding Company' appears in neither the question nor the answer."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 14,
+      "qid": "dwh-T2-003",
+      "question": "The partner that held a 10% stake in the Macondo Prospect through a Mitsui unit agreed to pay how much to the Oil Spill Liability Trust Fund?",
+      "expected": "$45 million",
+      "aliases": [
+        "45 million",
+        "$45m",
+        "45 million dollars"
+      ],
+      "gold_answer": "$45 million",
+      "accepted_aliases": [
+        "45 million",
+        "$45m",
+        "45 million dollars"
+      ],
+      "answer_type": "number",
+      "grading": {
+        "normaliser": "numeric",
+        "numeric_tolerance_rel": 0.005,
+        "max_answer_tokens": 8,
+        "unit": "USD"
+      },
+      "tier": "T2_multihop",
+      "lexical_overlap": "paraphrase",
+      "min_chunks_required": 2,
+      "retrieval_keys": [
+        "10% stake",
+        "macondo prospect",
+        "mitsui",
+        "oil spill liability trust fund",
+        "agreed to pay"
+      ],
+      "gold_spans": [
+        {
+          "source": "Deepwater Horizon oil spill",
+          "section_path": [
+            "Background",
+            "Deepwater Horizon drilling rig"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "BP was the operator and principal developer of the Macondo Prospect with a 65% share, while 25% was owned by Anadarko Petroleum, and 10% by MOEX Offshore 2007, a unit of Mitsui."
+        },
+        {
+          "source": "Deepwater Horizon oil spill",
+          "section_path": [
+            "Legal aspects and settlements",
+            "Civil litigation and settlements"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "MOEX Offshore 2007 agreed to pay $45 million to the Oil Spill Liability Trust Fund, $25 million to five Gulf state and $20 million to supplemental environmental projects."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Deepwater Horizon explosion > Lawsuits",
+          "why": "MOEX Offshore agreed to pay US$1.08 billion to settle BP's claims against it -- the far larger and more memorable MOEX figure, in a different page."
+        },
+        {
+          "source": "Deepwater Horizon litigation > BP guilty plea",
+          "why": "Transocean paid $300 million and BP $1.15 billion to the same Oil Spill Liability Trust Fund -- same fund, different payers."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Hops are 65,464 characters apart. Join key 'MOEX Offshore 2007' appears in neither the question nor the answer. The question names the destination fund to disambiguate against the $1.08 billion BP settlement. NOTE: this sentence appears verbatim in two pages of the dossier (Deepwater Horizon oil spill > Civil litigation and settlements, and Deepwater Horizon litigation > BP guilty plea). Either copy is a correct gold span; the span-locator will find two matches for the quote."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 15,
+      "qid": "dwh-T2-004",
+      "question": "The BP manager who was angry that the MC 252 well was over budget and refused his technical staff's recommendation to re-squeeze it was later charged with what federal offence?",
+      "expected": "obstructing Congress",
+      "aliases": [
+        "obstruction of Congress",
+        "obstructing the United States Congress"
+      ],
+      "gold_answer": "obstructing Congress",
+      "accepted_aliases": [
+        "obstruction of Congress",
+        "obstructing the United States Congress"
+      ],
+      "answer_type": "phrase",
+      "grading": {
+        "normaliser": "exact_ci",
+        "numeric_tolerance_rel": 0.005,
+        "max_answer_tokens": 8,
+        "unit": ""
+      },
+      "tier": "T2_multihop",
+      "lexical_overlap": "paraphrase",
+      "min_chunks_required": 2,
+      "retrieval_keys": [
+        "mc 252",
+        "over budget",
+        "re-squeeze",
+        "technical staff",
+        "charged",
+        "bp manager"
+      ],
+      "gold_spans": [
+        {
+          "source": "Deepwater Horizon explosion",
+          "section_path": [
+            "Background",
+            "Pre-explosion problems and warnings"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "Rainey was angry that the MC 252 well was over budget and needed to be finished."
+        },
+        {
+          "source": "Deepwater Horizon oil spill",
+          "section_path": [
+            "Legal aspects and settlements",
+            "Criminal charges"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "David Rainey, BP's former vice-president for exploration in the Gulf of Mexico, was charged with obstructing Congress by misrepresenting the rate that oil was flowing out of the well."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Deepwater Horizon oil spill > Criminal charges",
+          "why": "Kurt Mix was charged with obstructing justice for deleting messages -- a very similar charge in the same paragraph, and the more commonly cited one."
+        },
+        {
+          "source": "Deepwater Horizon oil spill > Criminal charges",
+          "why": "Vidrine and Kaluza were charged with manslaughter -- the other individual charges in the same chunk."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Hops are 13,717 characters apart, in different source pages. Join key 'David Rainey' appears in neither the question nor the answer; the first hop identifies him only by conduct."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 16,
+      "qid": "dwh-T2-005",
+      "question": "The Corexit formulation the EPA measured as 63.4% effective in dispersing Louisiana crude was used, with Corexit 7764, during which 1992 oil spill in South Australia?",
+      "expected": "Port Bonython",
+      "aliases": [
+        "Port Bonython oil spill",
+        "the 1992 Port Bonython oil spill"
+      ],
+      "gold_answer": "Port Bonython",
+      "accepted_aliases": [
+        "Port Bonython oil spill",
+        "the 1992 Port Bonython oil spill"
+      ],
+      "answer_type": "entity",
+      "grading": {
+        "normaliser": "exact_ci",
+        "numeric_tolerance_rel": 0.005,
+        "max_answer_tokens": 8,
+        "unit": ""
+      },
+      "tier": "T2_multihop",
+      "lexical_overlap": "verbatim",
+      "min_chunks_required": 2,
+      "retrieval_keys": [
+        "63.4%",
+        "effective",
+        "louisiana crude",
+        "1992",
+        "south australia",
+        "corexit 7764"
+      ],
+      "gold_spans": [
+        {
+          "source": "Corexit",
+          "section_path": [
+            "Effectiveness"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "ccording to the EPA, Corexit EC9500A (formerly \"Corexit 9500\") was 54.7% effective, while Corexit EC9527A was 63.4% effective in the dispersion of Louisiana crude."
+        },
+        {
+          "source": "Corexit",
+          "section_path": [
+            "Use",
+            "1989-2015"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "Corexit 7764 and Corexit 9527 were both used during the 1992 Port Bonython oil spill in South Australia."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Corexit > 1989-2015",
+          "why": "The same paragraph lists the Montara spill off Australia's north-west shelf (45,000 litres) and the Shen Neng grounding on the Great Barrier Reef -- two other Australian Corexit deployments."
+        },
+        {
+          "source": "Corexit > 1989-2015",
+          "why": "Corexit 9580 was used during the 1989 Exxon Valdez spill -- another year-plus-spill pairing."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Hops are 14,836 characters apart. Join key 'Corexit 9527 / EC9527A' appears in neither the question nor the answer; the question identifies the formulation only by its 63.4% effectiveness."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 17,
+      "qid": "dwh-T2-006",
+      "question": "The US District Judge who in December 2012 dismissed all claims against the manufacturer of Corexit presided over which multidistrict litigation docket?",
+      "expected": "MDL No. 2179",
+      "aliases": [
+        "MDL 2179",
+        "MDL No 2179",
+        "2179"
+      ],
+      "gold_answer": "MDL No. 2179",
+      "accepted_aliases": [
+        "MDL 2179",
+        "MDL No 2179",
+        "2179"
+      ],
+      "answer_type": "entity",
+      "grading": {
+        "normaliser": "exact_ci",
+        "numeric_tolerance_rel": 0.005,
+        "max_answer_tokens": 8,
+        "unit": ""
+      },
+      "tier": "T2_multihop",
+      "lexical_overlap": "paraphrase",
+      "min_chunks_required": 2,
+      "retrieval_keys": [
+        "december 2012",
+        "dismissed",
+        "manufacturer of corexit",
+        "multidistrict litigation",
+        "docket"
+      ],
+      "gold_spans": [
+        {
+          "source": "Corexit",
+          "section_path": [
+            "Litigation"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "S District Judge Carl Barbier in December 2012 dismissed all claims against the manufacturer of Corexit, stating that such claims would become an \"obstacle to federal law.\""
+        },
+        {
+          "source": "Deepwater Horizon litigation",
+          "section_path": [
+            "Litigation timeline"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "MDL No. 2179, captioned In re: Oil Spill by the Oil Rig \"Deepwater Horizon\" in the Gulf of Mexico, on April 20, 2010, presided over by U.S. District Judge Carl Barbier."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Deepwater Horizon litigation > Litigation timeline",
+          "why": "The DOJ Clean Water Act suit is captioned Civ. Action No. 2:10-cv-04536 in the adjacent paragraph -- a different docket identifier for the same judge."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Hops are 39,643 characters apart, in different source pages. Join key 'Carl Barbier' appears in neither the question nor the answer."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 18,
+      "qid": "dwh-T3-001",
+      "question": "Of the eleven workers named as killed in the Deepwater Horizon explosion, how many are listed with a home town in Louisiana?",
+      "expected": "5",
+      "aliases": [
+        "five",
+        "5 workers"
+      ],
+      "gold_answer": "5",
+      "accepted_aliases": [
+        "five",
+        "5 workers"
+      ],
+      "answer_type": "number",
+      "grading": {
+        "normaliser": "numeric",
+        "numeric_tolerance_rel": 0.005,
+        "max_answer_tokens": 8,
+        "unit": ""
+      },
+      "tier": "T3_aggregate",
+      "lexical_overlap": "paraphrase",
+      "min_chunks_required": 1,
+      "retrieval_keys": [
+        "eleven workers",
+        "killed",
+        "home town",
+        "louisiana",
+        "listed"
+      ],
+      "gold_spans": [
+        {
+          "source": "Deepwater Horizon explosion",
+          "section_path": [
+            "Casualties and rescue efforts",
+            "Casualties"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "Donald Clark, 49, of Newellton, Louisiana"
+        },
+        {
+          "source": "Deepwater Horizon explosion",
+          "section_path": [
+            "Casualties and rescue efforts",
+            "Casualties"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "Stephen Ray Curtis, 40, of Georgetown, Louisiana"
+        },
+        {
+          "source": "Deepwater Horizon explosion",
+          "section_path": [
+            "Casualties and rescue efforts",
+            "Casualties"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "Gordon Jones, 28, of Baton Rouge, Louisiana"
+        },
+        {
+          "source": "Deepwater Horizon explosion",
+          "section_path": [
+            "Casualties and rescue efforts",
+            "Casualties"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "Roy Wyatt Kemp, 27, Jonesville, Louisiana"
+        },
+        {
+          "source": "Deepwater Horizon explosion",
+          "section_path": [
+            "Casualties and rescue efforts",
+            "Casualties"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "Keith Blair Manuel, 56, of Gonzales, Louisiana"
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Deepwater Horizon explosion > Casualties",
+          "why": "Four of the eleven are listed with Mississippi towns and two with Texas towns; a model that counts the wrong state lands on 4 or 2."
+        },
+        {
+          "source": "Deepwater Horizon oil spill (lead)",
+          "why": "'11 counts of manslaughter' and 'deaths of the 11 workers' recur throughout the document and pull towards the answer 11."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Derived by counting the eleven-name casualty list: Clark (Newellton), Curtis (Georgetown), Jones (Baton Rouge), Kemp (Jonesville), Manuel (Gonzales) = 5 Louisiana; 4 Mississippi; 2 Texas. CAVEAT: the answer is a small integer, so a blind guess has roughly a 1-in-11 chance; retire this one first if the set needs trimming."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 19,
+      "qid": "dwh-T3-002",
+      "question": "Under the January 2013 Justice Department announcement, what was the aggregate sum the Mitsui affiliate was directed to disburse?",
+      "expected": "$90 million",
+      "aliases": [
+        "90 million",
+        "$90m",
+        "90 million dollars"
+      ],
+      "gold_answer": "$90 million",
+      "accepted_aliases": [
+        "90 million",
+        "$90m",
+        "90 million dollars"
+      ],
+      "answer_type": "number",
+      "grading": {
+        "normaliser": "numeric",
+        "numeric_tolerance_rel": 0.005,
+        "max_answer_tokens": 8,
+        "unit": "USD"
+      },
+      "tier": "T3_aggregate",
+      "lexical_overlap": "mismatch",
+      "min_chunks_required": 1,
+      "retrieval_keys": [
+        "january 2013",
+        "justice department",
+        "aggregate sum",
+        "mitsui affiliate",
+        "disburse"
+      ],
+      "gold_spans": [
+        {
+          "source": "Deepwater Horizon litigation",
+          "section_path": [
+            "BP guilty plea"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "MOEX Offshore 2007 agreed to pay $45 million to the Oil Spill Liability Trust Fund, $25 million to five Gulf state and $20 million to supplemental environmental projects."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Deepwater Horizon litigation > BP guilty plea",
+          "why": "The same sentence opens with Transocean's $1.4 billion total ($800m + $300m + $150m + $150m) -- the stated total a model is likely to grab instead of computing MOEX's."
+        },
+        {
+          "source": "Deepwater Horizon explosion > Lawsuits",
+          "why": "MOEX Offshore's separate US$1.08 billion settlement with BP in May 2011."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Derived: 45 + 25 + 20 = 90 million. The total is never stated in the document. Mismatch vocabulary: 'aggregate sum', 'disburse' and 'affiliate' do not appear in the document. NOTE: this sentence appears verbatim in two pages of the dossier (Deepwater Horizon oil spill > Civil litigation and settlements, and Deepwater Horizon litigation > BP guilty plea). Either copy is a correct gold span; the span-locator will find two matches for the quote."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    },
+    {
+      "number": 20,
+      "qid": "dwh-T3-003",
+      "question": "This dossier gives two different volumes for the Corexit applied at the Macondo wellhead -- one in the account of dispersant use during the response, the other from a January 2011 Woods Hole Oceanographic Institute study. What is the difference between them, in US gallons?",
+      "expected": "29,000",
+      "aliases": [
+        "29000",
+        "29,000 US gallons",
+        "29,000 gallons"
+      ],
+      "gold_answer": "29,000",
+      "accepted_aliases": [
+        "29000",
+        "29,000 US gallons",
+        "29,000 gallons"
+      ],
+      "answer_type": "number",
+      "grading": {
+        "normaliser": "numeric",
+        "numeric_tolerance_rel": 0.005,
+        "max_answer_tokens": 8,
+        "unit": "US gallons"
+      },
+      "tier": "T3_aggregate",
+      "lexical_overlap": "paraphrase",
+      "min_chunks_required": 2,
+      "retrieval_keys": [
+        "corexit",
+        "macondo wellhead",
+        "woods hole oceanographic institute",
+        "january 2011",
+        "us gallons",
+        "difference"
+      ],
+      "gold_spans": [
+        {
+          "source": "Deepwater Horizon oil spill",
+          "section_path": [
+            "Containment, collection and use of dispersants",
+            "Use of Corexit dispersant"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "771,000 US gal (2,920 m³) were released at the wellhead."
+        },
+        {
+          "source": "Corexit",
+          "section_path": [
+            "Effectiveness"
+          ],
+          "char_start": null,
+          "char_end": null,
+          "quote": "800,000 US gallons (3,000,000 L; 670,000 imp gal) of Corexit applied at BP's Macondo well-head \"did nothing to break up the oil and simply drifted into the ecosystem\"."
+        }
+      ],
+      "known_distractor_spans": [
+        {
+          "source": "Deepwater Horizon oil spill > Use of Corexit dispersant",
+          "why": "The total of 1.84 million US gal (7,000 m³) of dispersant used overall sits in the same sentence as the 771,000 figure."
+        },
+        {
+          "source": "Deepwater Horizon oil spill > Cleanup",
+          "why": "Cleanup workers used 1,400,000 US gal of various chemical dispersants -- a third dispersant volume."
+        }
+      ],
+      "provenance": {
+        "author": "sj157",
+        "created": "2026-09-11",
+        "method": "manual",
+        "notes": "Derived: 800,000 - 771,000 = 29,000 US gallons. The two source figures are 182,255 characters apart, in different pages, so the aggregate genuinely needs both chunks."
+      },
+      "contamination": {
+        "verdict": "pending"
+      },
+      "status": "active"
+    }
+  ]
+}
