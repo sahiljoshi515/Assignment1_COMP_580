@@ -1,8 +1,8 @@
 {
   "doc_id": "dwh_dossier_v1",
-  "source_document": "corpus/data/dwh_dossier_v1.txt",
+  "source_document": "contexts/dwh_dossier_v1.txt",
   "schema_version": "1.0",
-  "generated_from": "corpus/questions/dwh_dossier_v1.jsonl",
+  "generated_from": "questions/dwh_dossier_v1.json",
   "count": 20,
   "answers": [
     {
